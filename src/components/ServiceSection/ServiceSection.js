@@ -1,5 +1,4 @@
 import React from 'react';
-import Services from '../../api/service'
 import { Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
 import sIcon from '../../images/icon/arrow-black.svg'

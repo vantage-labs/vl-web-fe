@@ -6,13 +6,11 @@ import Bg from '../../images/bg/hero-bg02.jpg'
 import heroImg from '../../images/hero/hero-img02.png'
 import heroImg2 from '../../images/hero/hero-img03.png'
 import heroImg3 from '../../images/hero/hero-img04.png'
-import {useLang} from '../../contexts/LangContexts';
 import { useTranslation } from 'react-i18next';
 
 
 const Hero = () => {
     const { t } = useTranslation();
-    const { language, changeLanguage } = useLang();
 
 
     return (

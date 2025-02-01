@@ -36,7 +36,6 @@ import cdicon5 from '../images/icon/cd-ser_icon05.svg'
 import cdicon6 from '../images/icon/cd-ser_icon06.svg'
 import cdicon7 from '../images/icon/cd-ser_icon08.svg'
 import cdicon8 from '../images/icon/cd-ser_icon09.svg'
-import { useTranslation } from 'react-i18next'
 
 
 

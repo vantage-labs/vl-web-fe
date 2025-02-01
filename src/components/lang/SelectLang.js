@@ -11,7 +11,7 @@ import { useLang } from "../../contexts/LangContexts";
 
 const SelectCountry = () => {
 
-	const { language, changeLanguage } = useLang(); // Ambil dari context LangContexts
+	const { changeLanguage } = useLang(); // Ambil dari context LangContexts
 
 	return(
 		<Select.Root className={styles.Root}

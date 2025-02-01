@@ -3,8 +3,8 @@ import icon1 from '../../images/icon/research.gif'
 import icon2 from '../../images/icon/durability.gif'
 import icon3 from '../../images/icon/digital-tra.gif'
 import icon4 from '../../images/icon/business-develop.gif'
-import icon5 from '../../images/icon/search.gif'
-import icon6 from '../../images/icon/warning.gif'
+// import icon5 from '../../images/icon/search.gif'
+// import icon6 from '../../images/icon/warning.gif'
 
 export const DataServicesOne = () => {
     const {t} = useTranslation()
