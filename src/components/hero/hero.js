@@ -6,9 +6,14 @@ import Bg from '../../images/bg/hero-bg02.jpg'
 import heroImg from '../../images/hero/hero-img02.png'
 import heroImg2 from '../../images/hero/hero-img03.png'
 import heroImg3 from '../../images/hero/hero-img04.png'
+import {useLang} from '../../contexts/LangContexts';
+import { useTranslation } from 'react-i18next';
 
 
 const Hero = () => {
+    const { t } = useTranslation();
+    const { language, changeLanguage } = useLang();
+
 
     return (
         <section className="hero o-hidden hero-style-two pos-rel pt-120 bg_img" style={{ backgroundImage: `url(${Bg})` }}>
@@ -19,19 +24,19 @@ const Hero = () => {
                             <div className="xb-hero">
                                 <Fade direction='up' triggerOnce={'false'} duration={1000} delay={9}>
                                     <div>
-                                        <h1 className="xb-item--title wow fadeInUp" data-wow-duration="600ms">Grow your business
-                                            <br /> with <span>SEO strategy</span>
+                                        <h1 className="xb-item--title wow fadeInUp" data-wow-duration="600ms">{t('hero.headline')}
+                                            <br /> <span>{t('hero.headline2')}</span>
                                         </h1>
                                     </div>
                                 </Fade>
                                 <Fade direction='up' triggerOnce={'false'} duration={1200} delay={9}>
                                     <div>
-                                        <p className="xb-item--content wow fadeInUp" data-wow-delay="100ms"
-                                            data-wow-duration="600ms">(like 0 to 1000 new sales per month kind of results)
+                                        <p className="xb-item--content wow fadeInUp lh-base" data-wow-delay="100ms"
+                                            data-wow-duration="600ms">{t('hero.subheadline')}
                                         </p>
                                     </div>
                                 </Fade>
-                                <Fade direction='up' triggerOnce={'false'} duration={1400} delay={9}>
+                                {/* <Fade direction='up' triggerOnce={'false'} duration={1400} delay={9}>
                                     <div>
                                         <ul className="xb-item--item list-unstyled wow fadeInUp" data-wow-delay="200ms"
                                             data-wow-duration="600ms">
@@ -40,14 +45,12 @@ const Hero = () => {
                                             <li><i className="far fa-check"></i> Get more sales</li>
                                         </ul>
                                     </div>
-                                </Fade>
+                                </Fade> */}
                                 <Fade direction='up' triggerOnce={'false'} duration={1600} delay={9}>
                                     <div>
                                         <div className="xb-btn mt-60 wow fadeInUp" data-wow-delay="300ms"
                                             data-wow-duration="600ms">
-                                            <Link to="/contact" className="thm-btn thm-btn--aso thm-btn--aso_yellow">Book a
-                                                free
-                                                consultation</Link>
+                                            <Link to="/contact" className="thm-btn thm-btn--aso thm-btn--aso_yellow">{t("hero.cta")}</Link>
                                         </div>
                                     </div>
                                 </Fade>

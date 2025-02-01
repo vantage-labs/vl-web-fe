@@ -7,43 +7,53 @@ import sIcon1 from '../../images/icon/search01.svg'
 import sIcon2 from '../../images/icon/user-icon.png'
 import sIcon3 from '../../images/icon/clipboar02.svg'
 import sIcon4 from '../../images/icon/medal-star.svg'
-
-const Process = [
-    {
-        id:"01",
-        title: 'Research niche',
-        subTitle: 'Identify your target market and understand customer needs to find competitive',
-        icon: sIcon1,
-        direction:'one',
-    },
-    {
-        id:"02",
-        title: 'Set up your team',
-        subTitle: 'Assemble a skilled team aligned with your business goals and objectives.',
-        icon: sIcon2,
-        direction:'two',
-    },
-    {
-        id:"03",
-        title: 'Create a game plan',
-        subTitle: 'Develop a detailed strategy objectives, audiences, and marketing approaches.',
-        icon: sIcon3,
-        direction:'three',
-    },
-    {
-        id:"04",
-        title: 'Review and scale',
-        subTitle: 'Analyze performance metrics regularly to optimize and grow your strategy effectively.',
-        icon: sIcon4,
-        direction:'four',
-    },
-
-
-]
+import { useTranslation } from 'react-i18next';
 
 
 const WorkProcess = (props) => {
 
+
+    const {t} = useTranslation();
+
+
+    const Process = [
+        {
+            id: "01",
+            title: t("workflowSection.steps.0.headline"),
+            subTitle: t("workflowSection.steps.0.description"),
+            icon: sIcon1,
+            direction: 'one',
+        },
+        {
+            id: "02",
+            title:  t("workflowSection.steps.1.headline"),
+            subTitle: t("workflowSection.steps.1.description"),
+            icon: sIcon2,
+            direction: 'two',
+        },
+        {
+            id: "03",
+            title:  t("workflowSection.steps.2.headline"),
+            subTitle: t("workflowSection.steps.2.description"),
+            icon: sIcon3,
+            direction: 'three',
+        },
+        {
+            id: "04",
+            title:  t("workflowSection.steps.3.headline"),
+            subTitle: t("workflowSection.steps.3.description"),
+            icon: sIcon4,
+            direction: 'four',
+        },
+        {
+            id: "05",
+            title:  t("workflowSection.steps.4.headline"),
+            subTitle: t("workflowSection.steps.4.description"),
+            icon: sIcon4,
+            direction: 'five',
+        },
+
+    ]
     return (
         <section className="process pt-130 pb-100 pos-rel" style={{ backgroundColor: "#0F55DC" }}>
             <div className="container">
@@ -56,8 +66,7 @@ const WorkProcess = (props) => {
                     </Fade>
                     <Fade direction='up' triggerOnce={'false'} duration={1200} delay={9}>
                         <div>
-                            <h2 className="title clr-white wow fadeInDown" data-wow-delay="150ms" data-wow-duration="600ms">Our
-                                SEO workflow</h2>
+                            <h2 className="title clr-white wow fadeInDown" data-wow-delay="150ms" data-wow-duration="600ms">{t("workflowSection.title")}</h2>
                         </div>
                     </Fade>
                 </div>

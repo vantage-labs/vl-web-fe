@@ -4,11 +4,16 @@ import { Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
 import sIcon from '../../images/icon/arrow-black.svg'
 import hIcon from '../../images/icon/ser-01.svg'
+import { useTranslation } from 'react-i18next';
+import { DataServicesOne } from './dataServices';
 
 const ServiceSection = (props) => {
     const ClickHandler = () => {
         window.scrollTo(10, 0);
     }
+
+    const {t} = useTranslation()
+    const data = DataServicesOne();
 
     return (
         <section className="service pt-140 pb-140">
@@ -24,7 +29,7 @@ const ServiceSection = (props) => {
                                 </Fade>
                                 <Fade direction='up' triggerOnce={'false'} duration={1200} delay={9}>
                                     <div>
-                                        <h2 className="title"> Growth with <br /> SEO services</h2>
+                                        <h2 className="title"> {t("servicesSection.title")} <br /> {t("servicesSection.title2")}</h2>
                                     </div>
                                 </Fade>
                                 <Fade direction='up' triggerOnce={'false'} duration={1400} delay={9}>
@@ -44,7 +49,7 @@ const ServiceSection = (props) => {
                     </div>
                     <div className="col-lg-4 col-md-6 mt-30">
                         <div className="service-all_item">
-                            {Services.slice(0, 3).map((service, srv) => (
+                            {data.slice(0, 2).map((service, srv) => (
                                 <div className="service-box" key={srv}>
                                     {service.title ?
                                         <div className="service-item">
@@ -67,7 +72,7 @@ const ServiceSection = (props) => {
                     </div>
                     <div className="col-lg-4 col-md-6 mt-30">
                         <div className="service-all_item">
-                            {Services.slice(3, 6).map((service, srv) => (
+                            {data.slice(2, 4).map((service, srv) => (
                                 <div className="service-box" key={srv}>
                                     {service.title ?
                                         <div className="service-item">

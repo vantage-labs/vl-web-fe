@@ -20,6 +20,7 @@ import avatar from '../../images/bg/avatar.png'
 import quote from '../../images/icon/quote.png'
 import mImg from '../../images/casestudy/mm_img.png'
 import MobileMenu from '../MobileMenu/MobileMenu'
+import SelectCountry from '../lang/SelectLang';
 
 const Header = (props) => {
 
@@ -542,18 +543,18 @@ const Header = (props) => {
                                         <div className="xb-menu-close xb-hide-xl xb-close" onClick={() => setMobailState(!mobailActive)}></div>
                                         <div className="xb-logo-mobile xb-hide-xl">
                                             <Link onClick={ClickHandler} to="/" rel="home"><img src={logo}
-                                                    alt=""/></Link>
+                                                alt="" /></Link>
                                         </div>
                                         <div className="xb-header-mobile-search xb-hide-xl">
                                             <form role="search" onSubmit={SubmitHandler}>
                                                 <input type="text" placeholder="Search..." name="s"
-                                                    className="search-field"/>
+                                                    className="search-field" />
                                                 <button className="search-submit" type="submit"><i
-                                                        className="far fa-search"></i></button>
+                                                    className="far fa-search"></i></button>
                                             </form>
                                         </div>
                                         <nav className="xb-header-nav">
-                                            <MobileMenu/>
+                                            <MobileMenu />
                                         </nav>
                                     </div>
                                 </div>
@@ -570,6 +571,7 @@ const Header = (props) => {
                                 <img src={icon13} alt="" />
                             </Link>
                         </div>
+                       <SelectCountry/>
                     </div>
                 </div>
             </div>

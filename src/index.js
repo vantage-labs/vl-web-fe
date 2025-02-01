@@ -4,6 +4,7 @@ import App from '../src/main-component/App/App';
 import reportWebVitals from './reportWebVitals';
 import '../node_modules/react-modal-video/scss/modal-video.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './css/fontawesome.css';
@@ -12,11 +13,16 @@ import './css/animate.css';
 import './css/cursor.css';
 import './css/custom-font.css';
 import './css/main.css';
+import { LangProvider } from './contexts/LangContexts';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <App />
+    <React.StrictMode>
+        <LangProvider>
+            <App />
+        </LangProvider>
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

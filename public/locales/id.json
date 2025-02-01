@@ -1,0 +1,101 @@
+{
+  "hero": {
+    "headline": "Menguasai Digital",
+    "headline2": "Untuk Merek Ambisius",
+    "subheadline": "Kami adalah agensi digital yang berspesialisasi dalam menciptakan solusi digital khusus untuk merek ambisius.",
+    "cta": "Amankan Konsultasi Eksklusif Anda"
+  },
+
+  "about": {
+    "coreValues": {
+      "0": {
+        "headline": "Inovasi",
+        "label": "Kami mendefinisikan ulang keunggulan digital melalui teknologi mutakhir dan pencarian inovasi tanpa henti."
+      },
+      "1": {
+        "headline": "Berpusat pada Klien",
+        "label": "Kesuksesan Anda mendorong ambisi kami, saat kami merancang strategi khusus untuk meningkatkan merek Anda."
+      },
+      "2": {
+        "headline": "Transparansi",
+        "label": "Kami membangun kepercayaan melalui komunikasi yang jujur dan hasil yang terukur, memastikan kejelasan di setiap langkah."
+      }
+    },
+    "mission": "Menciptakan ekosistem digital khusus yang memberdayakan merek ambisius untuk mencapai dominasi dengan teknologi inovatif, strategi berbasis data, dan pendekatan personal.",
+    "vission": "Menjadi mitra paling tepercaya untuk merek yang ingin mencapai keunggulan digital, menetapkan standar global untuk inovasi, transparansi, dan strategi berdampak dalam lanskap digital."
+  },
+
+  "servicesSection": {
+    "title": "Layanan Digital Khusus Untuk",
+    "title2": "Merek Ambisius",
+    "services": {
+      "0": {
+        "headline": "Arsitektur Web Khusus",
+        "label": "Bangun situs web dan aplikasi web berkinerja tinggi yang disesuaikan dengan tujuan Anda."
+      },
+      "1": {
+        "headline": "Desain UI/UX",
+        "label": "Tingkatkan pengalaman pengguna dengan desain premium dan antarmuka yang intuitif."
+      },
+      "2": {
+        "headline": "Optimisasi Kinerja",
+        "label": "Tingkatkan ekosistem digital Anda dengan wawasan dan strategi yang dapat diterapkan."
+      },
+      "3": {
+        "headline": "Layanan Ekspansi Global",
+        "label": "Kembangkan merek Anda secara internasional dengan strategi untuk pasar yang beragam."
+      }
+    }
+  },
+
+  "workflowSection": {
+    "title": "Alur Kerja Terbukti Kami",
+    "steps": {
+      "0": {
+        "headline": "Konsultasi Eksklusif",
+        "description": "Ikuti pertemuan mendalam dan pribadi untuk memahami visi, tujuan, dan tantangan merek Anda."
+      },
+      "1": {
+        "headline": "Riset Mendalam & Pengembangan Strategi",
+        "description": "Analisis kebutuhan pasar, preferensi desain, dan peluang untuk menciptakan strategi yang disesuaikan untuk proyek Anda."
+      },
+      "2": {
+        "headline": "Tinjauan & Persetujuan Proyek",
+        "description": "Sajikan temuan riset dan strategi yang diusulkan untuk persetujuan Anda sebelum memulai proyek."
+      },
+      "3": {
+        "headline": "Eksekusi & Pemantauan",
+        "description": "Laksanakan proyek dengan tim ahli kami dan sediakan alat untuk memantau kemajuan secara real-time."
+      },
+      "4": {
+        "headline": "Tinjauan & Pengiriman Akhir",
+        "description": "Lakukan tinjauan akhir proyek yang telah selesai untuk memastikan keunggulan sebelum memberikan wawasan yang dapat ditindaklanjuti."
+      }
+    }
+  },
+  "faqSection": {
+    "title": "Punya Pertanyaan? Kami Punya Jawaban",
+    "questions": [
+      {
+        "question": "Berapa lama waktu yang dibutuhkan untuk melihat hasil dari layanan Anda?",
+        "answer": "Hasil bervariasi, tetapi halaman arahan dan aplikasi web menunjukkan hasil dalam 1-3 bulan, sementara peningkatan UI/UX memengaruhi keterlibatan pengguna dalam hitungan minggu."
+      },
+      {
+        "question": "Berapa anggaran minimum untuk sebuah proyek?",
+        "answer": "Anggaran minimum proyek kami adalah $2.000 untuk layanan web dan $800 untuk proyek desain."
+      },
+      {
+        "question": "Bisakah saya memantau kemajuan proyek saya?",
+        "answer": "Ya, kami menyediakan alat untuk transparansi penuh dan pembaruan waktu nyata."
+      },
+      {
+        "question": "Apakah Anda menawarkan dukungan setelah proyek selesai?",
+        "answer": "Ya, dengan paket pemeliharaan mulai dari $500/bulan dan ulasan optimisasi."
+      }
+    ]
+  },
+  "ctaSection": {
+    "headline": "Siap Meningkatkan Merek Anda?",
+    "cta": "Berhenti puas dengan mediokritas. Amankan konsultasi eksklusif Anda sekarang dan rasakan perbedaan Vantage Labs."
+  }
+}
