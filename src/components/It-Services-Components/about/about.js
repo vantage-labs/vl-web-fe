@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import about1 from '../../../images/about/img-01.png';
-import about2 from '../../../images/about/img-02.png';
-import about3 from '../../../images/about/img-03.png';
-import aIcon1 from '../../../images/icon/about-icon01.png';
-import aIcon2 from '../../../images/icon/about-icon02.png';
-import aIcon3 from '../../../images/icon/about-icon03.png';
+import React, { useState } from "react";
+import about1 from "../../../images/about/img-01.png";
+import about2 from "../../../images/about/img-02.png";
+import about3 from "../../../images/about/img-03.png";
+import aIcon1 from "../../../images/icon/about-icon01.png";
+import aIcon2 from "../../../images/icon/about-icon02.png";
+import aIcon3 from "../../../images/icon/about-icon03.png";
 
 const About = () => {
   const [activeIndex, setActiveIndex] = useState(2);
@@ -17,23 +17,23 @@ const About = () => {
     {
       img: about1,
       icon: aIcon1,
-      heading: 'About us',
+      heading: "About us",
       content:
-        'Innomax IT Services provides innovative, scalable solutions to drive business growth and efficiency. Our expert team ensures your business remains competitive with tailored IT services and reliable support for long-term success.',
+        "Vantage Labs IT Services provides innovative, scalable solutions to drive business growth and efficiency. Our expert team ensures your business remains competitive with tailored IT services and reliable support for long-term success.",
     },
     {
       img: about2,
       icon: aIcon2,
-      heading: 'Our mission',
+      heading: "Our mission",
       content:
-        'To deliver cutting-edge IT solutions that drive business growth, boost productivity, and ensure long-term helping competitiveness. We are dedicated to scalable, reliable technology and exceptional support.',
+        "To deliver cutting-edge IT solutions that drive business growth, boost productivity, and ensure long-term helping competitiveness. We are dedicated to scalable, reliable technology and exceptional support.",
     },
     {
       img: about3,
       icon: aIcon3,
-      heading: 'Our vision',
+      heading: "Our vision",
       content:
-        'Our Vision is to empower businesses with innovative IT solutions that drive growth, efficiency, and long-term success. We deliver scalable technology to keep you competitive and ready for the future.',
+        "Our Vision is to empower businesses with innovative IT solutions that drive growth, efficiency, and long-term success. We deliver scalable technology to keep you competitive and ready for the future.",
     },
   ];
 
@@ -44,7 +44,9 @@ const About = () => {
           {aboutItems.map((item, index) => (
             <div
               key={index}
-              className={`about-item mt-30 xb-mouseenter wow fadeInUp ${activeIndex === index ? 'active' : ''}`}
+              className={`about-item mt-30 xb-mouseenter wow fadeInUp ${
+                activeIndex === index ? "active" : ""
+              }`}
               data-wow-delay={`${index * 150}ms`}
               data-wow-duration="600ms"
               onMouseEnter={() => handleMouseEnter(index)}

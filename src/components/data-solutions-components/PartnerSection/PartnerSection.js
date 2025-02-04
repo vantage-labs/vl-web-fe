@@ -27,7 +27,7 @@ const PartnerSection = () => {
     const marquee = marqueeRef.current;
     if (!marquee) return;
 
-    const speed = 0.5; 
+    const speed = 0.5;
     let offset = 0;
 
     const marqueeContent = marquee.querySelector(".da-brand_marquee");
@@ -50,16 +50,30 @@ const PartnerSection = () => {
   }, []);
 
   return (
-    <section className="brand pt-145 pb-140 o-hidden" style={{ backgroundColor: '#f4f5fc' }}>
+    <section
+      className="brand pt-145 pb-140 o-hidden"
+      style={{ backgroundColor: "#f4f5fc" }}
+    >
       <div className="container">
         <div className="da-brand_wrapper">
           <h2 className="xb-item--title">
-            More than <span>25,000</span> brands trust Innomax
+            More than <span>25,000</span> brands trust Vantage Labs
           </h2>
-          <div className="da-brand_inner" ref={marqueeRef} style={{ overflow: "hidden" }}>
-            <div className="da-brand_marquee" style={{ display: "flex", whiteSpace: "nowrap" }}>
+          <div
+            className="da-brand_inner"
+            ref={marqueeRef}
+            style={{ overflow: "hidden" }}
+          >
+            <div
+              className="da-brand_marquee"
+              style={{ display: "flex", whiteSpace: "nowrap" }}
+            >
               {partners.map((partner, index) => (
-                <div className="xb-item--item" key={index} style={{ margin: "0 20px", flexShrink: 0 }}>
+                <div
+                  className="xb-item--item"
+                  key={index}
+                  style={{ margin: "0 20px", flexShrink: 0 }}
+                >
                   <div className="xb-item--logo">
                     <img src={partner.pImg} alt={`Brand ${index}`} />
                   </div>
@@ -68,7 +82,8 @@ const PartnerSection = () => {
             </div>
           </div>
           <p className="xb-item--content">
-            Got a question? Need more information? Our expert team is here to help.
+            Got a question? Need more information? Our expert team is here to
+            help.
           </p>
           <div className="xb-btn mt-25">
             <Link
@@ -77,14 +92,20 @@ const PartnerSection = () => {
               className="thm-btn thm-btn--fill_icon thm-btn--data thm-btn--data_blue"
             >
               <div className="xb-item--hidden">
-                <span className="xb-item--hidden-text">Book a Discover Call</span>
+                <span className="xb-item--hidden-text">
+                  Book a Discover Call
+                </span>
               </div>
               <div className="xb-item--holder">
-                <span className="xb-item--text xb-item--text1">Book a Discover Call</span>
+                <span className="xb-item--text xb-item--text1">
+                  Book a Discover Call
+                </span>
                 <div className="xb-item--icon">
                   <i className="fal fa-plus"></i>
                 </div>
-                <span className="xb-item--text xb-item--text2">Book a Discover Call</span>
+                <span className="xb-item--text xb-item--text2">
+                  Book a Discover Call
+                </span>
               </div>
             </Link>
           </div>

@@ -5,7 +5,6 @@
     "subheadline": "We are a digital agency that specializes in creating custom digital solutions for ambitious brands.",
     "cta": "Secure Your Exclusive Consultation"
   },
-
   "about": {
     "coreValues": {
       "0": {
@@ -24,7 +23,6 @@
     "mission": "To engineer bespoke digital ecosystems that empower ambitious brands to achieve dominance innovative technology, data-driven strategies, and personalized approaches.",
     "vission": "To become the most trusted partner for brands seeking to achieve digital excellence, setting a global standard for innovation, transparency, and impactful strategies in the digital landscape."
   },
-
   "servicesSection": {
     "title": "Tailored Digital Services For",
     "title2": "Ambitious Brands",
@@ -44,10 +42,13 @@
       "3": {
         "headline": "Global Expansion Services",
         "label": "Scale your brand internationally with strategies for diverse markets."
+      },
+      "4": {
+        "headline": "Web Development",
+        "label": "Develop scalable, secure, and feature-rich web solutions customized for your business needs."
       }
     }
   },
-
   "workflowSection": {
     "title": "Our Proven Workflow",
     "steps": {

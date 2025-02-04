@@ -5,7 +5,6 @@
     "subheadline": "Kami adalah agensi digital yang berspesialisasi dalam menciptakan solusi digital khusus untuk merek ambisius.",
     "cta": "Amankan Konsultasi Eksklusif Anda"
   },
-
   "about": {
     "coreValues": {
       "0": {
@@ -24,7 +23,6 @@
     "mission": "Menciptakan ekosistem digital khusus yang memberdayakan merek ambisius untuk mencapai dominasi dengan teknologi inovatif, strategi berbasis data, dan pendekatan personal.",
     "vission": "Menjadi mitra paling tepercaya untuk merek yang ingin mencapai keunggulan digital, menetapkan standar global untuk inovasi, transparansi, dan strategi berdampak dalam lanskap digital."
   },
-
   "servicesSection": {
     "title": "Layanan Digital Khusus Untuk",
     "title2": "Merek Ambisius",
@@ -44,10 +42,13 @@
       "3": {
         "headline": "Layanan Ekspansi Global",
         "label": "Kembangkan merek Anda secara internasional dengan strategi untuk pasar yang beragam."
+      },
+      "4": {
+        "headline": "Pengembangan Web",
+        "label": "Kembangkan solusi web yang aman, fleksibel, dan kaya fitur yang disesuaikan dengan kebutuhan bisnis Anda."
       }
     }
   },
-
   "workflowSection": {
     "title": "Alur Kerja Terbukti Kami",
     "steps": {

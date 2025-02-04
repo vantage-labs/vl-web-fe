@@ -15,13 +15,13 @@ const FaqSection = () => {
   const faqsLeft = [
     {
       number: "1",
-      question: "What services does Innomax offer?",
+      question: "What services does Vantage Labs offer?",
       answer:
         "Data integration, AI-powered insights, predictive analytics, and business intelligence.",
     },
     {
       number: "2",
-      question: "How will Innomax’s solutions help my business?",
+      question: "How will Vantage Labs’s solutions help my business?",
       answer: "By turning data into actionable insights for growth.",
     },
     {
@@ -39,17 +39,17 @@ const FaqSection = () => {
   const faqsRight = [
     {
       number: "5",
-      question: "Can Innomax solutions be customized?",
+      question: "Can Vantage Labs solutions be customized?",
       answer: "Yes, tailored to fit unique business needs.",
     },
     {
       number: "6",
-      question: "How secure is my data with Innomax?",
-      answer: "Innomax ensures top-level data security.",
+      question: "How secure is my data with Vantage Labs?",
+      answer: "Vantage Labs ensures top-level data security.",
     },
     {
       number: "7",
-      question: "What industries does Innomax support?",
+      question: "What industries does Vantage Labs support?",
       answer: "Suitable for finance, retail, healthcare, and more.",
     },
     {
@@ -65,7 +65,10 @@ const FaqSection = () => {
       const isActive = activeFaq === currentIndex;
 
       return (
-        <li key={faq.number} className={`accordion block ${isActive ? "active-block" : ""}`}>
+        <li
+          key={faq.number}
+          className={`accordion block ${isActive ? "active-block" : ""}`}
+        >
           <div
             className={`acc-btn ${isActive ? "active" : ""}`}
             onClick={() => toggleFaq(currentIndex)}
@@ -91,7 +94,10 @@ const FaqSection = () => {
     });
 
   return (
-    <section className="faq pt-150 pb-115" style={{ backgroundColor: '#f4f5fc' }}>
+    <section
+      className="faq pt-150 pb-115"
+      style={{ backgroundColor: "#f4f5fc" }}
+    >
       <div className="container">
         <div className="da-sec-titlte text-center mb-30">
           <h2 className="title">Your Questions, Answered!</h2>
@@ -117,16 +123,24 @@ const FaqSection = () => {
           </div>
         </div>
         <div className="xb-btn text-center mt-70">
-          <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--fill_icon thm-btn--data thm-btn--data_blue">
+          <Link
+            onClick={ClickHandler}
+            to="/contact"
+            className="thm-btn thm-btn--fill_icon thm-btn--data thm-btn--data_blue"
+          >
             <div className="xb-item--hidden">
               <span className="xb-item--hidden-text">Book a Discover Call</span>
             </div>
             <div className="xb-item--holder">
-              <span className="xb-item--text xb-item--text1">Book a Discover Call</span>
+              <span className="xb-item--text xb-item--text1">
+                Book a Discover Call
+              </span>
               <div className="xb-item--icon">
                 <i className="fal fa-plus"></i>
               </div>
-              <span className="xb-item--text xb-item--text2">Book a Discover Call</span>
+              <span className="xb-item--text xb-item--text2">
+                Book a Discover Call
+              </span>
             </div>
           </Link>
         </div>

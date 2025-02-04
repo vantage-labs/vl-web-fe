@@ -1,9 +1,9 @@
 /*-----------------------------------------------------------------------------------
 
-    Project Name: Innomax - Technology & IT Startup HTML Template
+    Project Name: Vantage Labs - Technology & IT Startup HTML Template
     Author: XpressBuddy -->> (https://themeforest.net/user/xpressbuddy)
     Support: support@xpressbuddy.com
-    Description: Innomax - Technology & IT Startup HTML Template
+    Description: Vantage Labs - Technology & IT Startup HTML Template
     Developer: Mohammad Wasim Mia -> contact@xpressbuddy.com
     Version: 1.0
 
@@ -56,9 +56,9 @@
   --font-heading-three: 'GT-Super-Text';
   --font-heading-four: 'Agrandir';
   --font-heading-five: "Red Hat Display", serif;
-  --color-primary: #d44a00;
+  --color-primary: #F0BB78;
   --color-primary-rgb: 212, 74, 0;
-  --color-primary-two: #0f55dc;
+  --color-primary-two: #543A14;
   --color-primary-two-rgb: 15, 83, 220;
   --color-primary-three: #9a4497;
   --color-primary-three-rgb: 154, 68, 151;
@@ -4156,7 +4156,7 @@ body[data-aos-easing=ease] [data-aos] {
 }
 
 .header-style-two .header-top {
-  background: #0f55dc;
+  background: #F0BB78;
   text-align: center;
   position: relative;
   left: 0;
@@ -5694,7 +5694,7 @@ body[data-aos-easing=ease] [data-aos] {
 
 .sec-title--two .sub-title--strock {
   color: var(--color-white);
-  background: #0f55dc;
+  background: #F0BB78;
   box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.1), 0 1px 1px 0 rgba(255, 255, 255, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.1);
 }
 
@@ -6522,7 +6522,7 @@ body[data-aos-easing=ease] [data-aos] {
   font-size: 26px;
   letter-spacing: 0em;
   color: var(--color-white);
-  border-bottom: 1px solid #d44a00;
+  border-bottom: 1px solid #543A14;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -8071,7 +8071,7 @@ body[data-aos-easing=ease] [data-aos] {
   padding: 40px 30px;
   position: sticky;
   top: 150px;
-  border: 1px solid #0f55dc;
+  border: 1px solid #F0BB78;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -8418,7 +8418,18 @@ body[data-aos-easing=ease] [data-aos] {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  background: linear-gradient(122deg, rgba(255, 217, 17, 0) 0%, rgba(233, 226, 255, 0.8) 34.54%, #cae1f7 62.5%, rgba(250, 232, 138, 0.56) 100%), radial-gradient(74.51% 50% at 50% 100%, white 24.0899994969%, white 100%);
+  background: linear-gradient(
+    122deg,
+    rgba(84, 58, 20, 0) 0%,
+    rgba(240, 187, 120, 0.8) 34.54%,
+    #f0bb78 62.5%,
+    rgba(84, 58, 20, 0.56) 100%
+), 
+radial-gradient(
+    74.51% 50% at 50% 100%,
+    #ffffff 24.09%,
+    #ffffff 100%
+);
   background: url(../images/bg/service_bg.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -8501,7 +8512,18 @@ body[data-aos-easing=ease] [data-aos] {
   opacity: 0;
   z-index: -1;
   transform: scale(0.2);
-  background: linear-gradient(122deg, rgba(255, 217, 17, 0) 0%, rgba(233, 226, 255, 0.8) 34.54%, #cae1f7 62.5%, rgba(250, 232, 138, 0.56) 100%), radial-gradient(74.51% 50% at 50% 100%, white 24.0899994969%, white 100%);
+  background: linear-gradient(
+    122deg,
+    rgba(84, 58, 20, 0) 0%,
+    rgba(240, 187, 120, 0.8) 34.54%,
+    #f0bb78 62.5%,
+    rgba(84, 58, 20, 0.56) 100%
+), 
+radial-gradient(
+    74.51% 50% at 50% 100%,
+    #ffffff 24.09%,
+    #ffffff 100%
+);
   border-radius: 100%;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -10380,7 +10402,18 @@ body[data-aos-easing=ease] [data-aos] {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  background: linear-gradient(122deg, rgba(255, 217, 17, 0) 0%, rgba(233, 226, 255, 0.8) 34.54%, #cae1f7 62.5%, rgba(250, 232, 138, 0.56) 100%), radial-gradient(74.51% 50% at 50% 100%, white 24.0899994969%, white 100%);
+  background: linear-gradient(
+    122deg,
+    rgba(84, 58, 20, 0) 0%,
+    rgba(240, 187, 120, 0.8) 34.54%,
+    #f0bb78 62.5%,
+    rgba(84, 58, 20, 0.56) 100%
+), 
+radial-gradient(
+    74.51% 50% at 50% 100%,
+    #ffffff 24.09%,
+    #ffffff 100%
+);
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -12966,7 +12999,7 @@ body[data-aos-easing=ease] [data-aos] {
 }
 
 .blog_details_item .xb-item--text {
-  color: #0f55dc;
+  color: #F0BB78;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -13121,7 +13154,18 @@ body[data-aos-easing=ease] [data-aos] {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  background: linear-gradient(122deg, rgba(255, 217, 17, 0) 0%, rgba(233, 226, 255, 0.8) 34.54%, #cae1f7 62.5%, rgba(250, 232, 138, 0.56) 100%), radial-gradient(74.51% 50% at 50% 100%, white 24.0899994969%, white 100%);
+  background: linear-gradient(
+    122deg,
+    rgba(84, 58, 20, 0) 0%,
+    rgba(240, 187, 120, 0.8) 34.54%,
+    #f0bb78 62.5%,
+    rgba(84, 58, 20, 0.56) 100%
+), 
+radial-gradient(
+    74.51% 50% at 50% 100%,
+    #ffffff 24.09%,
+    #ffffff 100%
+);
   background: url(../images/bg/faq_bg.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -15760,7 +15804,7 @@ body[data-aos-easing=ease] [data-aos] {
 }
 
 .roadmap-button .sa-swiper-btn {
-  background: #0f55dc;
+  background: #F0BB78;
   color: var(--color-white);
 }
 
@@ -16156,7 +16200,7 @@ body[data-aos-easing=ease] [data-aos] {
 
 .social_icons_block li a:hover {
   color: var(--color-white);
-  border: 1px solid #0f55dc;
+  border: 1px solid #F0BB78;
   background: var(--color-primary-two);
 }
 
@@ -16929,7 +16973,7 @@ body[data-aos-easing=ease] [data-aos] {
 
 .tags_block li:hover a {
   color: var(--color-white);
-  border: 1px solid #0f55dc;
+  border: 1px solid #F0BB78;
   background: var(--color-primary-two);
 }
 
@@ -17103,7 +17147,7 @@ body[data-aos-easing=ease] [data-aos] {
 }
 
 .border-blue::before {
-  background: #0f55dc !important;
+  background: #F0BB78 !important;
 }
 
 .border-sky::before {
@@ -17115,7 +17159,7 @@ body[data-aos-easing=ease] [data-aos] {
 }
 
 .clr-blue {
-  background: #0f55dc !important;
+  background: #F0BB78 !important;
 }
 
 .clr-sky {
@@ -17144,7 +17188,18 @@ body[data-aos-easing=ease] [data-aos] {
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
-  background: linear-gradient(122deg, rgba(255, 217, 17, 0) 0%, rgba(233, 226, 255, 0.8) 34.54%, #cae1f7 62.5%, rgba(250, 232, 138, 0.56) 100%), radial-gradient(74.51% 50% at 50% 100%, white 24.0899994969%, white 100%);
+  background: linear-gradient(
+    122deg,
+    rgba(84, 58, 20, 0) 0%,
+    rgba(240, 187, 120, 0.8) 34.54%,
+    #f0bb78 62.5%,
+    rgba(84, 58, 20, 0.56) 100%
+), 
+radial-gradient(
+    74.51% 50% at 50% 100%,
+    #ffffff 24.09%,
+    #ffffff 100%
+);
   background: url(../images/bg/about_bg.png) center center/cover no-repeat;
 }
 
@@ -20673,7 +20728,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   content: '';
   bottom: -10px;
   left: 9px;
-  border-right: 10px solid #d44a00;
+  border-right: 10px solid #543A14;
   border-bottom: 10px solid transparent;
   transform: rotate(-90deg);
 }
