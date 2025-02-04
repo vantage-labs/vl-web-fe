@@ -1,25 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import icon1 from "../../images/shape/trangle-shape.png";
-import icon2 from "../../images/icon/m_01.svg";
-import icon3 from "../../images/icon/m_02.svg";
-import icon4 from "../../images/icon/m_03.svg";
-import icon5 from "../../images/icon/m_04.svg";
-import icon6 from "../../images/icon/m_05.svg";
-import icon7 from "../../images/icon/m_06.svg";
-import icon8 from "../../images/icon/m_07.svg";
-import icon9 from "../../images/icon/m_08.svg";
-import icon10 from "../../images/icon/m_09.svg";
-import icon11 from "../../images/icon/m_10.svg";
-import icon12 from "../../images/icon/m_11.svg";
 import icon13 from "../../images/icon/sms-white-icon01.svg";
-import logo from "../../images/logo/logo-black.svg";
-import clogo1 from "../../images/logo/client-logo.svg";
-import clogo2 from "../../images/logo/client-logo2.svg";
-import avatar from "../../images/bg/avatar.png";
-import quote from "../../images/icon/quote.png";
-import mImg from "../../images/casestudy/mm_img.png";
-import MobileMenu from "../MobileMenu/MobileMenu";
 import SelectCountry from "../lang/SelectLang";
 
 const Header = (props) => {
@@ -47,10 +29,6 @@ const Header = (props) => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
-  const SubmitHandler = (e) => {
-    e.preventDefault();
-  };
 
   return (
     <div

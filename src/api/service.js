@@ -3,37 +3,11 @@ import icon2 from "../images/icon/durability.gif";
 import icon3 from "../images/icon/digital-tra.gif";
 import icon4 from "../images/icon/business-develop.gif";
 import icon5 from "../images/icon/search.gif";
-import icon6 from "../images/icon/warning.gif";
-
-import sicon1 from "../images/icon/ser-icon01.svg";
-import sicon2 from "../images/icon/ser-icon02.svg";
-import sicon3 from "../images/icon/ser-icon03.svg";
-import sicon4 from "../images/icon/ser-icon04.svg";
-
-import sdicon1 from "../images/icon/da-fea_icon01.svg";
-import sdicon2 from "../images/icon/da-fea_icon02.svg";
-import sdicon3 from "../images/icon/da-fea_icon03.svg";
-import sdicon4 from "../images/icon/da-fea_icon04.svg";
 
 import simg1 from "../images/service/service-img02.jpg";
 import simg2 from "../images/service/service-img01.jpg";
 import simg3 from "../images/service/service-img03.jpg";
 import simg4 from "../images/service/service-img04.jpg";
-
-import scicon1 from "../images/icon/airdrop-white.svg";
-import scicon2 from "../images/icon/cloud-add.svg";
-import scicon3 from "../images/icon/check02.svg";
-import scicon4 from "../images/icon/finger-scan.svg";
-import scicon5 from "../images/icon/ranking.svg";
-
-import cdicon1 from "../images/icon/cd-ser_icon01.svg";
-import cdicon2 from "../images/icon/cd-ser_icon02.svg";
-import cdicon3 from "../images/icon/cd-ser_icon03.svg";
-import cdicon4 from "../images/icon/cd-ser_icon04.svg";
-import cdicon5 from "../images/icon/cd-ser_icon05.svg";
-import cdicon6 from "../images/icon/cd-ser_icon06.svg";
-import cdicon7 from "../images/icon/cd-ser_icon08.svg";
-import cdicon8 from "../images/icon/cd-ser_icon09.svg";
 
 const Services = [
   {

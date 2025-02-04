@@ -2,7 +2,6 @@ import React from "react";
 import { Fade } from "react-awesome-reveal";
 import check from "../../images/icon/check.svg";
 import error from "../../images/icon/erorr.svg";
-import logo from "../../images/logo/logo-white.svg";
 import star from "../../images/icon/star.svg";
 
 const FeaturesSection = (props) => {
