@@ -23,50 +23,53 @@ const testimonial = [
     id: "01",
     tImg: tImg1,
     logo: icon1,
-    Des: "Working with Vantage Labs was fantastic! Their strategies  improved our rankings and increased leads.",
-    Name: "Christopher Smith",
-    sub: "Brand Strat at near",
-    country: "Seattle, Ukraine",
+    Des: "Vantage Labs transformed our digital strategy. Their custom solutions helped us reach new international markets with ease.",
+    Name: "Michael Johnson",
+    sub: "Marketing Lead at InnovateCo",
+    country: "London, UK",
   },
   {
     id: "02",
     tImg: tImg2,
     logo: icon2,
-    Des: "Vantage Labs exceeded all our expectations! Their expertise in SEO helped us achieve a remarkable 150%",
-    Name: "Sarah Davis",
-    sub: "Branding at spinlet",
+    Des: "Partnering with Vantage Labs was the best decision for our business. Their AI-driven strategies boosted our ROI by over 200%.",
+    Name: "Sophia Brown",
+    sub: "CEO at GrowthHub",
+    country: "New York, USA",
   },
   {
     id: "03",
     tImg: tImg3,
     logo: icon3,
-    Des: "Choosing Vantage Labs was a great decision. Their focus on trends helped us rank for competitive keywords, our success!",
-    Name: "Robert Miller",
-    sub: "Marketing Dir. at BUSD",
+    Des: "The team at Vantage Labs truly understands the importance of transparency and performance. Our website traffic tripled in just 6 months.",
+    Name: "Daniel Martinez",
+    sub: "CTO at Skyware Solutions",
+    country: "Sydney, Australia",
   },
   {
     id: "04",
     tImg: tImg4,
     logo: icon4,
-    Des: "Since partnering with Vantage Labs, our website's performance has improved remarkably. Their data-driven approach and top-notch!",
-    Name: "Jessica Martinez",
-    sub: "Project Manager at Kuda",
+    Des: "With Vantage Labs' data-driven approach, we were able to secure top rankings for competitive keywords in our industry.",
+    Name: "Emily Carter",
+    sub: "Digital Strategist at TechHive",
+    country: "Toronto, Canada",
   },
   {
     id: "05",
-    tImg: tImg3,
     logo: icon5,
-    Des: "Since partnering with Vantage Labs, our website's performance has improved remarkably. Their data-driven approach and top-notch!",
-    Name: "Jessica Martinez",
-    sub: "Project Manager at Kuda",
+    Des: "Their expertise in web development and UI/UX design helped us launch a platform that exceeded our clients' expectations.",
+    Name: "Benjamin Lee",
+    sub: "Product Manager at BrightPath",
+    country: "Berlin, Germany",
   },
   {
     id: "06",
-    tImg: tImg2,
-    logo: icon2,
-    Des: "Vantage Labs exceeded all our expectations! Their expertise in SEO helped us achieve a remarkable 150%",
-    Name: "Sarah Davis",
-    sub: "Branding at spinlet",
+    logo: icon5,
+    Des: "From custom CRM solutions to enterprise SEO, Vantage Labs provided unmatched services that helped our business grow exponentially.",
+    Name: "Olivia Wilson",
+    sub: "Operations Manager at ScaleUp",
+    country: "Singapore",
   },
 ];
 
@@ -175,9 +178,6 @@ const Testimonial = (props) => {
                       </div>
                       <p className="xb-item--content">"{testimonial.Des}"</p>
                       <div className="xb-item--holder ul_li">
-                        <div className="xb-item--avatar">
-                          <img src={testimonial.tImg} alt="" />
-                        </div>
                         <div className="xb-item--author">
                           <h3 className="xb-item--name">{testimonial.Name}</h3>
                           <span className="xb-item--desig">

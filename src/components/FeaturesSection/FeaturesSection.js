@@ -55,7 +55,7 @@ const FeaturesSection = (props) => {
                       style={{ maxWidth: "250px" }}
                     />
                   </th>
-                  <th>Other SEO agencies</th>
+                  <th>Other Digital agencies</th>
                 </tr>
               </thead>
               <tbody className="table-body">

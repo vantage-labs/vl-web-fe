@@ -31,7 +31,7 @@ const Footer = (props) => {
               </div>
               <div className="xb-item--holder">
                 <p className="xb-item--content">Write to us</p>
-                <h4 className="xb-item--title">Vantage Labs@gmail.com</h4>
+                <h4 className="xb-item--title">hello@vantagelabs.id</h4>
               </div>
             </div>
             <div className="info-item ul_li">
@@ -41,8 +41,8 @@ const Footer = (props) => {
                 </span>
               </div>
               <div className="xb-item--holder">
-                <p className="xb-item--content">Call Us (USA)</p>
-                <h4 className="xb-item--title">+(1) 1230 452 8597</h4>
+                <p className="xb-item--content">Call Us (ID)</p>
+                <h4 className="xb-item--title">+(62) 851 9592 2910</h4>
               </div>
             </div>
             <div className="info-item ul_li">
@@ -53,44 +53,11 @@ const Footer = (props) => {
               </div>
               <div className="xb-item--holder">
                 <p className="xb-item--content">Our Office</p>
-                <h4 className="xb-item--title">Waterloo,Park,Australia</h4>
+                <h4 className="xb-item--title">Jakarta, Indonesia</h4>
               </div>
             </div>
           </div>
           <div className="footer-inner mt-70 mb-100 ul_li_between align-items-start">
-            <div className="sa-newslatter footer-widget">
-              <span className="xb-item--sub-title">Newsletter</span>
-              <p className="xb-item--content clr-white">
-                Sign up to techco weekly newsletter to get the latest updates.
-              </p>
-              <form
-                className="xb-item--input_field pos-rel"
-                onSubmit={SubmitHandler}
-              >
-                <input
-                  type="email"
-                  name="gmail"
-                  id="text6"
-                  placeholder="enter your email"
-                />
-                <div className="img">
-                  <img src={icon4} alt="" />
-                </div>
-                <button type="submit" className="xb-item--btn">
-                  <i className="fas fa-paper-plane"></i>
-                </button>
-              </form>
-              <span className="xb-item--text">
-                By continuing, you agree to Vantage Labs{" "}
-                <Link onClick={ClickHandler} to="/terms-conditions">
-                  Terms
-                </Link>{" "}
-                of Use and{" "}
-                <Link onClick={ClickHandler} to="/privacy-policy">
-                  Privacy Policy
-                </Link>
-              </span>
-            </div>
             <div className="footer-widget">
               <span className="xb-item--sub-title">Company</span>
               <ul className="xb-item--holder list-unstyled">
