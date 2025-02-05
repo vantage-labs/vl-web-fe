@@ -3,15 +3,10 @@ import { Link } from "react-router-dom";
 import icon1 from "../../images/icon/sms-white.svg";
 import icon2 from "../../images/icon/call-white.svg";
 import icon3 from "../../images/icon/location.svg";
-import icon4 from "../../images/icon/sms02.svg";
 import Services from "../../api/service";
 
 const ClickHandler = () => {
   window.scrollTo(10, 0);
-};
-
-const SubmitHandler = (e) => {
-  e.preventDefault();
 };
 
 const Footer = (props) => {
