@@ -52,7 +52,7 @@ const WorkProcess = (props) => {
   return (
     <section
       className="process pt-130 pb-100 pos-rel"
-      style={{ backgroundColor: "#F0BB78" }}
+      style={{ backgroundColor: "#0e1b3b" }}
     >
       <div className="container">
         <div className="sec-title--two text-center mb-90">

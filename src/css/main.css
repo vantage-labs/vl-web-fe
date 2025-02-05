@@ -56,9 +56,9 @@
   --font-heading-three: 'GT-Super-Text';
   --font-heading-four: 'Agrandir';
   --font-heading-five: "Red Hat Display", serif;
-  --color-primary: #F0BB78;
+  --color-primary: #000000;
   --color-primary-rgb: 212, 74, 0;
-  --color-primary-two: #543A14;
+  --color-primary-two: #4922b0;
   --color-primary-two-rgb: 15, 83, 220;
   --color-primary-three: #9a4497;
   --color-primary-three-rgb: 154, 68, 151;
@@ -72,7 +72,7 @@
   --color-heading-four: #212877;
   --color-default: #49515b;
   --color-default-two: #494d57;
-  --color-yellow: #ffd600;
+  --color-yellow: linear-gradient(90deg, #4922b0 0%, #9a4497 100%);
   --color-white: #fff;
   --color-black: #000;
   --color-body: #eaeef0;
@@ -4156,7 +4156,7 @@ body[data-aos-easing=ease] [data-aos] {
 }
 
 .header-style-two .header-top {
-  background: #F0BB78;
+  background: #0e1b3b;
   text-align: center;
   position: relative;
   left: 0;
@@ -5694,7 +5694,7 @@ body[data-aos-easing=ease] [data-aos] {
 
 .sec-title--two .sub-title--strock {
   color: var(--color-white);
-  background: #F0BB78;
+  background: #0e1b3b;
   box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.1), 0 1px 1px 0 rgba(255, 255, 255, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.1);
 }
 
@@ -8071,7 +8071,7 @@ body[data-aos-easing=ease] [data-aos] {
   padding: 40px 30px;
   position: sticky;
   top: 150px;
-  border: 1px solid #F0BB78;
+  border: 1px solid #0e1b3b;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -8420,15 +8420,15 @@ body[data-aos-easing=ease] [data-aos] {
   transition: 0.3s;
   background: linear-gradient(
     122deg,
-    rgba(84, 58, 20, 0) 0%,
-    rgba(240, 187, 120, 0.8) 34.54%,
-    #f0bb78 62.5%,
-    rgba(84, 58, 20, 0.56) 100%
-), 
+    rgba(73, 34, 176, 0) 0%, /* Ungu dengan transparansi */
+    rgba(154, 68, 151, 0.8) 34.54%, /* Pink dengan transparansi */
+    #9a4497 62.5%, /* Pink solid */
+    rgba(73, 34, 176, 0.56) 100% /* Ungu dengan transparansi */
+),
 radial-gradient(
     74.51% 50% at 50% 100%,
-    #ffffff 24.09%,
-    #ffffff 100%
+    #ffffff 24.09%, /* Putih di bagian tengah */
+    #ffffff 100% /* Putih sepenuhnya */
 );
   background: url(../images/bg/service_bg.png);
   background-position: center center;
@@ -8514,15 +8514,15 @@ radial-gradient(
   transform: scale(0.2);
   background: linear-gradient(
     122deg,
-    rgba(84, 58, 20, 0) 0%,
-    rgba(240, 187, 120, 0.8) 34.54%,
-    #f0bb78 62.5%,
-    rgba(84, 58, 20, 0.56) 100%
-), 
+    rgba(73, 34, 176, 0) 0%, /* Ungu dengan transparansi */
+    rgba(154, 68, 151, 0.8) 34.54%, /* Pink dengan transparansi */
+    #9a4497 62.5%, /* Pink solid */
+    rgba(73, 34, 176, 0.56) 100% /* Ungu dengan transparansi */
+),
 radial-gradient(
     74.51% 50% at 50% 100%,
-    #ffffff 24.09%,
-    #ffffff 100%
+    #ffffff 24.09%, /* Putih di bagian tengah */
+    #ffffff 100% /* Putih sepenuhnya */
 );
   border-radius: 100%;
   -webkit-border-radius: 100%;
@@ -10404,15 +10404,15 @@ radial-gradient(
   transition: 0.3s;
   background: linear-gradient(
     122deg,
-    rgba(84, 58, 20, 0) 0%,
-    rgba(240, 187, 120, 0.8) 34.54%,
-    #f0bb78 62.5%,
-    rgba(84, 58, 20, 0.56) 100%
-), 
+    rgba(73, 34, 176, 0) 0%, /* Ungu dengan transparansi */
+    rgba(154, 68, 151, 0.8) 34.54%, /* Pink dengan transparansi */
+    #9a4497 62.5%, /* Pink solid */
+    rgba(73, 34, 176, 0.56) 100% /* Ungu dengan transparansi */
+),
 radial-gradient(
     74.51% 50% at 50% 100%,
-    #ffffff 24.09%,
-    #ffffff 100%
+    #ffffff 24.09%, /* Putih di bagian tengah */
+    #ffffff 100% /* Putih sepenuhnya */
 );
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -12999,7 +12999,7 @@ radial-gradient(
 }
 
 .blog_details_item .xb-item--text {
-  color: #F0BB78;
+  color: #0e1b3b;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -13156,15 +13156,15 @@ radial-gradient(
   -o-border-radius: 20px;
   background: linear-gradient(
     122deg,
-    rgba(84, 58, 20, 0) 0%,
-    rgba(240, 187, 120, 0.8) 34.54%,
-    #f0bb78 62.5%,
-    rgba(84, 58, 20, 0.56) 100%
-), 
+    rgba(73, 34, 176, 0) 0%, /* Ungu dengan transparansi */
+    rgba(154, 68, 151, 0.8) 34.54%, /* Pink dengan transparansi */
+    #9a4497 62.5%, /* Pink solid */
+    rgba(73, 34, 176, 0.56) 100% /* Ungu dengan transparansi */
+),
 radial-gradient(
     74.51% 50% at 50% 100%,
-    #ffffff 24.09%,
-    #ffffff 100%
+    #ffffff 24.09%, /* Putih di bagian tengah */
+    #ffffff 100% /* Putih sepenuhnya */
 );
   background: url(../images/bg/faq_bg.png);
   background-position: center center;
@@ -15804,7 +15804,7 @@ radial-gradient(
 }
 
 .roadmap-button .sa-swiper-btn {
-  background: #F0BB78;
+  background: #0e1b3b;
   color: var(--color-white);
 }
 
@@ -16200,7 +16200,7 @@ radial-gradient(
 
 .social_icons_block li a:hover {
   color: var(--color-white);
-  border: 1px solid #F0BB78;
+  border: 1px solid #0e1b3b;
   background: var(--color-primary-two);
 }
 
@@ -16973,7 +16973,7 @@ radial-gradient(
 
 .tags_block li:hover a {
   color: var(--color-white);
-  border: 1px solid #F0BB78;
+  border: 1px solid #0e1b3b;
   background: var(--color-primary-two);
 }
 
@@ -17147,7 +17147,7 @@ radial-gradient(
 }
 
 .border-blue::before {
-  background: #F0BB78 !important;
+  background: #0e1b3b !important;
 }
 
 .border-sky::before {
@@ -17159,7 +17159,7 @@ radial-gradient(
 }
 
 .clr-blue {
-  background: #F0BB78 !important;
+  background: #0e1b3b !important;
 }
 
 .clr-sky {
@@ -17190,15 +17190,15 @@ radial-gradient(
   -o-border-radius: 50px;
   background: linear-gradient(
     122deg,
-    rgba(84, 58, 20, 0) 0%,
-    rgba(240, 187, 120, 0.8) 34.54%,
-    #f0bb78 62.5%,
-    rgba(84, 58, 20, 0.56) 100%
-), 
+    rgba(73, 34, 176, 0) 0%, /* Ungu dengan transparansi */
+    rgba(154, 68, 151, 0.8) 34.54%, /* Pink dengan transparansi */
+    #9a4497 62.5%, /* Pink solid */
+    rgba(73, 34, 176, 0.56) 100% /* Ungu dengan transparansi */
+),
 radial-gradient(
     74.51% 50% at 50% 100%,
-    #ffffff 24.09%,
-    #ffffff 100%
+    #ffffff 24.09%, /* Putih di bagian tengah */
+    #ffffff 100% /* Putih sepenuhnya */
 );
   background: url(../images/bg/about_bg.png) center center/cover no-repeat;
 }
@@ -17545,7 +17545,9 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   width: 100%;
   height: 100%;
 }
-
+.xb-overlay:hover{
+  color: #fff !important;
+}
 .xb-overlay-link {
   z-index: 1;
 }
@@ -19343,7 +19345,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   color: var(--color-heading-two);
 }
 
-.thm-btn--aso_yellow:hover {
+.thm-btn--aso_yellow:hover, .thm-btn--aso_yellow  {
   color: var(--color-white);
 }
 
@@ -19353,7 +19355,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 
 .thm-btn--aso_white {
   background: var(--color-yellow);
-  color: var(--color-heading-two);
+  color: var(--color-white);
 }
 
 .thm-btn--aso_white::before {

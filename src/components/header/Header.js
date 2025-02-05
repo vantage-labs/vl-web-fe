@@ -65,8 +65,9 @@ const Header = (props) => {
             <div className="header-logo">
               <Link onClick={ClickHandler} to="/">
                 <img
-                  src="https://res.cloudinary.com/dilb4d364/image/upload/v1738673851/1_ts1lxg.svg"
+                  src="https://res.cloudinary.com/dilb4d364/image/upload/v1738732324/5_guo4lg.svg"
                   alt=""
+                  style={{ maxWidth: "200px" }}
                 />
               </Link>
             </div>
