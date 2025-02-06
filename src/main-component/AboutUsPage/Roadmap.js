@@ -17,52 +17,45 @@ const RoadmapSlider = () => {
   const roadmapData = [
     {
       quarter: "Q-1",
-      year: "2012",
+      year: "2021",
       title: "Vantage Labs was founded",
       content:
-        "Vantage Labs started in USA with only five employees. All working from the cheapest office we could find (with hideous green walls, fluorescent lighting, and no windows).",
-    },
-    {
-      quarter: "Q-2",
-      year: "2014",
-      title: "We grew to 40 full-time employees",
-      content:
-        "In 2014, Vantage Labs completed over 100 SEO audits, helping clients recover from Google Penguin penalties. It was also the year they upgraded their office—now with windows—marking a new phase of growth for the company.",
-    },
-    {
-      quarter: "Q-3",
-      year: "2016",
-      title: "Ranked one of the top 3 SEO Company",
-      content:
-        "By 2016, our hard work was starting to be recognized – as we were rated one of the top 3 SEO companies in Ukraine. At this point, we had about 60 employees working full-time on client projects.",
+        "In January 2021, Vantage Labs was founded by a group of digital marketing enthusiasts in the USA. Starting from a small co-working space, the team of six shared a vision to revolutionize how businesses grow online through cutting-edge SEO strategies and digital solutions.",
     },
     {
       quarter: "Q-4",
-      year: "2018",
-      title: "Sharing Our SEO Expertise Globally",
+      year: "2021",
+      title: "First major milestone achieved",
       content:
-        "By 2018, Vantage Labs attracted a primarily international clientele from countries like the US, UK, Australia, Norway, and Japan. They also began sharing their SEO expertise globally, speaking at conferences like the Chiang Mai SEO Conference and LRT Conference.",
-    },
-    {
-      quarter: "Q-5",
-      year: "2024",
-      title: "Present",
-      content:
-        "Today, Vantage Labs has over 200 employees, mostly based in Ukraine, who continue working full-time despite the war. The company supports its staff from afar while donating proceeds to the army.",
+        "By the end of 2021, Vantage Labs had secured its first 20 clients, delivering over 50 successful SEO audits and marketing strategies. The team grew to 15 full-time employees, and they moved into their first official office—a small but modern space in downtown Seattle.",
     },
     {
       quarter: "Q-2",
-      year: "2014",
-      title: "We grew to 40 full-time employees",
+      year: "2022",
+      title: "Expanding into international markets",
       content:
-        "In 2014, Vantage Labs completed over 100 SEO audits, helping clients recover from Google Penguin penalties. It was also the year they upgraded their office—now with windows—marking a new phase of growth for the company.",
+        "In mid-2022, Vantage Labs expanded its reach to international markets, gaining clients from the UK, Canada, and Australia. They also introduced advanced analytics and AI-driven SEO solutions, solidifying their position as an emerging leader in the digital marketing space.",
     },
     {
-      quarter: "Q-3",
-      year: "2016",
-      title: "Ranked one of the top 3 SEO Company",
+      quarter: "Q-4",
+      year: "2023",
+      title: "Recognized as a top digital agency",
       content:
-        "By 2016, our hard work was starting to be recognized – as we were rated one of the top 3 SEO companies in Ukraine. At this point, we had about 60 employees working full-time on client projects.",
+        "By the end of 2023, Vantage Labs was recognized as one of the fastest-growing digital agencies in the US. The team had grown to 75 employees, and the company had completed over 500 projects across various industries, including e-commerce, finance, and healthcare.",
+    },
+    {
+      quarter: "Q-2",
+      year: "2024",
+      title: "Global expansion and industry recognition",
+      content:
+        "In 2024, Vantage Labs expanded operations to Europe and Asia, setting up satellite offices in London and Singapore. They gained recognition for their innovative SEO and digital transformation strategies, earning awards at industry conferences such as SMX Advanced and Digital Summit.",
+    },
+    {
+      quarter: "Q-1",
+      year: "2025",
+      title: "Present",
+      content:
+        "Today, Vantage Labs is a team of over 150 professionals working globally to help businesses achieve online excellence. With a commitment to innovation and client success, the company continues to lead the way in SEO, web development, and digital marketing solutions.",
     },
   ];
 

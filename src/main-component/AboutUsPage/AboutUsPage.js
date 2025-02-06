@@ -31,15 +31,15 @@ const AboutUsPage = (props) => {
                       <img src={icon} alt="" /> About Vantage Labs
                     </span>
                     <h2 className="title">
-                      Unlocking new heights of online success: how our SEO
-                      agency transforms visibility and growth
+                      Unlocking new heights of digital success: how our
+                      innovative solutions transform visibility and growth.
                     </h2>
                   </div>
                 </div>
                 <div className="col-xl-3 col-lg-4 mt-30">
                   <div className="count-box">
                     <h2 className="number">
-                      12 <span className="suffix">+</span>
+                      9 <span className="suffix">+</span>
                     </h2>
                     <span className="text">Years of experience</span>
                   </div>

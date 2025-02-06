@@ -17,11 +17,12 @@ const FeaturesSection = (props) => {
                 data-wow-duration="600ms"
               >
                 <div className="xb-item--icon">
-                  <img src={sIcon1} alt="" />
+                  <img src={sIcon1} alt="Deliver Results Icon" />
                 </div>
-                <h4 className="xb-item--title">Deliver results</h4>
+                <h4 className="xb-item--title">Deliver Results</h4>
                 <p className="xb-item--content">
-                  At Vantage Labs, delivering results means achieving success.
+                  At Vantage Labs, delivering results means driving measurable
+                  success for your brand.
                 </p>
               </div>
             </div>
@@ -32,12 +33,12 @@ const FeaturesSection = (props) => {
                 data-wow-duration="600ms"
               >
                 <div className="xb-item--icon">
-                  <img src={sIcon2} alt="" />
+                  <img src={sIcon2} alt="Being Proactive Icon" />
                 </div>
-                <h4 className="xb-item--title">Being proactive</h4>
+                <h4 className="xb-item--title">Being Proactive</h4>
                 <p className="xb-item--content">
-                  At Vantage Labs, being proactive means anticipating
-                  challenges.{" "}
+                  At Vantage Labs, being proactive means anticipating challenges
+                  and delivering innovative solutions.
                 </p>
               </div>
             </div>
@@ -48,11 +49,12 @@ const FeaturesSection = (props) => {
                 data-wow-duration="600ms"
               >
                 <div className="xb-item--icon">
-                  <img src={sIcon3} alt="" />
+                  <img src={sIcon3} alt="Sustainable Growth Icon" />
                 </div>
                 <h4 className="xb-item--title">Sustainable Growth</h4>
                 <p className="xb-item--content">
-                  Sustainable growth means achieving long-term success.
+                  Sustainable growth means creating strategies that ensure
+                  long-term success and scalability.
                 </p>
               </div>
             </div>
@@ -63,11 +65,12 @@ const FeaturesSection = (props) => {
                 data-wow-duration="600ms"
               >
                 <div className="xb-item--icon">
-                  <img src={sIcon4} alt="" />
+                  <img src={sIcon4} alt="Maximize Speed Icon" />
                 </div>
                 <h4 className="xb-item--title">Maximize Speed</h4>
                 <p className="xb-item--content">
-                  we focus on delivering quick and efficient solutions.
+                  We focus on delivering quick, efficient, and impactful
+                  solutions to meet your business needs.
                 </p>
               </div>
             </div>

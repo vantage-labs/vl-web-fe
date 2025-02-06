@@ -96,7 +96,7 @@ const Hero = () => {
                   <img
                     className="wow fadeInRight"
                     data-wow-duration="600ms"
-                    src="https://res.cloudinary.com/dilb4d364/image/upload/v1738741049/1_xpa2xj.png"
+                    src="https://res.cloudinary.com/dilb4d364/image/upload/q_auto/f_auto/v1738741049/1_xpa2xj.png"
                     alt=""
                   />
                 </Fade>

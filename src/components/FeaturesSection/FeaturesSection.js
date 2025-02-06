@@ -50,7 +50,7 @@ const FeaturesSection = (props) => {
                   <th>Features</th>
                   <th>
                     <img
-                      src="https://res.cloudinary.com/dilb4d364/image/upload/v1738731567/2_s9oxko.svg"
+                      src="https://res.cloudinary.com/dilb4d364/image/upload/q_auto/f_auto/v1738731567/2_s9oxko.svg"
                       alt=""
                       style={{ maxWidth: "250px" }}
                     />

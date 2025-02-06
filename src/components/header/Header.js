@@ -65,7 +65,7 @@ const Header = (props) => {
             <div className="header-logo">
               <Link onClick={ClickHandler} to="/">
                 <img
-                  src="https://res.cloudinary.com/dilb4d364/image/upload/v1738732324/5_guo4lg.svg"
+                  src="https://res.cloudinary.com/dilb4d364/image/upload/q_auto/f_auto/v1738732324/5_guo4lg.svg"
                   alt=""
                   style={{ maxWidth: "200px" }}
                 />
@@ -95,11 +95,6 @@ const Header = (props) => {
                       <li>
                         <Link onClick={ClickHandler} to="/service">
                           <span>Services</span>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={ClickHandler} to="/career">
-                          <span>Career</span>
                         </Link>
                       </li>
                       <li>

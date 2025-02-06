@@ -100,7 +100,7 @@ const TermsPage = (props) => {
                 <div className="col-lg-11">
                   <div className="item-details-widget">
                     <h2 className="item_details_info_title">
-                      Copyright and intellectual property usage
+                      Copyright and Intellectual Property Usage
                     </h2>
                     <p>
                       All content on this website, including text, graphics,
@@ -123,91 +123,207 @@ const TermsPage = (props) => {
                       their respective owners.
                     </p>
                   </div>
+
                   <div className="item-details-widget">
                     <h2 className="item_details_info_title">
-                      Website usage terms
+                      Services Offered
                     </h2>
                     <p>
-                      By accessing this website, you agree to comply with the
-                      following terms. You must not reproduce, modify, or
-                      distribute any content—including text, images, graphics,
-                      videos, and audio—for public or commercial use without
-                      authorization. Unauthorized use of website material may
-                      result in civil or criminal penalties. Vantage Labs
-                      reserves all rights not expressly granted herein.
-                    </p>
-                    <p>
-                      Additionally, users must not submit or transmit any
-                      unlawful, abusive, defamatory, or otherwise offensive
-                      material via this website. Contact information, including
-                      email addresses found here, must not be used for
-                      unsolicited or promotional communications.
-                    </p>
-                    <p>
-                      This website may contain links to external sites. Vantage
-                      Labs disclaims any responsibility for the content or
-                      privacy practices of third-party sites accessed through
-                      such links. Visiting these sites is solely at the user’s
-                      own risk.
+                      Vantage Labs provides the following services:
+                      <ul>
+                        <li>Web application development</li>
+                        <li>Landing page design</li>
+                        <li>UI/UX design</li>
+                        <li>Social media management and strategy</li>
+                      </ul>
+                      Payment options include:
+                      <ul>
+                        <li>One-time full payment</li>
+                        <li>
+                          Split payment: 50% upfront and 50% upon final
+                          agreement from both parties
+                        </li>
+                      </ul>
                     </p>
                   </div>
+
                   <div className="item-details-widget">
                     <h2 className="item_details_info_title">
-                      Software and services
+                      Ownership of Content
                     </h2>
                     <p>
-                      Our services, provided on an "as-is" and "as-available"
-                      basis, are governed by legally binding agreements that
-                      outline specific terms of service. You must give express
-                      consent to these terms to initiate service, making the
-                      agreement binding on both parties.
+                      Upon project completion:
+                      <ul>
+                        <li>
+                          Clients retain full copyright, including designs,
+                          content, and websites, under their name.
+                        </li>
+                        <li>
+                          Vantage Labs retains the right to showcase completed
+                          projects as part of its portfolio unless explicitly
+                          restricted by the client.
+                        </li>
+                        <li>
+                          Clients are granted an{" "}
+                          <strong>exclusive license</strong>, allowing them to
+                          assign maintenance tasks or further develop the
+                          project through other agencies.
+                        </li>
+                      </ul>
                     </p>
                   </div>
+
+                  <div className="item-details-widget">
+                    <h2 className="item_details_info_title">Use of Website</h2>
+                    <p>
+                      Certain educational materials, templates, and tools are
+                      provided on the website, but access is restricted to
+                      active clients. Unauthorized use of website content,
+                      including copying, reproducing, or distributing materials,
+                      is strictly prohibited.
+                    </p>
+                  </div>
+
+                  <div className="item-details-widget">
+                    <h2 className="item_details_info_title">Data Privacy</h2>
+                    <p>
+                      <strong>Data Collection:</strong> Vantage Labs collects
+                      essential information such as name, email, phone number,
+                      business goals, and business models to analyze and
+                      research for projects.
+                      <br />
+                      All client data is securely managed and used strictly for
+                      project-related purposes, adhering to confidentiality
+                      agreements.
+                    </p>
+                  </div>
+
+                  <div className="item-details-widget">
+                    <h2 className="item_details_info_title">Payment Terms</h2>
+                    <p>
+                      <strong>Payment Structure:</strong>
+                      <ul>
+                        <li>
+                          50% upfront payment before the start of the project.
+                        </li>
+                        <li>50% upon final project approval.</li>
+                      </ul>
+                      <strong>Refund Policy:</strong>
+                      <br></br>
+                      Refunds are calculated based on the work completed,
+                      measured against Key Performance Indicators (KPIs).
+                      <ul>
+                        <li>
+                          If 20% of the work is completed, 30% of the upfront
+                          payment is refunded.
+                        </li>
+                        <li>
+                          If 89% of the work is completed, the client is
+                          required to pay the remaining 39%.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+
                   <div className="item-details-widget">
                     <h2 className="item_details_info_title">
-                      Personal information policy
+                      Responsibilities and Guarantees
                     </h2>
                     <p>
-                      Vantage Labs adheres to ethical business practices and
-                      safeguards your personal information according to our
-                      Privacy Policy, which you should review for detailed
-                      information.
+                      Vantage Labs ensures structured traffic improvements but
+                      does not guarantee specific ROI or results beyond its
+                      agreed deliverables. The agency's liability is limited to
+                      services explicitly outlined in the project agreement.
                     </p>
                   </div>
-                  <div className="item-details-widget">
-                    <h2 className="item_details_info_title">Disclaimer</h2>
-                    <p>
-                      Information on this website is provided in good faith and
-                      sourced from reliable providers. However, it may contain
-                      inaccuracies or typographical errors. Vantage Labs makes
-                      no express or implied warranties regarding the
-                      information, products, or services available on this site,
-                      and it should not be considered as professional advice.
-                    </p>
-                    <p>
-                      Vantage Labs disclaims all warranties, including those
-                      related to fitness for a particular purpose. Usage of any
-                      services or material through this site is at the user’s
-                      own discretion and risk. Vantage Labs shall not be held
-                      liable for any direct, incidental, or consequential
-                      damages resulting from your use or inability to use this
-                      site or its content. Users agree to indemnify Vantage Labs
-                      from any losses, damages, or expenses, including attorney
-                      fees, related to misuse of the site’s content or services.
-                    </p>
-                  </div>
+
                   <div className="item-details-widget">
                     <h2 className="item_details_info_title">
-                      Limitation of liability
+                      Dispute Resolution
                     </h2>
                     <p>
-                      Vantage Labs disclaims liability for any damages,
-                      including lost data or profits, regardless of
-                      foreseeability or prior notification. This limitation may
-                      not apply in jurisdictions that prohibit exclusion of
-                      liability.
+                      In case of disputes:
+                      <ul>
+                        <li>
+                          Both parties must attempt to resolve the issue
+                          amicably within 14 business days.
+                        </li>
+                        <li>
+                          If unresolved, mediation is to be sought under
+                          Indonesian law.
+                        </li>
+                        <li>
+                          Should mediation fail, disputes will be settled in
+                          Indonesian courts under applicable national laws.
+                        </li>
+                      </ul>
                     </p>
                   </div>
+
+                  <div className="item-details-widget">
+                    <h2 className="item_details_info_title">
+                      Third-Party Tools and Software
+                    </h2>
+                    <p>
+                      Vantage Labs may use third-party tools or software to
+                      facilitate project completion. Clients may establish
+                      direct agreements with third-party providers to enhance
+                      the project.
+                    </p>
+                  </div>
+
+                  <div className="item-details-widget">
+                    <h2 className="item_details_info_title">
+                      Termination of Services
+                    </h2>
+                    <p>
+                      The agreement may be terminated under the following
+                      conditions:
+                      <ul>
+                        <li>
+                          <strong>Client-initiated termination:</strong> The
+                          client must compensate Vantage Labs for completed work
+                          as per the agreed KPIs.
+                        </li>
+                        <li>
+                          <strong>Agency-initiated termination:</strong> Vantage
+                          Labs will refund payments proportionate to incomplete
+                          deliverables.
+                        </li>
+                        <li>
+                          Penalty fees may apply if either party terminates the
+                          agreement without valid cause.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+
+                  <div className="item-details-widget">
+                    <h2 className="item_details_info_title">
+                      Legal Disclaimer
+                    </h2>
+                    <p>
+                      All information provided on this website is accurate to
+                      the best of Vantage Labs’ knowledge but may contain
+                      typographical errors or inaccuracies. The agency disclaims
+                      all implied warranties, including but not limited to,
+                      fitness for a specific purpose. Use of services or
+                      materials is at the client's discretion and risk.
+                    </p>
+                  </div>
+
+                  <div className="item-details-widget">
+                    <h2 className="item_details_info_title">
+                      Limitation of Liability
+                    </h2>
+                    <p>
+                      Vantage Labs is not liable for direct or indirect damages,
+                      including lost data or profits, regardless of prior
+                      notice. This limitation of liability may not apply in
+                      jurisdictions that prohibit such exclusions.
+                    </p>
+                  </div>
+
                   <div className="item-details-widget">
                     <h2 className="item_details_info_title">Contact</h2>
                     <p>
@@ -220,8 +336,8 @@ const TermsPage = (props) => {
                       </Link>{" "}
                       to contact us regarding this Terms & Conditions or other
                       related issues. You can also send us an e-mail <br /> on: 
-                      <a href="mailto:contact@Vantage Labs.com">
-                        contact@Vantage Labs.com
+                      <a href="mailto:contact@vantagelabs.com">
+                        contact@vantagelabs.com
                       </a>
                     </p>
                   </div>
