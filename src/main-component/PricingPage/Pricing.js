@@ -16,7 +16,6 @@ import picon from "../../images/icon/pricing-icon01.svg";
 import picon2 from "../../images/icon/pricing-icon02.svg";
 import picon3 from "../../images/icon/pricing-icon03.svg";
 import check from "../../images/icon/check-icon.svg";
-import cross from "../../images/icon/cross-icon.svg";
 
 const PricingSection = () => {
   const [activeTab, setActiveTab] = useState("1");
