@@ -1,22 +1,25 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import SimpleReactValidator from 'simple-react-validator';
-
+import emailjs from 'emailjs-com';
 
 const ContactForm = (props) => {
-
     const [forms, setForms] = useState({
         name: '',
         email: '',
-        subject: '',
         phone: '',
-        company: '',
-        message: ''
+        message: '',
     });
-    const [validator] = useState(new SimpleReactValidator({
-        className: 'errorMessage'
-    }));
-    const changeHandler = e => {
-        setForms({ ...forms, [e.target.name]: e.target.value })
+
+    const [validator] = useState(
+        new SimpleReactValidator({
+            className: 'errorMessage',
+        })
+    );
+
+    const [isSubmitting, setIsSubmitting] = useState(false);
+
+    const changeHandler = (e) => {
+        setForms({ ...forms, [e.target.name]: e.target.value });
         if (validator.allValid()) {
             validator.hideMessages();
         } else {
@@ -24,25 +27,40 @@ const ContactForm = (props) => {
         }
     };
 
-    const submitHandler = e => {
+    const submitHandler = (e) => {
         e.preventDefault();
         if (validator.allValid()) {
-            validator.hideMessages();
-            setForms({
-                name: '',
-                email: '',
-                subject: '',
-                phone: '',
-                company: '',
-                message: ''
-            })
+            setIsSubmitting(true);
+            emailjs.send(
+                process.env.REACT_APP_EMAILJS_SERVICE_ID,
+                process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+                forms,
+                process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+            )
+                .then(
+                    (result) => {
+                        alert('Message sent successfully!');
+                        setForms({
+                            name: '',
+                            email: '',
+                            phone: '',
+                            message: '',
+                        });
+                        setIsSubmitting(false);
+                    },
+                    (error) => {
+                        alert('Failed to send the message, please try again later.');
+                        console.error('EmailJS Error:', error.text);
+                        setIsSubmitting(false);
+                    }
+                );
         } else {
             validator.showMessages();
         }
     };
 
     return (
-        <form onSubmit={(e) => submitHandler(e)} className="contact-form">
+        <form onSubmit={submitHandler} className="contact-form">
             <div className="row">
                 <div className="col-lg-6">
                     <div className="input-field">
@@ -53,8 +71,9 @@ const ContactForm = (props) => {
                                 type="text"
                                 name="name"
                                 className="form-control"
-                                onBlur={(e) => changeHandler(e)}
-                                onChange={(e) => changeHandler(e)} />
+                                onBlur={changeHandler}
+                                onChange={changeHandler}
+                            />
                             {validator.message('name', forms.name, 'required|alpha_space')}
                         </div>
                     </div>
@@ -68,8 +87,9 @@ const ContactForm = (props) => {
                                 type="email"
                                 name="email"
                                 className="form-control"
-                                onBlur={(e) => changeHandler(e)}
-                                onChange={(e) => changeHandler(e)} />
+                                onBlur={changeHandler}
+                                onChange={changeHandler}
+                            />
                             {validator.message('email', forms.email, 'required|email')}
                         </div>
                     </div>
@@ -80,11 +100,12 @@ const ContactForm = (props) => {
                         <div className="input-box">
                             <input
                                 value={forms.phone}
-                                type="phone"
+                                type="tel"
                                 name="phone"
                                 className="form-control"
-                                onBlur={(e) => changeHandler(e)}
-                                onChange={(e) => changeHandler(e)} />
+                                onBlur={changeHandler}
+                                onChange={changeHandler}
+                            />
                             {validator.message('phone', forms.phone, 'required|phone')}
                         </div>
                     </div>
@@ -94,24 +115,26 @@ const ContactForm = (props) => {
                         <label htmlFor="text5">Message</label>
                         <div className="input-box">
                             <textarea
-                                onBlur={(e) => changeHandler(e)}
-                                onChange={(e) => changeHandler(e)}
                                 value={forms.message}
-                                type="text"
                                 name="message"
                                 className="form-control"
-                                placeholder="How can we help you?">
-                            </textarea>
+                                placeholder="How can we help you?"
+                                onBlur={changeHandler}
+                                onChange={changeHandler}
+                            ></textarea>
                             {validator.message('message', forms.message, 'required')}
                         </div>
                     </div>
                 </div>
             </div>
             <div className="cp-det-btn mt-20 d-grid">
-                <button className="cp-btn" type='submit'>Send us a message <i className="fal fa-arrow-right"></i></button>
+                <button className="cp-btn" type="submit" disabled={isSubmitting}>
+                    {isSubmitting ? 'Sending...' : 'Send us a message'}{' '}
+                    <i className="fal fa-arrow-right"></i>
+                </button>
             </div>
         </form>
-    )
-}
+    );
+};
 
 export default ContactForm;
