@@ -29,10 +29,10 @@ const ContactSection = (props) => {
                   <div className="xb-item--top">
                     <h3 className="xb-item--title">Contact Info</h3>
                     <span className="xb-item--hotline">
-                      <img src={icon1} alt="" /> +(1) 1230 452 8597
+                      <img src={icon1} alt="" /> +(62) 851 9592 2910
                     </span>
                     <span className="xb-item--email">
-                      <img src={icon2} alt="" /> Vantage Labs@example.com
+                      <img src={icon2} alt="" /> hello@vantagelabs.com
                     </span>
                     <ul className="social_icons_block list-unstyled ul_li">
                       <li>
@@ -48,20 +48,9 @@ const ContactSection = (props) => {
                         <Link
                           onClick={ClickHandler}
                           to="/contact"
-                          aria-label="Twitter"
+                          aria-label="Instagram"
                         >
-                          <svg
-                            width="17"
-                            height="17"
-                            viewBox="0 0 17 17"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M13.3872 0H15.9952L10.299 7.20048L17 17H11.7545L7.64298 11.0582L2.94415 17H0.332464L6.42395 9.29688L0 0H5.37853L9.09105 5.43101L13.3872 0ZM12.4711 15.2755H13.9155L4.5917 1.63462H3.0402L12.4711 15.2755Z"
-                              fill="#0C111D"
-                            />
-                          </svg>
+                          <i className="fab fa-instagram"></i>
                         </Link>
                       </li>
                       <li>
@@ -76,16 +65,13 @@ const ContactSection = (props) => {
                     </ul>
                   </div>
                   <div className="contact-info_widget">
-                    <h3 className="xb-title">United states office</h3>
+                    <h3 className="xb-title">Indonesia office</h3>
                     <span className="xb-location">
-                      Sunshine example park, Floor <br /> No 05A,Sector-94,
-                    </span>
-                  </div>
-                  <div className="contact-info_widget">
-                    <h3 className="xb-title">United kingdom office</h3>
-                    <span className="xb-location">
-                      12 Buckingham Rd, example <br /> Thwaite, HG3 4 TY, UK
-                      Contact
+                      Grand Slipi Tower, Jl. Jend Jl. Jelambar Barat No.22-24{" "}
+                      <br />
+                      Lt 9 Unit O, Jelambar Baru, Kec. Grogol petamburan, Kota
+                      <br />
+                      Jakarta Barat, Daerah Khusus Ibukota Jakarta 11480
                     </span>
                   </div>
                   <hr className="breack-line" />
@@ -104,7 +90,7 @@ const ContactSection = (props) => {
       <div className="gmap_canvas bg-light">
         <iframe
           title="map"
-          src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.881935295231!2d106.78430940000001!3d-6.1465558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f7923c637ec1%3A0xdd47f4571803ffb7!2sPT%20Boxity%20Central%20Indonesia!5e0!3m2!1sen!2sid!4v1739192368014!5m2!1sen!2sid?output=embed"
         ></iframe>
       </div>
     </div>

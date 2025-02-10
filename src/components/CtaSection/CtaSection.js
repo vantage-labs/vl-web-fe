@@ -1,5 +1,4 @@
 import React from "react";
-import cta from "../../images/cta/clip-bord.png";
 import { Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
 import { useTranslation } from "react-i18next";
@@ -56,7 +55,14 @@ const CtaSection = (props) => {
                   data-wow-delay="150ms"
                   data-wow-duration="600ms"
                 >
-                  <img className="updown" src={cta} alt="" />
+                  <dotlottie-player
+                    src="https://lottie.host/869c16c8-2879-4e9f-885e-52b99d3cfb5a/WhzL65U4jJ.lottie"
+                    background="transparent"
+                    speed="1"
+                    style={{ width: "400px" }}
+                    loop
+                    autoplay
+                  ></dotlottie-player>
                 </div>
               </div>
             </Fade>

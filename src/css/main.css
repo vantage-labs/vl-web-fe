@@ -19328,7 +19328,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 }
 
 .thm-btn--aso:hover {
-  color: var(--color-heading-two);
+  color: var(--color-white);
   transform: translateY(-2px);
 }
 
@@ -19772,12 +19772,12 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 }
 
 .cp-det-btn .cp-btn {
-  color: var(--color-heading-two);
+  color: var(--color-white);
   background: var(--color-yellow);
 }
 
 .cp-det-btn .cp-btn i {
-  color: var(--color-heading-two);
+  color: var(--color-white);
 }
 
 .cp-det-btn .cp-btn:hover {

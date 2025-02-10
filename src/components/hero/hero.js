@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import Bg from "../../images/bg/hero-bg02.jpg";
-import heroImg2 from "../../images/hero/hero-img03.png";
 import heroImg3 from "../../images/hero/hero-img04.png";
 import { useTranslation } from "react-i18next";
 
@@ -52,16 +51,6 @@ const Hero = () => {
                     </p>
                   </div>
                 </Fade>
-                {/* <Fade direction='up' triggerOnce={'false'} duration={1400} delay={9}>
-                                    <div>
-                                        <ul className="xb-item--item list-unstyled wow fadeInUp" data-wow-delay="200ms"
-                                            data-wow-duration="600ms">
-                                            <li><i className="far fa-check"></i> Recover lost traffic</li>
-                                            <li><i className="far fa-check"></i> Boost organic traffic</li>
-                                            <li><i className="far fa-check"></i> Get more sales</li>
-                                        </ul>
-                                    </div>
-                                </Fade> */}
                 <Fade
                   direction="up"
                   triggerOnce={"false"}
@@ -93,30 +82,16 @@ const Hero = () => {
                   duration={1200}
                   delay={9}
                 >
-                  <img
-                    className="wow fadeInRight"
-                    data-wow-duration="600ms"
-                    src="https://res.cloudinary.com/dilb4d364/image/upload/q_auto/f_auto/v1738741049/1_xpa2xj.png"
-                    alt=""
-                  />
+                  <dotlottie-player
+                    src="https://lottie.host/3b889712-cf57-473d-9250-0ade31c04566/xgdK2Ik3Ns.lottie"
+                    background="transparent"
+                    speed="1"
+                    style={{ width: "750px" }}
+                    loop
+                    autoplay
+                  ></dotlottie-player>
                 </Fade>
                 <div className="out-image">
-                  <div className="img img--one updown-2">
-                    <Fade
-                      direction="down"
-                      triggerOnce={"false"}
-                      duration={1200}
-                      delay={9}
-                    >
-                      <img
-                        className="wow fadeInDown"
-                        data-wow-delay="100ms"
-                        data-wow-duration="600ms"
-                        src={heroImg2}
-                        alt=""
-                      />
-                    </Fade>
-                  </div>
                   <div className="img img--two updown-3">
                     <Fade
                       direction="up"

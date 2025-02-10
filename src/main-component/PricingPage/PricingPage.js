@@ -6,7 +6,6 @@ import Footer from "../../components/footer/Footer";
 import Bg from "../../images/bg/page_bg01.jpg";
 import CtaSection from "../../components/CtaSection/CtaSection";
 import icon from "../../images/icon/dollar-icon.svg";
-import sImg from "../../images/hero/cd-img.png";
 import sImg2 from "../../images/shape/brd_shape.png";
 import PricingSection from "./Pricing";
 import FaqSection from "../../components/FaqSection/FaqSection";
@@ -44,7 +43,14 @@ const PricingPage = (props) => {
                 </div>
                 <div className="col-lg-4 mt-30">
                   <div className="pg-img-right pos-rel">
-                    <img src={sImg} alt="" />
+                    <dotlottie-player
+                      src="https://lottie.host/0dfbb818-ea4c-4499-8fea-d35f5cad516c/GzsggZRfQl.lottie"
+                      background="transparent"
+                      speed="1"
+                      style={{ width: "500px" }}
+                      loop
+                      autoplay
+                    ></dotlottie-player>
                     <div className="pg-arrow-shape">
                       <img className="xbzoominzoomup" src={sImg2} alt="" />
                     </div>

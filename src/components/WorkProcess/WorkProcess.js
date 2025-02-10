@@ -1,7 +1,6 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 import hicon from "../../images/icon/process-icon.svg";
-import pImg from "../../images/process/illistration.png";
 import pImg2 from "../../images/shape/pattern.png";
 import sIcon1 from "../../images/icon/search01.svg";
 import sIcon2 from "../../images/icon/user-icon.png";
@@ -98,7 +97,14 @@ const WorkProcess = (props) => {
                     className="sa-process-image wow fadeInRight"
                     data-wow-duration="600ms"
                   >
-                    <img className="updown" src={pImg} alt="" />
+                    <dotlottie-player
+                      src="https://lottie.host/7fdc1bec-633e-4991-b1ee-c85e43aff9f7/j8a70gwQFG.lottie"
+                      background="transparent"
+                      speed="1"
+                      style={{ width: "850px" }}
+                      loop
+                      autoplay
+                    ></dotlottie-player>
                   </div>
                 </div>
               </Fade>
