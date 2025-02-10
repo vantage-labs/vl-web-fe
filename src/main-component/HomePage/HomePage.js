@@ -13,8 +13,12 @@ import CtaSection from "../../components/CtaSection/CtaSection";
 import FaqSection from "../../components/FaqSection/FaqSection";
 import Footer from "../../components/footer/Footer";
 import Scrollbar from "../../components/scrollbar/scrollbar";
+import Clarity from "@microsoft/clarity";
 
 const HomePage = () => {
+  const projectId = process.env.CLARITY_ID;
+
+  Clarity.init(projectId);
   return (
     <Fragment>
       <div className="body_wrap sco_agency">
