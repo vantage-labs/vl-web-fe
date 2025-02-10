@@ -74,7 +74,7 @@ const ServiceSection = () => {
                   <img src={service.sIcon} alt="" />
                 </div>
                 <h3 className="xb-item--title">{service.title}</h3>
-                <Link onClick={ClickHandler} to={`/service-single/${service.slug}`} className="xb-item--arrow">
+                <Link onClick={ClickHandler} to={`/services/${service.slug}`} className="xb-item--arrow">
                   <svg
                     width="12"
                     height="12"

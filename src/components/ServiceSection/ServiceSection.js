@@ -100,7 +100,7 @@ const ServiceSection = (props) => {
                         </div>
                         <Link
                           onClick={ClickHandler}
-                          to={`/service-single/${service.slug}`}
+                          to={`/services/${service.slug}`}
                           className="xb-item--arrow"
                         >
                           <img src={sIcon} alt="" />
@@ -108,7 +108,7 @@ const ServiceSection = (props) => {
                       </div>
                       <Link
                         onClick={ClickHandler}
-                        to={`/service-single/${service.slug}`}
+                        to={`/services/${service.slug}`}
                         className="xb-overlay"
                       ></Link>
                     </div>
@@ -137,7 +137,7 @@ const ServiceSection = (props) => {
                         </div>
                         <Link
                           onClick={ClickHandler}
-                          to={`/service-single/${service.slug}`}
+                          to={`/services/${service.slug}`}
                           className="xb-item--arrow"
                         >
                           <img src={sIcon} alt="" />
@@ -145,7 +145,7 @@ const ServiceSection = (props) => {
                       </div>
                       <Link
                         onClick={ClickHandler}
-                        to={`/service-single/${service.slug}`}
+                        to={`/services/${service.slug}`}
                         className="xb-overlay"
                       ></Link>
                     </div>

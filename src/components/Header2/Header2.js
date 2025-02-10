@@ -149,7 +149,7 @@ const Header2 = (props) => {
                                                                             </div>
                                                                             <div className="col-xl-4 col-md-4">
                                                                                 <Link onClick={ClickHandler} className="iconbox_block_2"
-                                                                                    to="/service-single/Niche-research">
+                                                                                    to="/services/Niche-research">
                                                                                     <span className="icon_title_wrap">
                                                                                         <small className="iconbox_icon">
                                                                                             <img src={icon6} alt="" />
@@ -369,7 +369,7 @@ const Header2 = (props) => {
                                                                                         className="icon_list unordered_list_block">
                                                                                         <li>
                                                                                             <Link onClick={ClickHandler}
-                                                                                                to="/service-single/Niche-research">
+                                                                                                to="/services/Niche-research">
                                                                                                 <span
                                                                                                     className="icon_list_text">International
                                                                                                     SEO</span>
@@ -377,7 +377,7 @@ const Header2 = (props) => {
                                                                                         </li>
                                                                                         <li>
                                                                                             <Link onClick={ClickHandler}
-                                                                                                to="/service-single/Niche-research">
+                                                                                                to="/services/Niche-research">
                                                                                                 <span
                                                                                                     className="icon_list_text">Niche
                                                                                                     research</span>
@@ -385,7 +385,7 @@ const Header2 = (props) => {
                                                                                         </li>
                                                                                         <li>
                                                                                             <Link onClick={ClickHandler}
-                                                                                                to="/service-single/Niche-research">
+                                                                                                to="/services/Niche-research">
                                                                                                 <span
                                                                                                     className="icon_list_text">Link
                                                                                                     building </span>
@@ -393,7 +393,7 @@ const Header2 = (props) => {
                                                                                         </li>
                                                                                         <li>
                                                                                             <Link onClick={ClickHandler}
-                                                                                                to="/service-single/Niche-research">
+                                                                                                to="/services/Niche-research">
                                                                                                 <span
                                                                                                     className="icon_list_text">Enterprise
                                                                                                     SEO</span>
@@ -408,7 +408,7 @@ const Header2 = (props) => {
                                                                                         className="icon_list unordered_list_block">
                                                                                         <li>
                                                                                             <Link onClick={ClickHandler}
-                                                                                                to="/service-single/Niche-research">
+                                                                                                to="/services/Niche-research">
                                                                                                 <span
                                                                                                     className="icon_list_text">Penalty
                                                                                                     recovery</span>
@@ -416,7 +416,7 @@ const Header2 = (props) => {
                                                                                         </li>
                                                                                         <li>
                                                                                             <Link onClick={ClickHandler}
-                                                                                                to="/service-single/Niche-research">
+                                                                                                to="/services/Niche-research">
                                                                                                 <span
                                                                                                     className="icon_list_text">Content
                                                                                                     optimization</span>
@@ -424,7 +424,7 @@ const Header2 = (props) => {
                                                                                         </li>
                                                                                         <li>
                                                                                             <Link onClick={ClickHandler}
-                                                                                                to="/service-single/Niche-research">
+                                                                                                to="/services/Niche-research">
                                                                                                 <span
                                                                                                     className="icon_list_text">Technical
                                                                                                     SEO</span>
@@ -432,7 +432,7 @@ const Header2 = (props) => {
                                                                                         </li>
                                                                                         <li>
                                                                                             <Link onClick={ClickHandler}
-                                                                                                to="/service-single/Niche-research">
+                                                                                                to="/services/Niche-research">
                                                                                                 <span
                                                                                                     className="icon_list_text">Competitor
                                                                                                     analysis</span>

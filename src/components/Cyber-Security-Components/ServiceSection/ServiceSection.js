@@ -82,7 +82,7 @@ const ServiceSection = (props) => {
                       </defs>
                     </svg>
                   </div>
-                  <Link onClick={ClickHandler} to={`/service-single/${service.slug}`} className="xb-overlay xb-overlay-link"></Link>
+                  <Link onClick={ClickHandler} to={`/services/${service.slug}`} className="xb-overlay xb-overlay-link"></Link>
                 </div>
               ))}
 
@@ -141,7 +141,7 @@ const ServiceSection = (props) => {
                       </defs>
                     </svg>
                   </div>
-                  <Link onClick={ClickHandler} to={`/service-single/${service.slug}`} className="xb-overlay xb-overlay-link"></Link>
+                  <Link onClick={ClickHandler} to={`/services/${service.slug}`} className="xb-overlay xb-overlay-link"></Link>
                 </div>
               ))}
             </div>
@@ -199,7 +199,7 @@ const ServiceSection = (props) => {
                       </defs>
                     </svg>
                   </div>
-                  <Link onClick={ClickHandler} to={`/service-single/${service.slug}`} className="xb-overlay xb-overlay-link"></Link>
+                  <Link onClick={ClickHandler} to={`/services/${service.slug}`} className="xb-overlay xb-overlay-link"></Link>
                 </div>
               ))}
             </div>

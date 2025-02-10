@@ -97,17 +97,17 @@ const menus = [
             {
                 id: 52,
                 title: 'Web Design UI',
-                link: '/service-single/web-design-ui'
+                link: '/services/web-design-ui'
             },
             {
                 id: 53,
                 title: 'UI / UX',
-                link: '/service-single/ui-ux'
+                link: '/services/ui-ux'
             },
             {
                 id: 54,
                 title: 'Marketing Digital Packages',
-                link: '/service-single/marketing-digital-packages'
+                link: '/services/marketing-digital-packages'
             },
         ]
     },

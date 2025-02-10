@@ -44,7 +44,7 @@ const ServiceSection = (props) => {
                 <span className="xb-item--arrow"><i className="fal fa-long-arrow-right"></i></span>
                 <p className="xb-item--content">{service.description}</p>
               </div>
-              <Link onClick={ClickHandler} to={`/service-single/${service.slug}`} className="xb-overlay"></Link>
+              <Link onClick={ClickHandler} to={`/services/${service.slug}`} className="xb-overlay"></Link>
             </div>
           ))}
 

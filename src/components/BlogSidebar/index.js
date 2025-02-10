@@ -42,7 +42,7 @@ const BlogSidebar = (props) => {
                     <ul className="category_list_block list-unstyled">
                         {Services.slice(0, 6).map((service, srv) => (
                             <li key={srv}>
-                                <Link onClick={ClickHandler} to={`/service-single/${service.slug}`}>
+                                <Link onClick={ClickHandler} to={`/services/${service.slug}`}>
                                     <span><i className="far fa-arrow-right"></i>{service.title}</span>
                                     <span>(0{service.Id})</span>
                                 </Link>

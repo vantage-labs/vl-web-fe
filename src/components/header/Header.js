@@ -13,6 +13,7 @@ import clogo1 from "../../images/logo/client-logo.svg";
 import clogo2 from "../../images/logo/client-logo2.svg";
 import MobileMenu from "../MobileMenu/MobileMenu";
 import SelectCountry from "../lang/SelectLang";
+import Services from "../../api/service";
 
 const Header = (props) => {
   const [mobailActive, setMobailState] = useState(false);
@@ -71,9 +72,8 @@ const Header = (props) => {
         </div>
       </div>
       <div
-        className={`xb-header stricky  ${
-          isSticky ? "stricked-menu stricky-fixed" : ""
-        }`}
+        className={`xb-header stricky  ${isSticky ? "stricked-menu stricky-fixed" : ""
+          }`}
       >
         <div className="container">
           <div className="header__wrap ul_li_between">
@@ -365,52 +365,38 @@ const Header = (props) => {
                                       <div className="col-xl-6">
                                         <div className="megamenu_widget">
                                           <ul className="icon_list unordered_list_block">
-                                            <li>
-                                              <Link
-                                                onClick={ClickHandler}
-                                                to="/service-single/Web-development"
-                                              >
-                                                <span className="icon_list_text">
-                                                  Web Development
-                                                </span>
-                                              </Link>
-                                            </li>
-                                            <li>
-                                              <Link
-                                                onClick={ClickHandler}
-                                                to="/service-single/web-design-ui"
-                                              >
-                                                <span className="icon_list_text">
-                                                  Web Design UI
-                                                </span>
-                                              </Link>
-                                            </li>
+                                            {Services.slice(0, 3).map((service, index) => (
+                                              <li key={index}>
+                                                <Link
+                                                  onClick={ClickHandler}
+                                                  to={`/services/${service.slug}`}
+                                                >
+                                                  <span className="icon_list_text">
+                                                    {service.title}
+                                                  </span>
+                                                </Link>
+                                              </li>
+                                            ))
+                                            }
                                           </ul>
                                         </div>
                                       </div>
                                       <div className="col-xl-6">
                                         <div className="megamenu_widget">
                                           <ul className="icon_list unordered_list_block">
-                                            <li>
-                                              <Link
-                                                onClick={ClickHandler}
-                                                to="/service-single/ui-ux"
-                                              >
-                                                <span className="icon_list_text">
-                                                  Ui / UX{" "}
-                                                </span>
-                                              </Link>
-                                            </li>
-                                            <li>
-                                              <Link
-                                                onClick={ClickHandler}
-                                                to="/service-single/marketing-digital-package"
-                                              >
-                                                <span className="icon_list_text">
-                                                  Marketing Digital Package
-                                                </span>
-                                              </Link>
-                                            </li>
+                                            {Services.slice(3, 5).map((service, index) => (
+                                              <li key={index}>
+                                                <Link
+                                                  onClick={ClickHandler}
+                                                  to={`/services/${service.slug}`}
+                                                >
+                                                  <span className="icon_list_text">
+                                                    {service.title}
+                                                  </span>
+                                                </Link>
+                                              </li>
+                                            ))
+                                            }
                                           </ul>
                                         </div>
                                       </div>

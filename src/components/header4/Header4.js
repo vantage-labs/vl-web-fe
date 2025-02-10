@@ -200,7 +200,7 @@ const Header4 = (props) => {
                                         <Link
                                           onClick={ClickHandler}
                                           className="iconbox_block_2"
-                                          to="/service-single/Niche-research"
+                                          to="/services/Niche-research"
                                         >
                                           <span className="icon_title_wrap">
                                             <small className="iconbox_icon">
@@ -461,7 +461,7 @@ const Header4 = (props) => {
                                             <li>
                                               <Link
                                                 onClick={ClickHandler}
-                                                to="/service-single/Niche-research"
+                                                to="/services/Niche-research"
                                               >
                                                 <span className="icon_list_text">
                                                   International SEO
@@ -471,7 +471,7 @@ const Header4 = (props) => {
                                             <li>
                                               <Link
                                                 onClick={ClickHandler}
-                                                to="/service-single/Niche-research"
+                                                to="/services/Niche-research"
                                               >
                                                 <span className="icon_list_text">
                                                   Niche research
@@ -481,7 +481,7 @@ const Header4 = (props) => {
                                             <li>
                                               <Link
                                                 onClick={ClickHandler}
-                                                to="/service-single/Niche-research"
+                                                to="/services/Niche-research"
                                               >
                                                 <span className="icon_list_text">
                                                   Link building{" "}
@@ -491,7 +491,7 @@ const Header4 = (props) => {
                                             <li>
                                               <Link
                                                 onClick={ClickHandler}
-                                                to="/service-single/Niche-research"
+                                                to="/services/Niche-research"
                                               >
                                                 <span className="icon_list_text">
                                                   Enterprise SEO
@@ -507,7 +507,7 @@ const Header4 = (props) => {
                                             <li>
                                               <Link
                                                 onClick={ClickHandler}
-                                                to="/service-single/Niche-research"
+                                                to="/services/Niche-research"
                                               >
                                                 <span className="icon_list_text">
                                                   Penalty recovery
@@ -517,7 +517,7 @@ const Header4 = (props) => {
                                             <li>
                                               <Link
                                                 onClick={ClickHandler}
-                                                to="/service-single/Niche-research"
+                                                to="/services/Niche-research"
                                               >
                                                 <span className="icon_list_text">
                                                   Content optimization
@@ -527,7 +527,7 @@ const Header4 = (props) => {
                                             <li>
                                               <Link
                                                 onClick={ClickHandler}
-                                                to="/service-single/Niche-research"
+                                                to="/services/Niche-research"
                                               >
                                                 <span className="icon_list_text">
                                                   Technical SEO
@@ -537,7 +537,7 @@ const Header4 = (props) => {
                                             <li>
                                               <Link
                                                 onClick={ClickHandler}
-                                                to="/service-single/Niche-research"
+                                                to="/services/Niche-research"
                                               >
                                                 <span className="icon_list_text">
                                                   Competitor analysis

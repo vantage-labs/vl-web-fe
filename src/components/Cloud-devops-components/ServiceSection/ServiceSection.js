@@ -41,7 +41,7 @@ const ServiceSection = () => {
                   <span></span>
                   <span></span>
                 </div>
-                <Link onClick={ClickHandler} to={`/service-single/${service.slug}`} className="xb-overlay"></Link>
+                <Link onClick={ClickHandler} to={`/services/${service.slug}`} className="xb-overlay"></Link>
               </div>
             </div>
           ))}
