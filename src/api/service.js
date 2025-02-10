@@ -4,11 +4,6 @@ import icon3 from "../images/icon/digital-tra.gif";
 import icon4 from "../images/icon/business-develop.gif";
 import icon5 from "../images/icon/search.gif";
 
-import simg1 from "../images/service/service-img02.jpg";
-import simg2 from "../images/service/service-img01.jpg";
-import simg3 from "../images/service/service-img03.jpg";
-import simg4 from "../images/service/service-img04.jpg";
-
 const Services = [
   {
     Id: "1",
@@ -59,74 +54,6 @@ const Services = [
     thumb2: "Back-End",
     description:
       "Develop scalable, secure, and high-performance web applications.",
-  },
-  {
-    Id: "6",
-    sImg: simg1,
-    title: "Marketing Digital Packages",
-    slug: "marketing-digital",
-    thumb1: "SEO",
-    thumb2: "Social Media",
-    description:
-      "Comprehensive digital marketing strategies to maximize online visibility.",
-  },
-  {
-    Id: "7",
-    sImg: simg2,
-    title: "Enterprise Solutions",
-    slug: "enterprise-solutions",
-    thumb1: "CRM Development",
-    thumb2: "Business Intelligence",
-    description:
-      "Custom enterprise solutions tailored to streamline business processes.",
-  },
-  {
-    Id: "8",
-    sImg: simg3,
-    title: "AI & Data Solutions",
-    slug: "ai-data-solutions",
-    features: [
-      "AI-powered business insights",
-      "Data-driven decision making",
-      "Predictive analytics",
-      "Real-time data processing",
-    ],
-  },
-  {
-    Id: "9",
-    sImg: simg4,
-    title: "Cyber Security Solutions",
-    slug: "cyber-security",
-    features: [
-      "Threat detection & response",
-      "Network security",
-      "Data protection",
-      "Risk assessment",
-    ],
-  },
-  {
-    Id: "10",
-    sImg: simg1,
-    title: "Cloud & DevOps Solutions",
-    slug: "cloud-devops",
-    features: [
-      "Infrastructure as Code (IaC)",
-      "Continuous Integration & Deployment",
-      "Cost Optimization Strategies",
-      "Scalable Cloud Architecture",
-    ],
-  },
-  {
-    Id: "11",
-    sImg: simg2,
-    title: "Help Desk SaaS",
-    slug: "help-desk-saas",
-    features: [
-      "Automated Ticketing System",
-      "Customer Support Optimization",
-      "AI Chatbots & Assistance",
-      "Workflow Automation",
-    ],
   },
 ];
 
