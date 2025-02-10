@@ -1,102 +1,102 @@
 {
   "hero": {
-    "headline": "Menguasai Digital",
+    "headline": "Dominasi Dunia Digital",
     "headline2": "Untuk Merek Ambisius",
-    "subheadline": "Kami adalah agensi digital yang berspesialisasi dalam menciptakan solusi digital khusus untuk merek ambisius.",
-    "cta": "Amankan Konsultasi Eksklusif Anda"
+    "subheadline": "Kami adalah agensi digital yang ahli dalam menciptakan solusi digital khusus untuk merek ambisius yang ingin berkembang.",
+    "cta": "Dapatkan Konsultasi Eksklusif Anda"
   },
   "about": {
     "coreValues": {
       "0": {
         "headline": "Inovasi",
-        "label": "Kami mendefinisikan ulang keunggulan digital melalui teknologi mutakhir dan pencarian inovasi tanpa henti."
+        "label": "Kami terus mendorong batas teknologi dengan inovasi terbaru untuk menghadirkan solusi digital terbaik."
       },
       "1": {
-        "headline": "Berpusat pada Klien",
-        "label": "Kesuksesan Anda mendorong ambisi kami, saat kami merancang strategi khusus untuk meningkatkan merek Anda."
+        "headline": "Fokus pada Klien",
+        "label": "Kesuksesan Anda adalah prioritas kami. Kami merancang strategi yang benar-benar sesuai dengan kebutuhan bisnis Anda."
       },
       "2": {
         "headline": "Transparansi",
-        "label": "Kami membangun kepercayaan melalui komunikasi yang jujur dan hasil yang terukur, memastikan kejelasan di setiap langkah."
+        "label": "Kami membangun kepercayaan dengan komunikasi yang jelas dan hasil yang terukur, memastikan Anda selalu mendapatkan gambaran yang transparan."
       }
     },
-    "mission": "Menciptakan ekosistem digital khusus yang memberdayakan merek ambisius untuk mencapai dominasi dengan teknologi inovatif, strategi berbasis data, dan pendekatan personal.",
-    "vission": "Menjadi mitra paling tepercaya untuk merek yang ingin mencapai keunggulan digital, menetapkan standar global untuk inovasi, transparansi, dan strategi berdampak dalam lanskap digital."
+    "mission": "Membangun ekosistem digital yang disesuaikan untuk memberdayakan merek ambisius dalam mencapai keunggulan melalui teknologi inovatif, strategi berbasis data, dan pendekatan yang dipersonalisasi.",
+    "vission": "Menjadi mitra digital paling tepercaya bagi merek yang ingin mencapai keunggulan digital, dengan menetapkan standar global dalam inovasi, transparansi, dan strategi berdampak di dunia digital."
   },
   "servicesSection": {
-    "title": "Layanan Digital Khusus Untuk",
+    "title": "Layanan Digital yang Disesuaikan Untuk",
     "title2": "Merek Ambisius",
     "services": {
       "0": {
         "headline": "Arsitektur Web Khusus",
-        "label": "Bangun situs web dan aplikasi web berkinerja tinggi yang disesuaikan dengan tujuan Anda."
+        "label": "Bangun situs web dan aplikasi berbasis web berkinerja tinggi yang dirancang sesuai dengan tujuan bisnis Anda."
       },
       "1": {
         "headline": "Desain UI/UX",
-        "label": "Tingkatkan pengalaman pengguna dengan desain premium dan antarmuka yang intuitif."
+        "label": "Tingkatkan pengalaman pengguna dengan desain yang menarik, intuitif, dan fungsional."
       },
       "2": {
         "headline": "Optimisasi Kinerja",
-        "label": "Tingkatkan ekosistem digital Anda dengan wawasan dan strategi yang dapat diterapkan."
+        "label": "Maksimalkan potensi digital Anda dengan strategi berbasis data dan analisis mendalam."
       },
       "3": {
-        "headline": "Layanan Ekspansi Global",
-        "label": "Kembangkan merek Anda secara internasional dengan strategi untuk pasar yang beragam."
+        "headline": "Ekspansi Global",
+        "label": "Perluas jangkauan merek Anda ke pasar internasional dengan strategi yang telah teruji."
       },
       "4": {
         "headline": "Pengembangan Web",
-        "label": "Kembangkan solusi web yang aman, fleksibel, dan kaya fitur yang disesuaikan dengan kebutuhan bisnis Anda."
+        "label": "Bangun solusi web yang fleksibel, aman, dan kaya fitur untuk memenuhi kebutuhan bisnis Anda."
       }
     }
   },
   "workflowSection": {
-    "title": "Alur Kerja Terbukti Kami",
+    "title": "Alur Kerja Kami yang Terbukti",
     "steps": {
       "0": {
         "headline": "Konsultasi Eksklusif",
-        "description": "Ikuti pertemuan mendalam dan pribadi untuk memahami visi, tujuan, dan tantangan merek Anda."
+        "description": "Kami mengadakan pertemuan mendalam untuk memahami visi, tujuan, dan tantangan bisnis Anda."
       },
       "1": {
-        "headline": "Riset Mendalam & Pengembangan Strategi",
-        "description": "Analisis kebutuhan pasar, preferensi desain, dan peluang untuk menciptakan strategi yang disesuaikan untuk proyek Anda."
+        "headline": "Riset Mendalam & Strategi",
+        "description": "Kami menganalisis pasar, tren industri, dan kebutuhan audiens untuk merancang strategi yang tepat untuk Anda."
       },
       "2": {
         "headline": "Tinjauan & Persetujuan Proyek",
-        "description": "Sajikan temuan riset dan strategi yang diusulkan untuk persetujuan Anda sebelum memulai proyek."
+        "description": "Kami mempresentasikan strategi dan rancangan proyek kepada Anda sebelum melanjutkan ke tahap eksekusi."
       },
       "3": {
         "headline": "Eksekusi & Pemantauan",
-        "description": "Laksanakan proyek dengan tim ahli kami dan sediakan alat untuk memantau kemajuan secara real-time."
+        "description": "Kami menerapkan strategi dengan tim ahli dan menyediakan akses untuk memantau progres proyek Anda secara real-time."
       },
       "4": {
-        "headline": "Tinjauan & Pengiriman Akhir",
-        "description": "Lakukan tinjauan akhir proyek yang telah selesai untuk memastikan keunggulan sebelum memberikan wawasan yang dapat ditindaklanjuti."
+        "headline": "Tinjauan Akhir & Pengiriman",
+        "description": "Kami melakukan tinjauan akhir untuk memastikan hasil terbaik sebelum proyek diselesaikan dan diserahkan kepada Anda."
       }
     }
   },
   "faqSection": {
-    "title": "Punya Pertanyaan? Kami Punya Jawaban",
+    "title": "Ada Pertanyaan? Kami Punya Jawabannya",
     "questions": [
       {
-        "question": "Berapa lama waktu yang dibutuhkan untuk melihat hasil dari layanan Anda?",
-        "answer": "Hasil bervariasi, tetapi halaman arahan dan aplikasi web menunjukkan hasil dalam 1-3 bulan, sementara peningkatan UI/UX memengaruhi keterlibatan pengguna dalam hitungan minggu."
+        "question": "Berapa lama waktu yang dibutuhkan untuk melihat hasil layanan Anda?",
+        "answer": "Hasil dapat bervariasi, tetapi situs web dan aplikasi web biasanya menunjukkan dampak dalam 1-3 bulan, sementara perubahan UI/UX bisa terasa dalam hitungan minggu."
       },
       {
         "question": "Berapa anggaran minimum untuk sebuah proyek?",
-        "answer": "Anggaran minimum proyek kami adalah $2.000 untuk layanan web dan $800 untuk proyek desain."
+        "answer": "Kami menerima proyek dengan anggaran minimum $2.000 untuk layanan pengembangan web dan $800 untuk proyek desain."
       },
       {
-        "question": "Bisakah saya memantau kemajuan proyek saya?",
-        "answer": "Ya, kami menyediakan alat untuk transparansi penuh dan pembaruan waktu nyata."
+        "question": "Apakah saya bisa memantau progres proyek saya?",
+        "answer": "Tentu! Kami menyediakan akses ke alat pemantauan proyek secara real-time untuk transparansi penuh."
       },
       {
-        "question": "Apakah Anda menawarkan dukungan setelah proyek selesai?",
-        "answer": "Ya, dengan paket pemeliharaan mulai dari $500/bulan dan ulasan optimisasi."
+        "question": "Apakah ada dukungan setelah proyek selesai?",
+        "answer": "Ya, kami menawarkan paket pemeliharaan mulai dari $500 per bulan, termasuk pemantauan dan optimisasi berkelanjutan."
       }
     ]
   },
   "ctaSection": {
-    "headline": "Siap Meningkatkan Merek Anda?",
-    "cta": "Berhenti puas dengan mediokritas. Amankan konsultasi eksklusif Anda sekarang dan rasakan perbedaan Vantage Labs."
+    "headline": "Siap Membawa Merek Anda ke Level Berikutnya?",
+    "cta": "Jangan puas dengan hasil biasa. Dapatkan konsultasi eksklusif sekarang dan rasakan perbedaan yang kami tawarkan!"
   }
 }
