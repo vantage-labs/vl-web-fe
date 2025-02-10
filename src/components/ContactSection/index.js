@@ -67,11 +67,11 @@ const ContactSection = (props) => {
                   <div className="contact-info_widget">
                     <h3 className="xb-title">Indonesia office</h3>
                     <span className="xb-location">
-                      Grand Slipi Tower, Jl. Jend Jl. Jelambar Barat No.22-24{" "}
+                      Grand Slipi Tower, <br />
+                      Jl. Jend Jl. Jelambar Barat No.22-24 Lt 9 Unit O, Jelambar
+                      Baru, Kec. Grogol petamburan,
                       <br />
-                      Lt 9 Unit O, Jelambar Baru, Kec. Grogol petamburan, Kota
-                      <br />
-                      Jakarta Barat, Daerah Khusus Ibukota Jakarta 11480
+                      Kota Jakarta Barat 11480
                     </span>
                   </div>
                   <hr className="breack-line" />
