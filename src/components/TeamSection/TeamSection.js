@@ -112,7 +112,7 @@ const TeamSection = () => {
                           <div className="xb-item--avatar">
                             <img
                               src={team.tImg}
-                              alt=""
+                              alt="Our proudly specially team member"
                               style={{ borderRadius: "100%" }}
                             />
                           </div>
@@ -123,14 +123,24 @@ const TeamSection = () => {
                         </div>
                         <ul className="xb-item--social-link ul_li">
                           <li>
-                            <Link onClick={ClickHandler} to="/team">
+                            <a
+                              href={`https://linkedin.com/in/${team.linkedin}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              onClick={ClickHandler}
+                            >
                               <i className="fab fa-linkedin-in"></i>
-                            </Link>
+                            </a>
                           </li>
                           <li>
-                            <Link onClick={ClickHandler} to="/team">
+                            <a
+                              href={`https://instagram.com/${team.instagram}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              onClick={ClickHandler}
+                            >
                               <i className="fab fa-instagram"></i>
-                            </Link>
+                            </a>
                           </li>
                         </ul>
                       </div>

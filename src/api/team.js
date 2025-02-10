@@ -12,6 +12,8 @@ const Teams = [
     title: "Project Manager & Full Stack Developer",
     experience: "9 Years experience",
     rating: "4.8",
+    instagram: "bcjlt",
+    linkedin: "bintang-tobing",
   },
   {
     Id: "2",
@@ -21,6 +23,8 @@ const Teams = [
     title: "UI UX Specialist",
     experience: "6 Years experience",
     rating: "4.9",
+    instagram: "ahmadrezaipandi",
+    linkedin: "ahmad-reza-ipandi",
   },
   {
     Id: "3",
@@ -30,6 +34,8 @@ const Teams = [
     title: "Full Stack Developer",
     experience: "5 Years experience",
     rating: "4.9",
+    instagram: "bahari",
+    linkedin: "bahari",
   },
   {
     Id: "4",
@@ -39,6 +45,8 @@ const Teams = [
     title: "Content Specialist",
     experience: "6 Years experience",
     rating: "4.9",
+    instagram: "evelynhireme",
+    linkedin: "evelyn-hireme",
   },
 ];
 
