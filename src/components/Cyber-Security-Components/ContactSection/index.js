@@ -46,7 +46,7 @@ const ContactSection = (props) => {
                       <span className="clr-sky">
                         <img src={icon3} alt="" />
                       </span>
-                      Vantage Labs@gmail.com
+                      Vntage Labs@gmail.com
                     </li>
                     <li>
                       <span className="clr-orange">

@@ -27,7 +27,7 @@ const Footer = (props) => {
           <div className="sec-title--two sec-title--three text-center mb-40">
             <span className="sub-title">
               <img src="assets/img/icon/airdrop01.svg" alt="" />
-              <span>Join the Vantage Labs community</span>
+              <span>Join the Vntage Labs community</span>
             </span>
           </div>
           <div className="social-link ul_li_between">
@@ -107,7 +107,7 @@ const Footer = (props) => {
               <ul className="xb-item--holder list-unstyled">
                 <li className="xb-item--list">
                   <Link onClick={ClickHandler} to="/blog">
-                    Vantage Labs Blog
+                    Vntage Labs Blog
                   </Link>
                 </li>
                 <li className="xb-item--list">
@@ -130,7 +130,7 @@ const Footer = (props) => {
             <div className="sa-newslatter footer-widget">
               <span className="xb-item--sub-title">Newsletter</span>
               <p className="xb-item--content clr-white">
-                Sign up Vantage Labs for weekly updates.
+                Sign up Vntage Labs for weekly updates.
               </p>
               <div className="xb-item--input-box">
                 <label htmlFor="text6">Email</label>
@@ -150,7 +150,7 @@ const Footer = (props) => {
             <p className="copyright mt-20">
               Copyright © 2024{" "}
               <Link onClick={ClickHandler} to="/home-4">
-                Vantage Labs
+                Vntage Labs
               </Link>
               . All rights reserved.
             </p>

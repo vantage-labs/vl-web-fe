@@ -32,7 +32,7 @@ const ContactSection = (props) => {
                       <img src={icon1} alt="" /> +(62) 851 9592 2910
                     </span>
                     <span className="xb-item--email">
-                      <img src={icon2} alt="" /> hello@vantagelabs.com
+                      <img src={icon2} alt="" /> cs@vntagelabs.com
                     </span>
                     <ul className="social_icons_block list-unstyled ul_li">
                       <li>

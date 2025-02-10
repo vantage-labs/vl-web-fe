@@ -18,44 +18,44 @@ const RoadmapSlider = () => {
     {
       quarter: "Q-1",
       year: "2021",
-      title: "Vantage Labs was founded",
+      title: "Vntage Labs was founded",
       content:
-        "In January 2021, Vantage Labs was founded by a group of digital marketing enthusiasts in the USA. Starting from a small co-working space, the team of six shared a vision to revolutionize how businesses grow online through cutting-edge SEO strategies and digital solutions.",
+        "In January 2021, Vntage Labs was founded by a group of digital marketing enthusiasts in the USA. Starting from a small co-working space, the team of six shared a vision to revolutionize how businesses grow online through cutting-edge SEO strategies and digital solutions.",
     },
     {
       quarter: "Q-4",
       year: "2021",
       title: "First major milestone achieved",
       content:
-        "By the end of 2021, Vantage Labs had secured its first 20 clients, delivering over 50 successful SEO audits and marketing strategies. The team grew to 15 full-time employees, and they moved into their first official office—a small but modern space in downtown Seattle.",
+        "By the end of 2021, Vntage Labs had secured its first 20 clients, delivering over 50 successful SEO audits and marketing strategies. The team grew to 15 full-time employees, and they moved into their first official office—a small but modern space in downtown Seattle.",
     },
     {
       quarter: "Q-2",
       year: "2022",
       title: "Expanding into international markets",
       content:
-        "In mid-2022, Vantage Labs expanded its reach to international markets, gaining clients from the UK, Canada, and Australia. They also introduced advanced analytics and AI-driven SEO solutions, solidifying their position as an emerging leader in the digital marketing space.",
+        "In mid-2022, Vntage Labs expanded its reach to international markets, gaining clients from the UK, Canada, and Australia. They also introduced advanced analytics and AI-driven SEO solutions, solidifying their position as an emerging leader in the digital marketing space.",
     },
     {
       quarter: "Q-4",
       year: "2023",
       title: "Recognized as a top digital agency",
       content:
-        "By the end of 2023, Vantage Labs was recognized as one of the fastest-growing digital agencies in the US. The team had grown to 75 employees, and the company had completed over 500 projects across various industries, including e-commerce, finance, and healthcare.",
+        "By the end of 2023, Vntage Labs was recognized as one of the fastest-growing digital agencies in the US. The team had grown to 75 employees, and the company had completed over 500 projects across various industries, including e-commerce, finance, and healthcare.",
     },
     {
       quarter: "Q-2",
       year: "2024",
       title: "Global expansion and industry recognition",
       content:
-        "In 2024, Vantage Labs expanded operations to Europe and Asia, setting up satellite offices in London and Singapore. They gained recognition for their innovative SEO and digital transformation strategies, earning awards at industry conferences such as SMX Advanced and Digital Summit.",
+        "In 2024, Vntage Labs expanded operations to Europe and Asia, setting up satellite offices in London and Singapore. They gained recognition for their innovative SEO and digital transformation strategies, earning awards at industry conferences such as SMX Advanced and Digital Summit.",
     },
     {
       quarter: "Q-1",
       year: "2025",
       title: "Present",
       content:
-        "Today, Vantage Labs is a team of over 150 professionals working globally to help businesses achieve online excellence. With a commitment to innovation and client success, the company continues to lead the way in SEO, web development, and digital marketing solutions.",
+        "Today, Vntage Labs is a team of over 150 professionals working globally to help businesses achieve online excellence. With a commitment to innovation and client success, the company continues to lead the way in SEO, web development, and digital marketing solutions.",
     },
   ];
 

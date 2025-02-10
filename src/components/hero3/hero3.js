@@ -27,7 +27,7 @@ const Hero3 = (props) => {
                       data-wow-delay="0ms"
                       data-wow-duration="600ms"
                     >
-                      Get AI and Data Analytics solutions With Vantage Labs
+                      Get AI and Data Analytics solutions With Vntage Labs
                     </h1>
                   </div>
                 </Fade>

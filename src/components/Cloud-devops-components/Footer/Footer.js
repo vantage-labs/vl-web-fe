@@ -116,7 +116,7 @@ const Footer = (props) => {
             <p className="copyright mb-30">
               Copyright © 2024{" "}
               <Link onClick={ClickHandler} to="index.html">
-                Vantage Labs
+                Vntage Labs
               </Link>
               . All rights reserved.
             </p>

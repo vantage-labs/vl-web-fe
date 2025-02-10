@@ -28,7 +28,7 @@ const AboutUsPage = (props) => {
                 <div className="col-xl-9 col-lg-8 mt-30">
                   <div className="page-title-box">
                     <span className="sub-title">
-                      <img src={icon} alt="" /> About Vantage Labs
+                      <img src={icon} alt="" /> About Vntage Labs
                     </span>
                     <h2 className="title">
                       Unlocking new heights of digital success: how our

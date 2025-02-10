@@ -54,7 +54,7 @@ const Header = (props) => {
         <span>
           {" "}
           Enjoy 15% off on all annual plans until April 2025! Elevate your brand
-          with Vantage Labs' cutting-edge digital solutions 🚀"
+          with Vntage Labs' cutting-edge digital solutions 🚀"
         </span>
         <span>
           <Link onClick={ClickHandler} to="/">
@@ -72,8 +72,9 @@ const Header = (props) => {
         </div>
       </div>
       <div
-        className={`xb-header stricky  ${isSticky ? "stricked-menu stricky-fixed" : ""
-          }`}
+        className={`xb-header stricky  ${
+          isSticky ? "stricked-menu stricky-fixed" : ""
+        }`}
       >
         <div className="container">
           <div className="header__wrap ul_li_between">
@@ -122,7 +123,7 @@ const Header = (props) => {
                                             </small>
                                           </span>
                                           <span className="description mb-0">
-                                            Learn more about Vantage labs.
+                                            Learn more about Vntage Labs.
                                           </span>
                                         </Link>
                                       </div>
@@ -365,38 +366,40 @@ const Header = (props) => {
                                       <div className="col-xl-6">
                                         <div className="megamenu_widget">
                                           <ul className="icon_list unordered_list_block">
-                                            {Services.slice(0, 3).map((service, index) => (
-                                              <li key={index}>
-                                                <Link
-                                                  onClick={ClickHandler}
-                                                  to={`/services/${service.slug}`}
-                                                >
-                                                  <span className="icon_list_text">
-                                                    {service.title}
-                                                  </span>
-                                                </Link>
-                                              </li>
-                                            ))
-                                            }
+                                            {Services.slice(0, 3).map(
+                                              (service, index) => (
+                                                <li key={index}>
+                                                  <Link
+                                                    onClick={ClickHandler}
+                                                    to={`/services/${service.slug}`}
+                                                  >
+                                                    <span className="icon_list_text">
+                                                      {service.title}
+                                                    </span>
+                                                  </Link>
+                                                </li>
+                                              )
+                                            )}
                                           </ul>
                                         </div>
                                       </div>
                                       <div className="col-xl-6">
                                         <div className="megamenu_widget">
                                           <ul className="icon_list unordered_list_block">
-                                            {Services.slice(3, 5).map((service, index) => (
-                                              <li key={index}>
-                                                <Link
-                                                  onClick={ClickHandler}
-                                                  to={`/services/${service.slug}`}
-                                                >
-                                                  <span className="icon_list_text">
-                                                    {service.title}
-                                                  </span>
-                                                </Link>
-                                              </li>
-                                            ))
-                                            }
+                                            {Services.slice(3, 5).map(
+                                              (service, index) => (
+                                                <li key={index}>
+                                                  <Link
+                                                    onClick={ClickHandler}
+                                                    to={`/services/${service.slug}`}
+                                                  >
+                                                    <span className="icon_list_text">
+                                                      {service.title}
+                                                    </span>
+                                                  </Link>
+                                                </li>
+                                              )
+                                            )}
                                           </ul>
                                         </div>
                                       </div>

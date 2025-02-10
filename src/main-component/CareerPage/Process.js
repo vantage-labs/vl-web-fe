@@ -143,7 +143,7 @@ const Process = (props) => {
                               <p>
                                 By deciding we are a good match for each other,
                                 we’ll agree the terms of you starting your
-                                career at Vantage Labs..
+                                career at Vntage Labs..
                               </p>
                             </div>
                           </AccordionBody>

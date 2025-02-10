@@ -67,7 +67,7 @@ const About = (props) => {
                         data-wow-delay="300ms"
                         data-wow-duration="600ms"
                       >
-                        With over 35 years of experience, Vantage Labs is a
+                        With over 35 years of experience, Vntage Labs is a
                         trusted leader in cybersecurity solutions, providing
                         customized strategies to protect sensitive data. Our
                         commitment to innovation and customer satisfaction makes

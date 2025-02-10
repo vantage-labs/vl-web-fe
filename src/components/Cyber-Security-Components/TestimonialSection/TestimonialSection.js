@@ -32,7 +32,7 @@ const customerStories = [
     },
     right: {
       content:
-        "“With Vantage Labs's real-time threat detection, our sensitive data is more secure than ever. Their team implemented advanced security measures, ensuring we meet all compliance requirements.”",
+        "“With Vntage Labs's real-time threat detection, our sensitive data is more secure than ever. Their team implemented advanced security measures, ensuring we meet all compliance requirements.”",
       author: {
         name: "Mike Davis",
         designation: "CTO at Luminous",
@@ -58,7 +58,7 @@ const customerStories = [
     },
     right: {
       content:
-        "“Vantage Labs transformed our security approach, giving us the confidence to protect our customers' data. Their solutions strengthen our defenses while ensuring full compliance with industry regulations.”",
+        "“Vntage Labs transformed our security approach, giving us the confidence to protect our customers' data. Their solutions strengthen our defenses while ensuring full compliance with industry regulations.”",
       author: {
         name: "John Lee",
         designation: "CEO at Bitstamp",
@@ -84,7 +84,7 @@ const customerStories = [
     },
     right: {
       content:
-        "“Thanks to Vantage Labs, we have a strong security framework that protects our data and ensures compliance with industry regulations. Their solutions provide real-time threat detection, with confidence.”",
+        "“Thanks to Vntage Labs, we have a strong security framework that protects our data and ensures compliance with industry regulations. Their solutions provide real-time threat detection, with confidence.”",
       author: {
         name: "Sophia Turner",
         designation: "Founder at Santander",
@@ -110,7 +110,7 @@ const customerStories = [
     },
     right: {
       content:
-        "“Vantage Labs’s proactive solutions have greatly reduced our risk exposure. Their expert team implemented strong defenses, helping us stay ahead of evolving cyber threats and keep our business secure.”",
+        "“Vntage Labs’s proactive solutions have greatly reduced our risk exposure. Their expert team implemented strong defenses, helping us stay ahead of evolving cyber threats and keep our business secure.”",
       author: {
         name: "Laura Chen",
         designation: "Founder at FirstQuadrant",
@@ -136,7 +136,7 @@ const customerStories = [
     },
     right: {
       content:
-        "“Thanks to Vantage Labs, we’ve greatly reduced our vulnerability to cyberattacks. Their advanced solutions give us confidence in our security strategy, ensuring robust protection against threats.”",
+        "“Thanks to Vntage Labs, we’ve greatly reduced our vulnerability to cyberattacks. Their advanced solutions give us confidence in our security strategy, ensuring robust protection against threats.”",
       author: {
         name: "Sophia Turner",
         designation: "Founder at Madrid",

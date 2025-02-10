@@ -29,7 +29,7 @@ const About = (props) => {
                 className="sub-title wow fadeInDown"
                 data-wow-duration="600ms"
               >
-                <img src={icon} alt="" /> We are Vantage Labs
+                <img src={icon} alt="" /> We are Vntage Labs
               </div>
             </Fade>
             <Fade

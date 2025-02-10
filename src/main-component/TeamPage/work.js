@@ -15,7 +15,7 @@ const workItems = [
     icon: icon1,
     title: "Collaborative Teamwork",
     content:
-      "At Vantage Labs, we emphasize collaboration, ensuring that all team members work together seamlessly to deliver top-notch solutions.",
+      "At Vntage Labs, we emphasize collaboration, ensuring that all team members work together seamlessly to deliver top-notch solutions.",
   },
   {
     id: 2,
@@ -43,7 +43,7 @@ const workItems = [
     icon: icon5,
     title: "Project Diversity",
     content:
-      "At Vantage Labs, you’ll work on projects from various industries, gaining exposure to multiple domains and cutting-edge technologies.",
+      "At Vntage Labs, you’ll work on projects from various industries, gaining exposure to multiple domains and cutting-edge technologies.",
   },
   {
     id: 6,
@@ -67,7 +67,7 @@ const WorkSection = (props) => {
             <img src={iIcon} alt="" />
             Why work with us
           </div>
-          <h2 className="title">Why join Vantage Labs?</h2>
+          <h2 className="title">Why join Vntage Labs?</h2>
         </div>
         <div className="tp-work-wrapp">
           <div className="row mt-none-30">
@@ -104,4 +104,3 @@ const WorkSection = (props) => {
 };
 
 export default WorkSection;
-

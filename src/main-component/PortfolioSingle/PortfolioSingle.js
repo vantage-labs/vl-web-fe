@@ -102,7 +102,7 @@ const PortfolioSingle = (props) => {
                   <img src={cIcon1} alt="" />
                 </div>
                 <h6 className="xb-text">
-                  client : <span> Vantage Labs</span>
+                  client : <span> Vntage Labs</span>
                 </h6>
               </div>
               <div className="csd-item ul_li">

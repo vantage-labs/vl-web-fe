@@ -32,7 +32,7 @@ const TeamPage = (props) => {
                       Our team
                     </span>
                     <h2 className="title">
-                      Meet the talented team at Vantage Labs, shaping innovative
+                      Meet the talented team at Vntage Labs, shaping innovative
                       solutions, technical expertise, and your business success
                     </h2>
                   </div>

@@ -37,7 +37,7 @@ const CareerPage = (props) => {
                     </span>
                     <h2 className="title">
                       Be a part of shaping the <br /> future & career
-                      opportunities <br /> at Vantage Labs today.
+                      opportunities <br /> at Vntage Labs today.
                     </h2>
                   </div>
                 </div>
@@ -109,7 +109,7 @@ const CareerPage = (props) => {
                   Your browser does not support the video tag.
                 </video>
               </div>
-              <h2 className="title">Vantage Labs</h2>
+              <h2 className="title">Vntage Labs</h2>
             </div>
           </div>
         </div>

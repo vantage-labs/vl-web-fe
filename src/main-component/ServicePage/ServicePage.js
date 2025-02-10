@@ -32,7 +32,7 @@ const ServicePage = (props) => {
                       <img src={icon} alt="" /> Main Services
                     </span>
                     <h2 className="title">
-                      Unlock the Potential of Your Business <br /> with Vantage
+                      Unlock the Potential of Your Business <br /> with Vntage
                       Labs' Tailored <br /> Digital Solutions
                     </h2>
                   </div>

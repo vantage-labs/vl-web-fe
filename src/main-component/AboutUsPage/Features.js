@@ -21,7 +21,7 @@ const FeaturesSection = (props) => {
                 </div>
                 <h4 className="xb-item--title">Deliver Results</h4>
                 <p className="xb-item--content">
-                  At Vantage Labs, delivering results means driving measurable
+                  At Vntage Labs, delivering results means driving measurable
                   success for your brand.
                 </p>
               </div>
@@ -37,7 +37,7 @@ const FeaturesSection = (props) => {
                 </div>
                 <h4 className="xb-item--title">Being Proactive</h4>
                 <p className="xb-item--content">
-                  At Vantage Labs, being proactive means anticipating challenges
+                  At Vntage Labs, being proactive means anticipating challenges
                   and delivering innovative solutions.
                 </p>
               </div>

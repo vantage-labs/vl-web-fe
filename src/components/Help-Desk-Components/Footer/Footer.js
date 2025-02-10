@@ -68,7 +68,7 @@ const Footer = (props) => {
                     <span>
                       <img src={icon2} alt="" />
                     </span>
-                    Vantage Labs@gmail.com
+                    Vntage Labs@gmail.com
                   </li>
                 </ul>
                 <ul className="xb-item--social-link list-unstyled ul_li mt-45">
@@ -140,7 +140,7 @@ const Footer = (props) => {
             <p className="copyright mt-20">
               Copyright © 2024{" "}
               <Link onClick={ClickHandler} to="/home-6">
-                Vantage Labs
+                Vntage Labs
               </Link>
               . All rights reserved.
             </p>

@@ -68,7 +68,7 @@ const AwardSection = (props) => {
                       data-wow-delay="300ms"
                       data-wow-duration="600ms"
                     >
-                      Vantage Labs' journey of innovation and excellence is
+                      Vntage Labs' journey of innovation and excellence is
                       highlighted through prestigious recognitions in various
                       global and national programs. Some of our notable
                       achievements include:

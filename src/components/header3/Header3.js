@@ -137,7 +137,7 @@ const Header3 = (props) => {
                                               </small>
                                             </span>
                                             <span className="description mb-0">
-                                              Learn more about Vantage Labs
+                                              Learn more about Vntage Labs
                                             </span>
                                           </Link>
                                         </div>
@@ -418,16 +418,16 @@ const Header3 = (props) => {
                                               Maverick Phoenix
                                             </h3>
                                             <span className="author_designation text-white">
-                                              CEO At Vantage Labs
+                                              CEO At Vntage Labs
                                             </span>
                                           </div>
                                         </div>
                                         <p className="mb-0 text-white">
-                                          “As a CEO at Vantage Labs I have been
+                                          “As a CEO at Vntage Labs I have been
                                           voice crying in the wilderness, trying
                                           to make requirements clear, use every
                                           minute to deliver the result, and not
-                                          reinvent the wheel. Here at Vantage
+                                          reinvent the wheel. Here at Vntage
                                           Labs, I made that possible for the
                                           clients”.{" "}
                                         </p>

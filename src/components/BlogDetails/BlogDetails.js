@@ -140,7 +140,7 @@ const BlogSingle = (props) => {
               </div>
               <p>
                 Gain exclusive insights into the world of IT solutions with
-                Vantage Labs distinguished thought leaders. With years of
+                Vntage Labs distinguished thought leaders. With years of
                 experience and a deep understanding of industry trends, our
                 thought leaders offer invaluable perspectives that illuminate
                 the path to technological excellence. From emerging technologies
@@ -150,7 +150,7 @@ const BlogSingle = (props) => {
               </p>
               <p>
                 Embark on an illuminating journey into the world of IT solutions
-                with Vantage Labs esteemed thought leaders. Delve deep into the
+                with Vntage Labs esteemed thought leaders. Delve deep into the
                 inner workings of technology as our seasoned experts share their
                 wealth of knowledge and experience. With a finger on the pulse
                 of industry trends and a keen eye for innovation, our thought
@@ -173,7 +173,7 @@ const BlogSingle = (props) => {
               <p>
                 They provide a comprehensive and in-depth analysis that goes
                 beyond surface-level . Join us as we uncover the secrets of IT
-                solutions, guided by the wisdom and expertise of Vantage Labs
+                solutions, guided by the wisdom and expertise of Vntage Labs
                 thought leaders. Prepare to be inspired, informed, and empowered
                 to navigate the ever- landscape of technology with confidence
                 and clarity. you'll gain access to unparalleled expertise and
@@ -340,7 +340,7 @@ const BlogSingle = (props) => {
                   </div>
                   <div className="xb-item--holder">
                     <h3 className="xb-item--title">
-                      Exploring IT solutions <br /> ..with Vantage Labs
+                      Exploring IT solutions <br /> ..with Vntage Labs
                     </h3>
                     <span className="xb-item--text">
                       <img src={icon8} alt="" />
@@ -387,7 +387,7 @@ const BlogSingle = (props) => {
                   </span>
                 </div>
                 <div className="xb-item--item-input_field pos-rel">
-                  <input type="email" placeholder="Vantage Labs@example .com" />
+                  <input type="email" placeholder="Vntage Labs@example .com" />
                   <button type="submit">Subscribe</button>
                 </div>
               </div>

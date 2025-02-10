@@ -71,7 +71,7 @@ const PricingPage = (props) => {
                   Increase in organic traffic
                 </span>
                 <p className="xb-item--content">
-                  Vantage Labs' tailored strategies result in a 75% growth in
+                  Vntage Labs' tailored strategies result in a 75% growth in
                   organic traffic for our clients within the first year.
                 </p>
               </div>
@@ -91,8 +91,8 @@ const PricingPage = (props) => {
                 </h2>
                 <span className="xb-item--text">Client retention rate</span>
                 <p className="xb-item--content">
-                  With exceptional results and support, Vantage Labs maintains
-                  an 85% client retention rate across industries.
+                  With exceptional results and support, Vntage Labs maintains an
+                  85% client retention rate across industries.
                 </p>
               </div>
             </div>

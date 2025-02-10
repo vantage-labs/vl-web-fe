@@ -18,7 +18,7 @@ const Testimonial = () => {
     {
       authorImg: tImg1,
       content:
-        "“Most businesses are sitting on a data gold mine within their customer profiles. We use Vantage Labs to get on customer interactions.”",
+        "“Most businesses are sitting on a data gold mine within their customer profiles. We use Vntage Labs to get on customer interactions.”",
       name: "Laurie Leduc",
       designation: "Head of Community Support",
       rating: 5.0,
@@ -26,7 +26,7 @@ const Testimonial = () => {
     {
       authorImg: tImg2,
       content:
-        "“The workflows we built in Vantage Labs suite allowed us to achieve or exceed customer expectations in handling urgent issues.”",
+        "“The workflows we built in Vntage Labs suite allowed us to achieve or exceed customer expectations in handling urgent issues.”",
       name: "Gershwin Exeter",
       designation: "CEO of Global Services",
       rating: 5.0,
@@ -34,7 +34,7 @@ const Testimonial = () => {
     {
       authorImg: tImg3,
       content:
-        "“We love Vantage Labs because their API allows us to explore ways to get customer data more personalized experience.”",
+        "“We love Vntage Labs because their API allows us to explore ways to get customer data more personalized experience.”",
       name: "Sophia Turner",
       designation: "Founder at Fleet chaser",
       rating: 5.0,
@@ -42,7 +42,7 @@ const Testimonial = () => {
     {
       authorImg: tImg1,
       content:
-        "“Most businesses are sitting on a data gold mine within their customer profiles. We use Vantage Labs to get on customer interactions.”",
+        "“Most businesses are sitting on a data gold mine within their customer profiles. We use Vntage Labs to get on customer interactions.”",
       name: "Laurie Leduc",
       designation: "Head of Community Support",
       rating: 5.0,
@@ -50,7 +50,7 @@ const Testimonial = () => {
     {
       authorImg: tImg2,
       content:
-        "“The workflows we built in Vantage Labs suite allowed us to achieve or exceed customer expectations in handling urgent issues.”",
+        "“The workflows we built in Vntage Labs suite allowed us to achieve or exceed customer expectations in handling urgent issues.”",
       name: "Gershwin Exeter",
       designation: "CEO of Global Services",
       rating: 5.0,
@@ -58,7 +58,7 @@ const Testimonial = () => {
     {
       authorImg: tImg3,
       content:
-        "“We love Vantage Labs because their API allows us to explore ways to get customer data more personalized experience.”",
+        "“We love Vntage Labs because their API allows us to explore ways to get customer data more personalized experience.”",
       name: "Sophia Turner",
       designation: "Founder at Fleet chaser",
       rating: 5.0,

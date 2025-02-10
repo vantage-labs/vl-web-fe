@@ -75,7 +75,7 @@ const ContactForm = (props) => {
               className="form-control"
               onBlur={(e) => changeHandler(e)}
               onChange={(e) => changeHandler(e)}
-              placeholder="Vantage Labs@example.com"
+              placeholder="Vntage Labs@example.com"
             />
             {validator.message("email", forms.email, "required|email")}
             <div className="img">

@@ -50,7 +50,7 @@ const FeaturesService = (props) => {
                   data-wow-delay="150ms"
                   data-wow-duration="600ms"
                 >
-                  Why is the best Vantage Labs?
+                  Why is the best Vntage Labs?
                 </h2>
               </div>
             </Fade>

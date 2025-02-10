@@ -35,7 +35,7 @@ const PrivacyPage = (props) => {
                       Privacy Policy
                     </span>
                     <h2 className="title">
-                      Vantage Labs website privacy <br /> policy your access and{" "}
+                      Vntage Labs website privacy <br /> policy your access and{" "}
                       <br /> usage rights
                     </h2>
                     <span className="page-update_time">
@@ -103,11 +103,11 @@ const PrivacyPage = (props) => {
                       Data controller and data collection
                     </h2>
                     <p>
-                      Vantage Labs is committed to safeguarding your privacy.
-                      The types of Personal Data collected may vary depending on
-                      the services offered and may be voluntarily provided by
-                      users or automatically collected when using this site.
-                      This data may include but is not limited to user-provided
+                      Vntage Labs is committed to safeguarding your privacy. The
+                      types of Personal Data collected may vary depending on the
+                      services offered and may be voluntarily provided by users
+                      or automatically collected when using this site. This data
+                      may include but is not limited to user-provided
                       information, cookies, and other tracking tools. Cookies
                       are used solely to improve the user experience and
                       personalize service offerings.
@@ -126,8 +126,8 @@ const PrivacyPage = (props) => {
                     </h2>
                     <p>
                       Users are responsible for any third-party data shared via
-                      the Vantage Labs website and affirm their rights to
-                      communicate such data, thereby relieving Vantage Labs of
+                      the Vntage Labs website and affirm their rights to
+                      communicate such data, thereby relieving Vntage Labs of
                       any associated liability.
                     </p>
                   </div>
@@ -136,15 +136,14 @@ const PrivacyPage = (props) => {
                       Data processing and security
                     </h2>
                     <p>
-                      Data is processed using secure IT systems at Vantage
-                      Labs’s operational offices and in other locations
-                      necessary to support our services. Vantage Labs ensures
-                      strict security measures to prevent unauthorized access,
-                      modification, or destruction of personal data. In some
-                      cases, data may be accessed by select team members (e.g.,
-                      sales, marketing, system administration) or external
-                      parties (e.g., service providers), as authorized by
-                      Vantage Labs.
+                      Data is processed using secure IT systems at Vntage Labs’s
+                      operational offices and in other locations necessary to
+                      support our services. Vntage Labs ensures strict security
+                      measures to prevent unauthorized access, modification, or
+                      destruction of personal data. In some cases, data may be
+                      accessed by select team members (e.g., sales, marketing,
+                      system administration) or external parties (e.g., service
+                      providers), as authorized by Vntage Labs.
                     </p>
                   </div>
                   <div className="item-details-widget">
@@ -155,13 +154,13 @@ const PrivacyPage = (props) => {
                       Personal data is retained only for as long as necessary to
                       fulfill the intended purpose or as required by law. Users
                       may request data deletion or suspension at any time by
-                      contacting Vantage Labs.
+                      contacting Vntage Labs.
                     </p>
                   </div>
                   <div className="item-details-widget">
                     <h2 className="item_details_info_title">Legal action</h2>
                     <p>
-                      Vantage Labs may disclose personal data to comply with
+                      Vntage Labs may disclose personal data to comply with
                       legal obligations or respond to public authority requests.
                       Personal data may also be used in legal proceedings
                       arising from improper use of the website or services.
@@ -171,7 +170,7 @@ const PrivacyPage = (props) => {
                     <h2 className="item_details_info_title">User rights</h2>
                     <p>
                       Users have the right to access, update, or delete their
-                      personal data and may contact Vantage Labs at any time for
+                      personal data and may contact Vntage Labs at any time for
                       assistance. Users can also request data anonymization or
                       oppose processing activities under applicable laws. Such
                       requests should be directed to the Data Controller using
@@ -180,7 +179,7 @@ const PrivacyPage = (props) => {
                     <ul className="privacy-details">
                       <li>
                         Users can request information about the personal data
-                        Vantage Labs holds.
+                        Vntage Labs holds.
                       </li>
                       <li>Correct any inaccurate or incomplete data.</li>
                       <li>
@@ -208,7 +207,7 @@ const PrivacyPage = (props) => {
                       "Do not track" requests
                     </h2>
                     <p>
-                      Vantage Labs does not currently support “Do Not Track”
+                      Vntage Labs does not currently support “Do Not Track”
                       requests. For information on how third-party services
                       handle such requests, please refer to their respective
                       privacy policies.
@@ -217,7 +216,7 @@ const PrivacyPage = (props) => {
                   <div className="item-details-widget">
                     <h2 className="item_details_info_title">Policy updates</h2>
                     <p>
-                      Vantage Labs may update this Privacy Policy periodically.
+                      Vntage Labs may update this Privacy Policy periodically.
                       Users are encouraged to review this page regularly.
                       Continued use of the website constitutes acceptance of
                       these terms.
@@ -228,7 +227,7 @@ const PrivacyPage = (props) => {
                       Retargeting and ad cookies
                     </h2>
                     <p>
-                      Vantage Labs uses cookies for advertising purposes through
+                      Vntage Labs uses cookies for advertising purposes through
                       partners like AdRoll. While these partners do not collect
                       sensitive personal information, cookies allow for tailored
                       advertising based on user interests. Users can opt out of
@@ -248,9 +247,7 @@ const PrivacyPage = (props) => {
                       </Link>{" "}
                       to contact us regarding this Terms & Conditions or other
                       related issues. You can also send us an e-mail <br /> on: 
-                      <a href="mailto:contact@Vantage Labs.com">
-                        contact@Vantage Labs.com
-                      </a>
+                      <a href="mailto:cs@Vntage Labs.com">cs@Vntage Labs.com</a>
                     </p>
                   </div>
                 </div>

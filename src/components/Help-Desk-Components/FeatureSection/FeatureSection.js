@@ -85,7 +85,7 @@ const FeatureSection = (props) => {
                     </div>
                   </Fade>
                   <p>
-                    Save time and money with Vantage Labs. According to
+                    Save time and money with Vntage Labs. According to
                     Forrester's our Total Economic Impact™ (TEI) study,
                     customers saw a 286% ROI over three years.
                   </p>

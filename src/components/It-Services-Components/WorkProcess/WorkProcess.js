@@ -90,7 +90,7 @@ const WorkProcess = (props) => {
                       data-wow-delay="200ms"
                       data-wow-duration="600ms"
                     >
-                      Our Vantage Labs Efficient Workflow in 5 Steps ensures
+                      Our Vntage Labs Efficient Workflow in 5 Steps ensures
                       streamlined IT solutions. We start by understanding your
                       needs, then plan the project, design intuitive interfaces,
                       build robust systems, and thoroughly test.

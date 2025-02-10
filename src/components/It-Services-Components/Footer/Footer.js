@@ -28,7 +28,7 @@ const Footer = (props) => {
               </div>
               <h2 className="xb-item--title">Subscribe us</h2>
               <span className="xb-item--content">
-                Want to stay up to date? Sign up for Vantage Labs it services
+                Want to stay up to date? Sign up for Vntage Labs it services
                 update.
               </span>
               <form className="xb-item--contact mt-35" onSubmit={SubmitHandler}>
@@ -144,7 +144,7 @@ const Footer = (props) => {
                 <p className="copyright mt-20">
                   Copyright © 2024{" "}
                   <Link onClick={ClickHandler} to="/home">
-                    Vantage Labs
+                    Vntage Labs
                   </Link>
                   . All rights reserved.
                 </p>

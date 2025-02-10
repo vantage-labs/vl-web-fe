@@ -154,7 +154,7 @@ const Hero4 = () => {
           style={{ width: "100%", height: "100%" }}
         >
           <source
-            src="https://html.xpressbuddy.com/Vantage Labs/cyber_security_hero.mp4"
+            src="https://html.xpressbuddy.com/Vntage Labs/cyber_security_hero.mp4"
             type="video/mp4"
           />
         </video>

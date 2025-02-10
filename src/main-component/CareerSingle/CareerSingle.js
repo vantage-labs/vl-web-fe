@@ -36,7 +36,7 @@ const CareerSingle = (props) => {
                     </span>
                     <h2 className="title">
                       Be a part of shaping the <br /> future & career
-                      opportunities <br /> at Vantage Labs today.
+                      opportunities <br /> at Vntage Labs today.
                     </h2>
                   </div>
                 </div>
@@ -249,7 +249,7 @@ const CareerSingle = (props) => {
                   <div className="cs-contact-wrap cs-contact-form cd-contact-form">
                     <h2 className="xb-title">Apply for this job</h2>
                     <p className="xb-content">
-                      Vantage Labs doesn’t accept unsolicited resumes from
+                      Vntage Labs doesn’t accept unsolicited resumes from
                       recruiters or employment agencies.
                     </p>
                     <form onSubmit={SubmitHandler} className="contact-form">

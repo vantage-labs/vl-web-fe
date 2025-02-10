@@ -107,7 +107,7 @@ const HelpDeskBlogSection = (props) => {
                     </Link>
                   </h2>
                   <span className="xb-item--content">
-                    Vantage Labs’s AI-Support boosts efficiency and enhances
+                    Vntage Labs’s AI-Support boosts efficiency and enhances
                     customer service.
                   </span>
                 </div>

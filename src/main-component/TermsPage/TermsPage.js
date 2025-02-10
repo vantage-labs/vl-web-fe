@@ -35,7 +35,7 @@ const TermsPage = (props) => {
                       Terms & Conditions
                     </span>
                     <h2 className="title">
-                      Vantage Labs website terms & <br /> conditions your access
+                      Vntage Labs website terms & <br /> conditions your access
                       and <br /> usage rights
                     </h2>
                     <span className="page-update_time">
@@ -105,10 +105,10 @@ const TermsPage = (props) => {
                     <p>
                       All content on this website, including text, graphics,
                       logos, and trademarks, is the intellectual property of
-                      Vantage Labs and is protected by copyright, trademark, and
+                      Vntage Labs and is protected by copyright, trademark, and
                       other relevant laws. Unauthorized use, reproduction, or
                       distribution of this material may violate these laws,
-                      leading to potential legal consequences. Vantage Labs is
+                      leading to potential legal consequences. Vntage Labs is
                       not responsible for any third-party logos present on the
                       site; their copyright remains with their respective
                       owners. Users agree not to copy, republish, download,
@@ -118,7 +118,7 @@ const TermsPage = (props) => {
                     </p>
                     <p>
                       Images on this website may include licensed stock photos,
-                      to which Vantage Labs does not claim copyright ownership.
+                      to which Vntage Labs does not claim copyright ownership.
                       All other trademarks and trade names are the properties of
                       their respective owners.
                     </p>
@@ -129,7 +129,7 @@ const TermsPage = (props) => {
                       Services Offered
                     </h2>
                     <p>
-                      Vantage Labs provides the following services:
+                      Vntage Labs provides the following services:
                       <ul>
                         <li>Web application development</li>
                         <li>Landing page design</li>
@@ -159,7 +159,7 @@ const TermsPage = (props) => {
                           content, and websites, under their name.
                         </li>
                         <li>
-                          Vantage Labs retains the right to showcase completed
+                          Vntage Labs retains the right to showcase completed
                           projects as part of its portfolio unless explicitly
                           restricted by the client.
                         </li>
@@ -187,7 +187,7 @@ const TermsPage = (props) => {
                   <div className="item-details-widget">
                     <h2 className="item_details_info_title">Data Privacy</h2>
                     <p>
-                      <strong>Data Collection:</strong> Vantage Labs collects
+                      <strong>Data Collection:</strong> Vntage Labs collects
                       essential information such as name, email, phone number,
                       business goals, and business models to analyze and
                       research for projects.
@@ -230,7 +230,7 @@ const TermsPage = (props) => {
                       Responsibilities and Guarantees
                     </h2>
                     <p>
-                      Vantage Labs ensures structured traffic improvements but
+                      Vntage Labs ensures structured traffic improvements but
                       does not guarantee specific ROI or results beyond its
                       agreed deliverables. The agency's liability is limited to
                       services explicitly outlined in the project agreement.
@@ -265,7 +265,7 @@ const TermsPage = (props) => {
                       Third-Party Tools and Software
                     </h2>
                     <p>
-                      Vantage Labs may use third-party tools or software to
+                      Vntage Labs may use third-party tools or software to
                       facilitate project completion. Clients may establish
                       direct agreements with third-party providers to enhance
                       the project.
@@ -282,7 +282,7 @@ const TermsPage = (props) => {
                       <ul>
                         <li>
                           <strong>Client-initiated termination:</strong> The
-                          client must compensate Vantage Labs for completed work
+                          client must compensate Vntage Labs for completed work
                           as per the agreed KPIs.
                         </li>
                         <li>
@@ -304,7 +304,7 @@ const TermsPage = (props) => {
                     </h2>
                     <p>
                       All information provided on this website is accurate to
-                      the best of Vantage Labs’ knowledge but may contain
+                      the best of Vntage Labs’ knowledge but may contain
                       typographical errors or inaccuracies. The agency disclaims
                       all implied warranties, including but not limited to,
                       fitness for a specific purpose. Use of services or
@@ -317,7 +317,7 @@ const TermsPage = (props) => {
                       Limitation of Liability
                     </h2>
                     <p>
-                      Vantage Labs is not liable for direct or indirect damages,
+                      Vntage Labs is not liable for direct or indirect damages,
                       including lost data or profits, regardless of prior
                       notice. This limitation of liability may not apply in
                       jurisdictions that prohibit such exclusions.
@@ -336,9 +336,7 @@ const TermsPage = (props) => {
                       </Link>{" "}
                       to contact us regarding this Terms & Conditions or other
                       related issues. You can also send us an e-mail <br /> on: 
-                      <a href="mailto:contact@vantagelabs.com">
-                        contact@vantagelabs.com
-                      </a>
+                      <a href="mailto:cs@vntagelabs.com">cs@vntagelabs.com</a>
                     </p>
                   </div>
                 </div>

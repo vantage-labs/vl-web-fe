@@ -47,7 +47,7 @@ const Hero6 = () => {
                       data-wow-delay="150ms"
                       data-wow-duration="600ms"
                     >
-                      90K+ Businesses with AI-powered Vantage Labs for Fast
+                      90K+ Businesses with AI-powered Vntage Labs for Fast
                       Support
                     </p>
                   </div>

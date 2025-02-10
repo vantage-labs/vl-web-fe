@@ -52,7 +52,7 @@ const VideoService = (props) => {
                   data-wow-delay="150ms"
                   data-wow-duration="600ms"
                 >
-                  Simplify work Vantage Labs
+                  Simplify work Vntage Labs
                 </h2>
               </div>
             </Fade>

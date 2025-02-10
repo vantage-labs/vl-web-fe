@@ -57,7 +57,7 @@ const PartnerSection = () => {
       <div className="container">
         <div className="da-brand_wrapper">
           <h2 className="xb-item--title">
-            More than <span>25,000</span> brands trust Vantage Labs
+            More than <span>25,000</span> brands trust Vntage Labs
           </h2>
           <div
             className="da-brand_inner"

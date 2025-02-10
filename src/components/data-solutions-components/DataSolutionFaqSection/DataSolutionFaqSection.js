@@ -15,13 +15,13 @@ const FaqSection = () => {
   const faqsLeft = [
     {
       number: "1",
-      question: "What services does Vantage Labs offer?",
+      question: "What services does Vntage Labs offer?",
       answer:
         "Data integration, AI-powered insights, predictive analytics, and business intelligence.",
     },
     {
       number: "2",
-      question: "How will Vantage Labs’s solutions help my business?",
+      question: "How will Vntage Labs’s solutions help my business?",
       answer: "By turning data into actionable insights for growth.",
     },
     {
@@ -39,17 +39,17 @@ const FaqSection = () => {
   const faqsRight = [
     {
       number: "5",
-      question: "Can Vantage Labs solutions be customized?",
+      question: "Can Vntage Labs solutions be customized?",
       answer: "Yes, tailored to fit unique business needs.",
     },
     {
       number: "6",
-      question: "How secure is my data with Vantage Labs?",
-      answer: "Vantage Labs ensures top-level data security.",
+      question: "How secure is my data with Vntage Labs?",
+      answer: "Vntage Labs ensures top-level data security.",
     },
     {
       number: "7",
-      question: "What industries does Vantage Labs support?",
+      question: "What industries does Vntage Labs support?",
       answer: "Suitable for finance, retail, healthcare, and more.",
     },
     {

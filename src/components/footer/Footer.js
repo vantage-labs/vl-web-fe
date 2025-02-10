@@ -26,7 +26,7 @@ const Footer = (props) => {
               </div>
               <div className="xb-item--holder">
                 <p className="xb-item--content">Write to us</p>
-                <h4 className="xb-item--title">hello@vantagelabs.id</h4>
+                <h4 className="xb-item--title">cs@vntagelabs.com</h4>
               </div>
             </div>
             <div className="info-item ul_li">
@@ -147,7 +147,7 @@ const Footer = (props) => {
             <p className="copyright mt-20">
               Copyright © 2024{" "}
               <Link onClick={ClickHandler} to="/">
-                Vantage Labs
+                Vntage Labs
               </Link>
               . All rights reserved.
             </p>

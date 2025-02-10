@@ -1,4 +1,4 @@
-name: Deploy Vantage FE to SSH Server
+name: Deploy Vntage FE to SSH Server
 
 on:
   push:
