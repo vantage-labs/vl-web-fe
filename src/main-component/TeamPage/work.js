@@ -13,44 +13,44 @@ const workItems = [
   {
     id: 1,
     icon: icon1,
-    title: "Endless career growth",
+    title: "Collaborative Teamwork",
     content:
-      "We provide lots of career growth opportunities to our employees, which is reflected both financially and reputably.",
+      "At Vantage Labs, we emphasize collaboration, ensuring that all team members work together seamlessly to deliver top-notch solutions.",
   },
   {
     id: 2,
     icon: icon2,
-    title: "Mentorship & learning",
+    title: "Skill Development & Growth",
     content:
-      "We support peer assistance and offer mentorship programs like IT Talks and in-house courses for different roles.",
+      "We provide in-house training, mentorship programs, and industry certifications to help employees sharpen their skills and achieve career growth.",
   },
   {
     id: 3,
     icon: icon3,
-    title: "Cozy & fun offices",
+    title: "Modern Workspace Environment",
     content:
-      "Our four R&D offices offer a gym, yoga mats, snacks, foosball, a VR set, and more for a comfortable workspace.",
+      "Our offices are equipped with advanced technology, a creative atmosphere, and flexible spaces to boost productivity and innovation.",
   },
   {
     id: 4,
     icon: icon4,
-    title: "Competitive salary",
+    title: "Competitive Compensation",
     content:
-      "Our projects belong to a wide variety of industries, which will make your professional background more diverse.",
+      "We ensure competitive salaries, performance-based bonuses, and clear growth paths for every team member to thrive professionally.",
   },
   {
     id: 5,
     icon: icon5,
-    title: "Career change option",
+    title: "Project Diversity",
     content:
-      "No need to job hunt to learn new tech or switch roles—we’ll support your transition within Vantage Labs.",
+      "At Vantage Labs, you’ll work on projects from various industries, gaining exposure to multiple domains and cutting-edge technologies.",
   },
   {
     id: 6,
     icon: icon6,
-    title: "Friendly atmosphere",
+    title: "Employee-Centric Culture",
     content:
-      "We value people as Vantage Labs greatest asset and ensure hierarchy never works against our employees.",
+      "We believe our employees are our greatest asset. We foster an inclusive and supportive environment to ensure everyone feels valued.",
   },
 ];
 
@@ -67,7 +67,7 @@ const WorkSection = (props) => {
             <img src={iIcon} alt="" />
             Why work with us
           </div>
-          <h2 className="title">Why people work with us</h2>
+          <h2 className="title">Why join Vantage Labs?</h2>
         </div>
         <div className="tp-work-wrapp">
           <div className="row mt-none-30">
@@ -104,3 +104,4 @@ const WorkSection = (props) => {
 };
 
 export default WorkSection;
+
