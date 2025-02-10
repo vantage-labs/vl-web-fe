@@ -29,7 +29,7 @@ const About = (props) => {
                 className="sub-title wow fadeInDown"
                 data-wow-duration="600ms"
               >
-                <img src={icon} alt="" /> We are Vntage Labs
+                <img src={icon} alt="Vntage Labs Asset" /> We are Vntage Labs
               </div>
             </Fade>
             <Fade
@@ -53,7 +53,7 @@ const About = (props) => {
                 <h2 className="title">Coure values</h2>
                 <div className="about-item_box ul_li">
                   <div className="xb-item--icon">
-                    <img src={about1} alt="" />
+                    <img src={about1} alt="Vntage Labs Asset" />
                   </div>
                   <div className="xb-item--holder">
                     <p className="xb-item--content">
@@ -64,7 +64,7 @@ const About = (props) => {
                 </div>
                 <div className="about-item_box ul_li">
                   <div className="xb-item--icon">
-                    <img src={about2} alt="" />
+                    <img src={about2} alt="Vntage Labs Asset" />
                   </div>
                   <div className="xb-item--holder">
                     <p className="xb-item--content">
@@ -75,7 +75,7 @@ const About = (props) => {
                 </div>
                 <div className="about-item_box ul_li">
                   <div className="xb-item--icon">
-                    <img src={about3} alt="" />
+                    <img src={about3} alt="Vntage Labs Asset" />
                   </div>
                   <div className="xb-item--holder">
                     <p className="xb-item--content">

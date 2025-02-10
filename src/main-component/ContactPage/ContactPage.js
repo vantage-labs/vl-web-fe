@@ -23,7 +23,7 @@ const TeamPage = (props) => {
                 <div className="col-lg-9 mt-30">
                   <div className="page-title-box">
                     <span className="sub-title">
-                      <img src={icon} alt="" /> Contact us
+                      <img src={icon} alt="Vntage Labs Asset" /> Contact us
                     </span>
                     <h2 className="title">
                       Connect with our team for <br /> innovative solutions and{" "}
@@ -42,7 +42,11 @@ const TeamPage = (props) => {
                       autoplay
                     ></dotlottie-player>
                     <div className="sd-arrow-shape style-3">
-                      <img className="xbzoominzoomup" src={bImg2} alt="" />
+                      <img
+                        className="xbzoominzoomup"
+                        src={bImg2}
+                        alt="Vntage Labs Asset"
+                      />
                     </div>
                   </div>
                 </div>

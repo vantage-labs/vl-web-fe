@@ -103,7 +103,7 @@ const Testimonial = (props) => {
                   className="sub-title wow fadeInDown"
                   data-wow-duration="600ms"
                 >
-                  <img src={hicon} alt="" />
+                  <img src={hicon} alt="Vntage Labs Asset" />
                   99% positive feedback
                 </div>
               </div>
@@ -174,7 +174,7 @@ const Testimonial = (props) => {
                   <div className="sa-testimonial-item">
                     <div className="xb-item--inner">
                       <div className="xb-item--quta">
-                        <img src={quote} alt="" />
+                        <img src={quote} alt="Vntage Labs Asset" />
                       </div>
                       <p className="xb-item--content">"{testimonial.Des}"</p>
                       <div className="xb-item--holder ul_li">
@@ -184,7 +184,10 @@ const Testimonial = (props) => {
                             {testimonial.sub}
                           </span>
                           <div className="xb-item--logo">
-                            <img src={testimonial.logo} alt="" />
+                            <img
+                              src={testimonial.logo}
+                              alt="Vntage Labs Asset"
+                            />
                           </div>
                         </div>
                       </div>

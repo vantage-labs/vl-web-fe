@@ -91,7 +91,7 @@ const Hero3 = (props) => {
           </div>
         </div>
         <div className="xb-shape">
-          <img src={hImg} alt="" />
+          <img src={hImg} alt="Vntage Labs Asset" />
         </div>
       </div>
     </section>

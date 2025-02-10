@@ -36,7 +36,7 @@ const Footer = (props) => {
             <div className="xb-item--left mt-10">
               <div className="xb-item--logo mt-20">
                 <Link onClick={ClickHandler} to="/home-3">
-                  <img src={logo} alt="" />
+                  <img src={logo} alt="Vntage Labs Asset" />
                 </Link>
               </div>
               <span className="xb-item--content mt-20">

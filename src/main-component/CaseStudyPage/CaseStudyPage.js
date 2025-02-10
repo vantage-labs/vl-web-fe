@@ -23,7 +23,8 @@ const CaseStudySingle = (props) => {
                 <div className="col-lg-9 mt-30">
                   <div className="page-title-box">
                     <span className="sub-title">
-                      <img src={icon} alt="" /> Casestudy details
+                      <img src={icon} alt="Vntage Labs Asset" /> Casestudy
+                      details
                     </span>
                     <h2 className="title">
                       Discover our case studies <br /> highlighting
@@ -42,7 +43,11 @@ const CaseStudySingle = (props) => {
                       autoplay
                     ></dotlottie-player>
                     <div className="sd-arrow-shape style-2">
-                      <img className="xbzoominzoomup" src={sImg2} alt="" />
+                      <img
+                        className="xbzoominzoomup"
+                        src={sImg2}
+                        alt="Vntage Labs Asset"
+                      />
                     </div>
                   </div>
                 </div>

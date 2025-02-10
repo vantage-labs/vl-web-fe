@@ -32,7 +32,7 @@ const PricingPage = (props) => {
                 <div className="col-lg-8 mt-30">
                   <div className="page-title-box">
                     <span className="sub-title">
-                      <img src={icon} alt="" /> Simple pricing
+                      <img src={icon} alt="Vntage Labs Asset" /> Simple pricing
                     </span>
                     <h2 className="title">
                       Find the perfect package <br /> to optimize your
@@ -52,7 +52,11 @@ const PricingPage = (props) => {
                       autoplay
                     ></dotlottie-player>
                     <div className="pg-arrow-shape">
-                      <img className="xbzoominzoomup" src={sImg2} alt="" />
+                      <img
+                        className="xbzoominzoomup"
+                        src={sImg2}
+                        alt="Vntage Labs Asset"
+                      />
                     </div>
                   </div>
                 </div>

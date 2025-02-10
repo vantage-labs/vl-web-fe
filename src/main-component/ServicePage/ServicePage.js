@@ -29,7 +29,7 @@ const ServicePage = (props) => {
                 <div className="col-lg-9 mt-30">
                   <div className="page-title-box">
                     <span className="sub-title">
-                      <img src={icon} alt="" /> Main Services
+                      <img src={icon} alt="Vntage Labs Asset" /> Main Services
                     </span>
                     <h2 className="title">
                       Unlock the Potential of Your Business <br /> with Vntage
@@ -65,14 +65,14 @@ const ServicePage = (props) => {
                         </div>
                         <div className="xb-item--icon ul_li_between">
                           <div className="xb-item--img">
-                            <img src={service.sImg} alt="" />
+                            <img src={service.sImg} alt="Vntage Labs Asset" />
                           </div>
                           <Link
                             onClick={ClickHandler}
                             to={`/services/${service.slug}`}
                             className="xb-item--arrow"
                           >
-                            <img src={sIcon} alt="" />
+                            <img src={sIcon} alt="Vntage Labs Asset" />
                           </Link>
                         </div>
                         <Link

@@ -64,7 +64,7 @@ const WorkSection = (props) => {
       <div className="container">
         <div className="sec-title--two text-center mb-60">
           <div className="sub-title">
-            <img src={iIcon} alt="" />
+            <img src={iIcon} alt="Vntage Labs Asset" />
             Why work with us
           </div>
           <h2 className="title">Why join Vntage Labs?</h2>
@@ -94,7 +94,7 @@ const WorkSection = (props) => {
               className="thm-btn thm-btn--aso thm-btn--header-black"
             >
               Let’s talk
-              <img src={iIcon2} alt="" />
+              <img src={iIcon2} alt="Vntage Labs Asset" />
             </Link>
           </div>
         </div>

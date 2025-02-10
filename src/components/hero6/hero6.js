@@ -66,13 +66,13 @@ const Hero6 = () => {
                     >
                       <li>
                         <span>
-                          <img src={icon1} alt="" />
+                          <img src={icon1} alt="Vntage Labs Asset" />
                         </span>{" "}
                         Human-like conversations via voice, chat & email
                       </li>
                       <li>
                         <span>
-                          <img src={icon1} alt="" />
+                          <img src={icon1} alt="Vntage Labs Asset" />
                         </span>{" "}
                         Speed and accuracy through in-house LLMs
                       </li>
@@ -98,8 +98,16 @@ const Hero6 = () => {
                       >
                         Start your free trial
                         <span>
-                          <img className="img--one" src={icon2} alt="" />
-                          <img className="img--two" src={icon2} alt="" />
+                          <img
+                            className="img--one"
+                            src={icon2}
+                            alt="Vntage Labs Asset"
+                          />
+                          <img
+                            className="img--two"
+                            src={icon2}
+                            alt="Vntage Labs Asset"
+                          />
                         </span>
                       </Link>
                     </div>
@@ -115,7 +123,7 @@ const Hero6 = () => {
                       className="wow fadeInLeft"
                       data-duration=".7s"
                       src={hImg1}
-                      alt=""
+                      alt="Vntage Labs Asset"
                     />
                   </div>
                 </div>
@@ -126,7 +134,11 @@ const Hero6 = () => {
                       data-duration=".7s"
                       data-delay="1s"
                     >
-                      <img className="updown-3" src={hImg2} alt="" />
+                      <img
+                        className="updown-3"
+                        src={hImg2}
+                        alt="Vntage Labs Asset"
+                      />
                     </div>
                   </div>
                   <Fade
@@ -141,7 +153,7 @@ const Hero6 = () => {
                         data-duration=".7s"
                         data-delay="2s"
                       >
-                        <img src={icon3} alt="" />
+                        <img src={icon3} alt="Vntage Labs Asset" />
                       </div>
                     </div>
                   </Fade>

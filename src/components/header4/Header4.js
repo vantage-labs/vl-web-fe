@@ -64,7 +64,7 @@ const Header4 = (props) => {
           <div className="header__wrap ul_li_between">
             <div className="header-logo">
               <Link onClick={ClickHandler} to="/">
-                <img src={logo} alt="" />
+                <img src={logo} alt="Vntage Labs Asset" />
               </Link>
             </div>
             <div className="main-menu__wrap ul_li navbar navbar-expand-xl">
@@ -128,7 +128,10 @@ const Header4 = (props) => {
                                         >
                                           <span className="icon_title_wrap">
                                             <small className="iconbox_icon">
-                                              <img src={icon2} alt="" />
+                                              <img
+                                                src={icon2}
+                                                alt="Vntage Labs Asset"
+                                              />
                                             </small>
                                             <small className="iconbox_title">
                                               About Us
@@ -147,7 +150,10 @@ const Header4 = (props) => {
                                         >
                                           <span className="icon_title_wrap">
                                             <small className="iconbox_icon">
-                                              <img src={icon3} alt="" />
+                                              <img
+                                                src={icon3}
+                                                alt="Vntage Labs Asset"
+                                              />
                                             </small>
                                             <small className="iconbox_title">
                                               Our Pricing
@@ -166,7 +172,10 @@ const Header4 = (props) => {
                                         >
                                           <span className="icon_title_wrap">
                                             <small className="iconbox_icon">
-                                              <img src={icon4} alt="" />
+                                              <img
+                                                src={icon4}
+                                                alt="Vntage Labs Asset"
+                                              />
                                             </small>
                                             <small className="iconbox_title">
                                               Our team
@@ -185,7 +194,10 @@ const Header4 = (props) => {
                                         >
                                           <span className="icon_title_wrap">
                                             <small className="iconbox_icon">
-                                              <img src={icon5} alt="" />
+                                              <img
+                                                src={icon5}
+                                                alt="Vntage Labs Asset"
+                                              />
                                             </small>
                                             <small className="iconbox_title">
                                               Services
@@ -204,7 +216,10 @@ const Header4 = (props) => {
                                         >
                                           <span className="icon_title_wrap">
                                             <small className="iconbox_icon">
-                                              <img src={icon6} alt="" />
+                                              <img
+                                                src={icon6}
+                                                alt="Vntage Labs Asset"
+                                              />
                                             </small>
                                             <small className="iconbox_title">
                                               Services details
@@ -223,7 +238,10 @@ const Header4 = (props) => {
                                         >
                                           <span className="icon_title_wrap">
                                             <small className="iconbox_icon">
-                                              <img src={icon7} alt="" />
+                                              <img
+                                                src={icon7}
+                                                alt="Vntage Labs Asset"
+                                              />
                                             </small>
                                             <small className="iconbox_title">
                                               Casestudy
@@ -242,7 +260,10 @@ const Header4 = (props) => {
                                         >
                                           <span className="icon_title_wrap">
                                             <small className="iconbox_icon">
-                                              <img src={icon8} alt="" />
+                                              <img
+                                                src={icon8}
+                                                alt="Vntage Labs Asset"
+                                              />
                                             </small>
                                             <small className="iconbox_title">
                                               Career
@@ -261,7 +282,10 @@ const Header4 = (props) => {
                                         >
                                           <span className="icon_title_wrap">
                                             <small className="iconbox_icon">
-                                              <img src={icon9} alt="" />
+                                              <img
+                                                src={icon9}
+                                                alt="Vntage Labs Asset"
+                                              />
                                             </small>
                                             <small className="iconbox_title">
                                               Career details
@@ -281,7 +305,10 @@ const Header4 = (props) => {
                                         >
                                           <span className="icon_title_wrap">
                                             <small className="iconbox_icon">
-                                              <img src={icon10} alt="" />
+                                              <img
+                                                src={icon10}
+                                                alt="Vntage Labs Asset"
+                                              />
                                             </small>
                                             <small className="iconbox_title">
                                               Casestudy details
@@ -300,7 +327,10 @@ const Header4 = (props) => {
                                         >
                                           <span className="icon_title_wrap">
                                             <small className="iconbox_icon">
-                                              <img src={icon11} alt="" />
+                                              <img
+                                                src={icon11}
+                                                alt="Vntage Labs Asset"
+                                              />
                                             </small>
                                             <small className="iconbox_title">
                                               Terms & Conditions
@@ -319,7 +349,10 @@ const Header4 = (props) => {
                                         >
                                           <span className="icon_title_wrap">
                                             <small className="iconbox_icon">
-                                              <img src={icon12} alt="" />
+                                              <img
+                                                src={icon12}
+                                                alt="Vntage Labs Asset"
+                                              />
                                             </small>
                                             <small className="iconbox_title">
                                               Privacy Policy
@@ -345,7 +378,10 @@ const Header4 = (props) => {
                                     <li>
                                       <div className="review_short_info_2">
                                         <div className="review_admin_logo">
-                                          <img src={clogo1} alt="" />
+                                          <img
+                                            src={clogo1}
+                                            alt="Vntage Labs Asset"
+                                          />
                                         </div>
                                         <div className="review_info_content">
                                           <ul className="rating_block unordered_list">
@@ -375,7 +411,10 @@ const Header4 = (props) => {
                                     <li>
                                       <div className="review_short_info_2">
                                         <div className="review_admin_logo">
-                                          <img src={clogo2} alt="" />
+                                          <img
+                                            src={clogo2}
+                                            alt="Vntage Labs Asset"
+                                          />
                                         </div>
                                         <div className="review_info_content">
                                           <ul className="rating_block unordered_list">
@@ -409,7 +448,10 @@ const Header4 = (props) => {
                                     <div className="site_author">
                                       <div className="author_box">
                                         <div className="author_image bg-light">
-                                          <img src={avatar} alt="" />
+                                          <img
+                                            src={avatar}
+                                            alt="Vntage Labs Asset"
+                                          />
                                         </div>
                                         <div className="author_box_content">
                                           <h3 className="author_name text-white">
@@ -429,7 +471,10 @@ const Header4 = (props) => {
                                         I made that possible for the clients”.{" "}
                                       </p>
                                       <div className="author_box_quote">
-                                        <img src={quote} alt="" />
+                                        <img
+                                          src={quote}
+                                          alt="Vntage Labs Asset"
+                                        />
                                       </div>
                                     </div>
                                   </div>
@@ -597,7 +642,7 @@ const Header4 = (props) => {
                                   <div className="megamenu_case">
                                     <h3>Software</h3>
                                     <h4>Madical SEO success..</h4>
-                                    <img src={mImg} alt="" />
+                                    <img src={mImg} alt="Vntage Labs Asset" />
                                     <Link
                                       onClick={ClickHandler}
                                       className="megamenu_btn"
@@ -688,7 +733,7 @@ const Header4 = (props) => {
                     ></div>
                     <div className="xb-logo-mobile xb-hide-xl">
                       <Link onClick={ClickHandler} to="/" rel="home">
-                        <img src={logo2} alt="" />
+                        <img src={logo2} alt="Vntage Labs Asset" />
                       </Link>
                     </div>
                     <div className="xb-header-mobile-search xb-hide-xl">

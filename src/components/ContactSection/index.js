@@ -29,10 +29,12 @@ const ContactSection = (props) => {
                   <div className="xb-item--top">
                     <h3 className="xb-item--title">Contact Info</h3>
                     <span className="xb-item--hotline">
-                      <img src={icon1} alt="" /> +(62) 851 9592 2910
+                      <img src={icon1} alt="Vntage Labs Asset" /> +(62) 851 9592
+                      2910
                     </span>
                     <span className="xb-item--email">
-                      <img src={icon2} alt="" /> cs@vntagelabs.com
+                      <img src={icon2} alt="Vntage Labs Asset" />{" "}
+                      cs@vntagelabs.com
                     </span>
                     <ul className="social_icons_block list-unstyled ul_li">
                       <li>

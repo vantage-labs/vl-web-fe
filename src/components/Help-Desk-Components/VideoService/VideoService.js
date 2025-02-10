@@ -35,7 +35,7 @@ const VideoService = (props) => {
                   className="sub-title wow fadeInDown"
                   data-wow-duration="600ms"
                 >
-                  <img src={icon} alt="" />
+                  <img src={icon} alt="Vntage Labs Asset" />
                   How it’s work
                 </div>
               </div>
@@ -58,12 +58,12 @@ const VideoService = (props) => {
             </Fade>
           </div>
           <div className="xb-video">
-            <img src={vImg} alt="" />
+            <img src={vImg} alt="Vntage Labs Asset" />
             <button
               onClick={() => setOpen(true)}
               className="popup-video btn-video"
             >
-              <img src={icon1} alt="" />
+              <img src={icon1} alt="Vntage Labs Asset" />
             </button>
           </div>
           <div
@@ -77,18 +77,22 @@ const VideoService = (props) => {
             >
               Start your free trial
               <span>
-                <img className="img--one" src={icon2} alt="" />
-                <img className="img--two" src={icon2} alt="" />
+                <img className="img--one" src={icon2} alt="Vntage Labs Asset" />
+                <img className="img--two" src={icon2} alt="Vntage Labs Asset" />
               </span>
             </Link>
           </div>
           <div className="xb-shape">
-            <img className="img img--one xbzoominzoomup" src={icon3} alt="" />
+            <img
+              className="img img--one xbzoominzoomup"
+              src={icon3}
+              alt="Vntage Labs Asset"
+            />
             <img
               className="img img--two"
               data-parallax='{"y" : -100, "x" : 50, "smoothness": 10}'
               src={icon4}
-              alt=""
+              alt="Vntage Labs Asset"
             />
           </div>
         </div>

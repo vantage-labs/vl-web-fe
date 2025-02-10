@@ -28,7 +28,7 @@ const HelpDeskBlogSection = (props) => {
                   className="sub-title wow fadeInDown"
                   data-wow-duration="600ms"
                 >
-                  <img src={icon} alt="" />
+                  <img src={icon} alt="Vntage Labs Asset" />
                   News
                 </div>
               </div>
@@ -69,8 +69,16 @@ const HelpDeskBlogSection = (props) => {
                 >
                   More news
                   <span>
-                    <img className="img--one" src={icon4} alt="" />
-                    <img className="img--two" src={icon4} alt="" />
+                    <img
+                      className="img--one"
+                      src={icon4}
+                      alt="Vntage Labs Asset"
+                    />
+                    <img
+                      className="img--two"
+                      src={icon4}
+                      alt="Vntage Labs Asset"
+                    />
                   </span>
                 </Link>
               </div>
@@ -86,13 +94,13 @@ const HelpDeskBlogSection = (props) => {
                   to={`/blog-single/${blog.slug}`}
                   className="xb-item--img"
                 >
-                  <img src={blog.screens} alt="" />
+                  <img src={blog.screens} alt="Vntage Labs Asset" />
                 </Link>
                 <div className="xb-item--holder">
                   <ul className="xb-item--meta list-unstyled">
                     <li>
                       <span>
-                        <img src={icon2} alt="" />
+                        <img src={icon2} alt="Vntage Labs Asset" />
                       </span>
                       Report
                     </li>
@@ -121,7 +129,7 @@ const HelpDeskBlogSection = (props) => {
                   <ul className="xb-item--meta list-unstyled">
                     <li>
                       <span>
-                        <img src={icon3} alt="" />
+                        <img src={icon3} alt="Vntage Labs Asset" />
                       </span>
                       Report
                     </li>
@@ -141,7 +149,7 @@ const HelpDeskBlogSection = (props) => {
                   to={`/blog-single/${blog.slug}`}
                   className="xb-item--img"
                 >
-                  <img src={blog.screens} alt="" />
+                  <img src={blog.screens} alt="Vntage Labs Asset" />
                 </Link>
               </div>
             ))}

@@ -24,7 +24,7 @@ const Footer = (props) => {
           <div className="col-lg-4">
             <div className="xb-newslatter">
               <div className="xb-item--icon">
-                <img src={icon1} alt="" />
+                <img src={icon1} alt="Vntage Labs Asset" />
               </div>
               <h2 className="xb-item--title">Subscribe us</h2>
               <span className="xb-item--content">
@@ -40,7 +40,7 @@ const Footer = (props) => {
                     placeholder="enter your email"
                   />
                   <div className="img">
-                    <img src={icon2} alt="" />
+                    <img src={icon2} alt="Vntage Labs Asset" />
                   </div>
                 </div>
                 <button className="xb-item--button btn-effect_2">

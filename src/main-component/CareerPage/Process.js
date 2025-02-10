@@ -38,7 +38,7 @@ const Process = (props) => {
                         className="sub-title wow fadeInDown"
                         data-wow-duration="600ms"
                       >
-                        <img src={hicon} alt="" />
+                        <img src={hicon} alt="Vntage Labs Asset" />
                         Hiring process
                       </div>
                     </div>
@@ -158,7 +158,7 @@ const Process = (props) => {
           <div className="col-lg-6 mt-30">
             <div className="cp-process-right">
               <div className="xb-img">
-                <img src={rImg} alt="" />
+                <img src={rImg} alt="Vntage Labs Asset" />
               </div>
             </div>
           </div>

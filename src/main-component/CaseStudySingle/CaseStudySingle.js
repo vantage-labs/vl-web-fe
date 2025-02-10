@@ -37,7 +37,8 @@ const CaseStudySingle = (props) => {
                 <div className="col-lg-9 mt-30">
                   <div className="page-title-box">
                     <span className="sub-title">
-                      <img src={icon} alt="" /> {CaseDetails.title}
+                      <img src={icon} alt="Vntage Labs Asset" />{" "}
+                      {CaseDetails.title}
                     </span>
                     <h2 className="title">
                       Discover our case studies <br /> highlighting
@@ -62,7 +63,7 @@ const CaseStudySingle = (props) => {
         <div className="csd-img pt-70 pb-65">
           <div className="container">
             <div className="item-details_image pos-rel">
-              <img src={caseImg} alt="" />
+              <img src={caseImg} alt="Vntage Labs Asset" />
             </div>
           </div>
         </div>
@@ -98,7 +99,7 @@ const CaseStudySingle = (props) => {
             <div className="csd-ser_inner ul_li_between">
               <div className="csd-item ul_li">
                 <div className="xb-icon">
-                  <img src={cIcon1} alt="" />
+                  <img src={cIcon1} alt="Vntage Labs Asset" />
                 </div>
                 <h6 className="xb-text">
                   client : <span> Vntage Labs</span>
@@ -106,7 +107,7 @@ const CaseStudySingle = (props) => {
               </div>
               <div className="csd-item ul_li">
                 <div className="xb-icon">
-                  <img src={cIcon2} alt="" />
+                  <img src={cIcon2} alt="Vntage Labs Asset" />
                 </div>
                 <h6 className="xb-text">
                   services : <span> Marketing</span>
@@ -114,7 +115,7 @@ const CaseStudySingle = (props) => {
               </div>
               <div className="csd-item ul_li">
                 <div className="xb-icon">
-                  <img src={cIcon3} alt="" />
+                  <img src={cIcon3} alt="Vntage Labs Asset" />
                 </div>
                 <h6 className="xb-text">
                   completed date : <span> 20-11-2024</span>
@@ -122,7 +123,7 @@ const CaseStudySingle = (props) => {
               </div>
               <div className="csd-item ul_li">
                 <div className="xb-icon">
-                  <img src={cIcon4} alt="" />
+                  <img src={cIcon4} alt="Vntage Labs Asset" />
                 </div>
                 <h6 className="xb-text">
                   location : <span> New York,NY,USA</span>
@@ -146,37 +147,37 @@ const CaseStudySingle = (props) => {
               <div className="sd-list-item ul_li">
                 <ul className="sd-ser-list list-unstyled">
                   <li>
-                    <img src={cIcon} alt="" />
+                    <img src={cIcon} alt="Vntage Labs Asset" />
                     Platform Audit & Strategy Development.
                   </li>
                   <li>
-                    <img src={cIcon} alt="" />
+                    <img src={cIcon} alt="Vntage Labs Asset" />
                     Content Creation & Curation.
                   </li>
                   <li>
-                    <img src={cIcon} alt="" />
+                    <img src={cIcon} alt="Vntage Labs Asset" />
                     SEO Optimization Search Engines.
                   </li>
                   <li>
-                    <img src={cIcon} alt="" />
+                    <img src={cIcon} alt="Vntage Labs Asset" />
                     Scheduling & Consistency.
                   </li>
                 </ul>
                 <ul className="sd-ser-list list-unstyled">
                   <li>
-                    <img src={cIcon} alt="" />
+                    <img src={cIcon} alt="Vntage Labs Asset" />
                     Analytics & Performance Monitoring.
                   </li>
                   <li>
-                    <img src={cIcon} alt="" />
+                    <img src={cIcon} alt="Vntage Labs Asset" />
                     Community Management.
                   </li>
                   <li>
-                    <img src={cIcon} alt="" />
+                    <img src={cIcon} alt="Vntage Labs Asset" />
                     Ongoing Adjustments & Reporting.
                   </li>
                   <li>
-                    <img src={cIcon} alt="" />
+                    <img src={cIcon} alt="Vntage Labs Asset" />
                     Ad Campaign Integration.
                   </li>
                 </ul>
@@ -212,7 +213,7 @@ const CaseStudySingle = (props) => {
                           onClick={ClickHandler}
                           to={`/casestudy-details/${cases.slug}`}
                         >
-                          <img src={cases.img} alt="" />
+                          <img src={cases.img} alt="Vntage Labs Asset" />
                         </Link>
                         <div className="content_wrap">
                           <h3 className="item_title">{cases.title}</h3>

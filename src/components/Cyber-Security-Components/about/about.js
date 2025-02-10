@@ -34,7 +34,7 @@ const About = (props) => {
                         className="sub-title wow fadeInUp"
                         data-wow-duration="600ms"
                       >
-                        <img src={icon} alt="" />
+                        <img src={icon} alt="Vntage Labs Asset" />
                         <span>About us</span>
                       </span>
                     </div>
@@ -173,11 +173,11 @@ const About = (props) => {
                     data-wow-duration="600ms"
                   >
                     <div className="xb-img">
-                      <img src={about1} alt="" />
+                      <img src={about1} alt="Vntage Labs Asset" />
                     </div>
                     <div className="xb-content">
                       <div className="xb-item--img">
-                        <img src={about2} alt="" />
+                        <img src={about2} alt="Vntage Labs Asset" />
                       </div>
                       <div className="xb-item--inner">
                         <h3 className="xb-item--number">120+</h3>
@@ -192,7 +192,7 @@ const About = (props) => {
             </div>
           </div>
           <div className="xb-shape">
-            <img src={about3} alt="" />
+            <img src={about3} alt="Vntage Labs Asset" />
           </div>
         </div>
         <div className="cs-feature pos-rel pt-140 z-1">
@@ -200,7 +200,7 @@ const About = (props) => {
             <div className="col-lg-3 col-md-6 cs-feature-col mt-30">
               <div className="cs-feature-item">
                 <div className="xb-item--icons">
-                  <img src={abicon1} alt="" />
+                  <img src={abicon1} alt="Vntage Labs Asset" />
                 </div>
                 <h3 className="xb-item--title">Proactive detection</h3>
                 <span className="xb-item--content">
@@ -211,7 +211,7 @@ const About = (props) => {
             <div className="col-lg-3 col-md-6 cs-feature-col mt-30">
               <div className="cs-feature-item">
                 <div className="xb-item--icons">
-                  <img src={abicon2} alt="" />
+                  <img src={abicon2} alt="Vntage Labs Asset" />
                 </div>
                 <h3 className="xb-item--title">Real-time response</h3>
                 <span className="xb-item--content">
@@ -223,7 +223,7 @@ const About = (props) => {
             <div className="col-lg-3 col-md-6 cs-feature-col mt-30">
               <div className="cs-feature-item">
                 <div className="xb-item--icons">
-                  <img src={abicon3} alt="" />
+                  <img src={abicon3} alt="Vntage Labs Asset" />
                 </div>
                 <h3 className="xb-item--title">AI-powered security</h3>
                 <span className="xb-item--content">
@@ -235,7 +235,7 @@ const About = (props) => {
             <div className="col-lg-3 col-md-6 cs-feature-col mt-30">
               <div className="cs-feature-item">
                 <div className="xb-item--icons">
-                  <img src={abicon4} alt="" />
+                  <img src={abicon4} alt="Vntage Labs Asset" />
                 </div>
                 <h3 className="xb-item--title">Risk & compliance</h3>
                 <span className="xb-item--content">

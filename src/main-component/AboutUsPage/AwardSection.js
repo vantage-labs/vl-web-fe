@@ -35,7 +35,7 @@ const AwardSection = (props) => {
                       className="sub-title wow fadeInDown"
                       data-wow-duration="600ms"
                     >
-                      <img src={sIcon1} alt="" />
+                      <img src={sIcon1} alt="Vntage Labs Asset" />
                       Our awards
                     </span>
                   </div>
@@ -137,96 +137,96 @@ const AwardSection = (props) => {
               <div className="ap-award-inner marquee-first">
                 <div className="ap-award-item">
                   <div className="xb-img">
-                    <img src={brand1} alt="" />
+                    <img src={brand1} alt="Vntage Labs Asset" />
                   </div>
                 </div>
                 <div className="ap-award-item">
                   <div className="xb-img">
-                    <img src={brand2} alt="" />
+                    <img src={brand2} alt="Vntage Labs Asset" />
                   </div>
                 </div>
                 <div className="ap-award-item">
                   <div className="xb-img">
-                    <img src={brand3} alt="" />
+                    <img src={brand3} alt="Vntage Labs Asset" />
                   </div>
                 </div>
                 <div className="ap-award-item">
                   <div className="xb-img">
-                    <img src={brand1} alt="" />
+                    <img src={brand1} alt="Vntage Labs Asset" />
                   </div>
                 </div>
                 <div className="ap-award-item">
                   <div className="xb-img">
-                    <img src={brand2} alt="" />
+                    <img src={brand2} alt="Vntage Labs Asset" />
                   </div>
                 </div>
                 <div className="ap-award-item">
                   <div className="xb-img">
-                    <img src={brand3} alt="" />
+                    <img src={brand3} alt="Vntage Labs Asset" />
                   </div>
                 </div>
               </div>
               <div className="ap-award-inner marquee-2">
                 <div className="ap-award-item">
                   <div className="xb-img">
-                    <img src={brand4} alt="" />
+                    <img src={brand4} alt="Vntage Labs Asset" />
                   </div>
                 </div>
                 <div className="ap-award-item">
                   <div className="xb-img">
-                    <img src={brand5} alt="" />
+                    <img src={brand5} alt="Vntage Labs Asset" />
                   </div>
                 </div>
                 <div className="ap-award-item">
                   <div className="xb-img">
-                    <img src={brand6} alt="" />
+                    <img src={brand6} alt="Vntage Labs Asset" />
                   </div>
                 </div>
                 <div className="ap-award-item">
                   <div className="xb-img">
-                    <img src={brand7} alt="" />
+                    <img src={brand7} alt="Vntage Labs Asset" />
                   </div>
                 </div>
                 <div className="ap-award-item">
                   <div className="xb-img">
-                    <img src={brand4} alt="" />
+                    <img src={brand4} alt="Vntage Labs Asset" />
                   </div>
                 </div>
                 <div className="ap-award-item">
                   <div className="xb-img">
-                    <img src={brand5} alt="" />
+                    <img src={brand5} alt="Vntage Labs Asset" />
                   </div>
                 </div>
               </div>
               <div className="ap-award-inner marquee-first">
                 <div className="ap-award-item">
                   <div className="xb-img">
-                    <img src={brand8} alt="" />
+                    <img src={brand8} alt="Vntage Labs Asset" />
                   </div>
                 </div>
                 <div className="ap-award-item">
                   <div className="xb-img">
-                    <img src={brand9} alt="" />
+                    <img src={brand9} alt="Vntage Labs Asset" />
                   </div>
                 </div>
                 <div className="ap-award-item">
                   <div className="xb-img">
-                    <img src={brand10} alt="" />
+                    <img src={brand10} alt="Vntage Labs Asset" />
                   </div>
                 </div>
                 <div className="ap-award-item">
                   <div className="xb-img">
-                    <img src={brand8} alt="" />
+                    <img src={brand8} alt="Vntage Labs Asset" />
                   </div>
                 </div>
                 <div className="ap-award-item">
                   <div className="xb-img">
-                    <img src={brand9} alt="" />
+                    <img src={brand9} alt="Vntage Labs Asset" />
                   </div>
                 </div>
                 <div className="ap-award-item">
                   <div className="xb-img">
-                    <img src={brand10} alt="" />
+                    <img src={brand10} alt="Vntage Labs Asset" />
                   </div>
                 </div>
               </div>

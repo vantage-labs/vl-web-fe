@@ -129,19 +129,19 @@ const Hero4 = () => {
       </div>
       <div className="xb-shape">
         <div className="shape shape--one">
-          <img src={hImg1} alt="" />
+          <img src={hImg1} alt="Vntage Labs Asset" />
         </div>
         <div className="shape shape--two">
-          <img src={hImg2} alt="" />
+          <img src={hImg2} alt="Vntage Labs Asset" />
         </div>
         <div className="shape shape--three">
-          <img src={hImg3} alt="" />
+          <img src={hImg3} alt="Vntage Labs Asset" />
         </div>
         <div className="shape shape--four">
-          <img src={hImg4} alt="" />
+          <img src={hImg4} alt="Vntage Labs Asset" />
         </div>
         <div className="shape shape--five">
-          <img src={hImg5} alt="" />
+          <img src={hImg5} alt="Vntage Labs Asset" />
         </div>
       </div>
       <div className="sc_hero_video">

@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
-import Services from '../../../api/service';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect, useRef } from "react";
+import Services from "../../../api/service";
+import { Link } from "react-router-dom";
 
 const ServiceSection = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -12,10 +12,11 @@ const ServiceSection = () => {
   };
 
   const updateActiveBg = (index) => {
-    const serviceListItems = serviceListRef.current.querySelectorAll('.service-list-item');
+    const serviceListItems =
+      serviceListRef.current.querySelectorAll(".service-list-item");
     const activeBg = activeBgRef.current;
     const item = serviceListItems[index];
-  
+
     const menuTop = serviceListRef.current.getBoundingClientRect().top;
     const itemTop = item.getBoundingClientRect().top;
     const topOff = itemTop - menuTop;
@@ -24,7 +25,6 @@ const ServiceSection = () => {
     activeBg.style.top = `${topOff}px`;
     activeBg.style.height = `${height}px`;
   };
-  
 
   const handleMouseEnter = (index) => {
     setActiveIndex(index);
@@ -49,7 +49,9 @@ const ServiceSection = () => {
       <div className="service-images">
         {Services.slice(6, 10).map((service, srv) => (
           <div
-            className={`service-image-item ${activeIndex === srv ? 'active' : ''}`}
+            className={`service-image-item ${
+              activeIndex === srv ? "active" : ""
+            }`}
             key={srv}
             style={{ backgroundImage: `url(${service.sImg})` }}
           ></div>
@@ -67,14 +69,20 @@ const ServiceSection = () => {
               <div
                 onClick={() => handleClick(srv)}
                 onMouseEnter={() => handleMouseEnter(srv)}
-                className={`service-list-item ul_li_between ${activeIndex === srv ? 'current' : ''}`}
+                className={`service-list-item ul_li_between ${
+                  activeIndex === srv ? "current" : ""
+                }`}
                 key={srv}
               >
                 <div className="xb-item--icon">
-                  <img src={service.sIcon} alt="" />
+                  <img src={service.sIcon} alt="Vntage Labs Asset" />
                 </div>
                 <h3 className="xb-item--title">{service.title}</h3>
-                <Link onClick={ClickHandler} to={`/services/${service.slug}`} className="xb-item--arrow">
+                <Link
+                  onClick={ClickHandler}
+                  to={`/services/${service.slug}`}
+                  className="xb-item--arrow"
+                >
                   <svg
                     width="12"
                     height="12"
@@ -96,7 +104,7 @@ const ServiceSection = () => {
         <div className="service-content-image">
           {Services.slice(6, 10).map((service, srv) => (
             <div
-              className={`xb-item--img ${activeIndex === srv ? 'active' : ''}`}
+              className={`xb-item--img ${activeIndex === srv ? "active" : ""}`}
               key={srv}
               style={{ backgroundImage: `url(${service.sImg})` }}
             ></div>

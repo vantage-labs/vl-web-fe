@@ -42,10 +42,14 @@ const FeatureSection = (props) => {
             <div className="col-lg-6 mt-30">
               <div className="feature-left-item pos-rel">
                 <div className="xb-img">
-                  <img src={icon1} alt="" />
+                  <img src={icon1} alt="Vntage Labs Asset" />
                 </div>
                 <div className="xb-img-two">
-                  <img className="updown-2" src={icon2} alt="" />
+                  <img
+                    className="updown-2"
+                    src={icon2}
+                    alt="Vntage Labs Asset"
+                  />
                 </div>
               </div>
             </div>
@@ -64,7 +68,7 @@ const FeatureSection = (props) => {
                         data-wow-delay="150ms"
                         data-wow-duration="600ms"
                       >
-                        <img src={icon} alt="" />
+                        <img src={icon} alt="Vntage Labs Asset" />
                         Impressive feature
                       </div>
                     </div>

@@ -104,7 +104,7 @@ const Hero = () => {
                         data-wow-delay="300ms"
                         data-wow-duration="600ms"
                         src={heroImg3}
-                        alt=""
+                        alt="Vntage Labs Asset"
                       />
                     </Fade>
                   </div>

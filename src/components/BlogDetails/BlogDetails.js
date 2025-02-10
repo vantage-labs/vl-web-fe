@@ -32,7 +32,7 @@ const BlogSingle = (props) => {
     <section className="blog_details_section pt-70">
       <div className="container">
         <div className="item-details_image pos-rel mb-80">
-          <img src={blog1} alt="" />
+          <img src={blog1} alt="Vntage Labs Asset" />
         </div>
         <div className="item_details_content pb-80">
           <ul className="post_meta ul_li list-unstyled">
@@ -335,7 +335,7 @@ const BlogSingle = (props) => {
                   className="post-nav-item"
                 >
                   <div className="xb-item--arrow pos-rel">
-                    <img src={icon7} alt="" />
+                    <img src={icon7} alt="Vntage Labs Asset" />
                     <span></span>
                   </div>
                   <div className="xb-item--holder">
@@ -343,7 +343,7 @@ const BlogSingle = (props) => {
                       Exploring IT solutions <br /> ..with Vntage Labs
                     </h3>
                     <span className="xb-item--text">
-                      <img src={icon8} alt="" />
+                      <img src={icon8} alt="Vntage Labs Asset" />
                       Christopher
                     </span>
                   </div>
@@ -361,12 +361,12 @@ const BlogSingle = (props) => {
                       Measuring SEO success <br /> key metrics tools..
                     </h3>
                     <span className="xb-item--text">
-                      <img src={icon8} alt="" />
+                      <img src={icon8} alt="Vntage Labs Asset" />
                       Michael
                     </span>
                   </div>
                   <div className="xb-item--arrow pos-rel">
-                    <img src={icon9} alt="" />
+                    <img src={icon9} alt="Vntage Labs Asset" />
                     <span></span>
                   </div>
                 </Link>
@@ -407,7 +407,7 @@ const BlogSingle = (props) => {
                         onClick={ClickHandler}
                         to={`/blog-single/${blog.slug}`}
                       >
-                        <img src={blog.screens} alt="" />
+                        <img src={blog.screens} alt="Vntage Labs Asset" />
                       </Link>
                     </div>
                     <div className="xb-item--holder">

@@ -64,10 +64,10 @@ const Header = (props) => {
         </span>
         <div className="header-shape">
           <div className="shape shape--one">
-            <img src={icon1} alt="" />
+            <img src={icon1} alt="Vntage Labs Asset" />
           </div>
           <div className="shape shape--two">
-            <img src={icon1} alt="" />
+            <img src={icon1} alt="Vntage Labs Asset" />
           </div>
         </div>
       </div>
@@ -82,7 +82,7 @@ const Header = (props) => {
               <Link onClick={ClickHandler} to="/">
                 <img
                   src="https://res.cloudinary.com/dilb4d364/image/upload/q_auto/f_auto/v1738732324/5_guo4lg.svg"
-                  alt=""
+                  alt="Vntage Labs Asset"
                   style={{ maxWidth: "200px" }}
                 />
               </Link>
@@ -116,7 +116,10 @@ const Header = (props) => {
                                         >
                                           <span className="icon_title_wrap">
                                             <small className="iconbox_icon">
-                                              <img src={icon2} alt="" />
+                                              <img
+                                                src={icon2}
+                                                alt="Vntage Labs Asset"
+                                              />
                                             </small>
                                             <small className="iconbox_title">
                                               About Us
@@ -135,7 +138,10 @@ const Header = (props) => {
                                         >
                                           <span className="icon_title_wrap">
                                             <small className="iconbox_icon">
-                                              <img src={icon3} alt="" />
+                                              <img
+                                                src={icon3}
+                                                alt="Vntage Labs Asset"
+                                              />
                                             </small>
                                             <small className="iconbox_title">
                                               Our Pricing
@@ -154,7 +160,10 @@ const Header = (props) => {
                                         >
                                           <span className="icon_title_wrap">
                                             <small className="iconbox_icon">
-                                              <img src={icon4} alt="" />
+                                              <img
+                                                src={icon4}
+                                                alt="Vntage Labs Asset"
+                                              />
                                             </small>
                                             <small className="iconbox_title">
                                               Our team
@@ -173,7 +182,10 @@ const Header = (props) => {
                                         >
                                           <span className="icon_title_wrap">
                                             <small className="iconbox_icon">
-                                              <img src={icon5} alt="" />
+                                              <img
+                                                src={icon5}
+                                                alt="Vntage Labs Asset"
+                                              />
                                             </small>
                                             <small className="iconbox_title">
                                               Services
@@ -192,7 +204,10 @@ const Header = (props) => {
                                         >
                                           <span className="icon_title_wrap">
                                             <small className="iconbox_icon">
-                                              <img src={icon7} alt="" />
+                                              <img
+                                                src={icon7}
+                                                alt="Vntage Labs Asset"
+                                              />
                                             </small>
                                             <small className="iconbox_title">
                                               Casestudy
@@ -211,7 +226,10 @@ const Header = (props) => {
                                         >
                                           <span className="icon_title_wrap">
                                             <small className="iconbox_icon">
-                                              <img src={icon11} alt="" />
+                                              <img
+                                                src={icon11}
+                                                alt="Vntage Labs Asset"
+                                              />
                                             </small>
                                             <small className="iconbox_title">
                                               Terms & Conditions
@@ -230,7 +248,10 @@ const Header = (props) => {
                                         >
                                           <span className="icon_title_wrap">
                                             <small className="iconbox_icon">
-                                              <img src={icon12} alt="" />
+                                              <img
+                                                src={icon12}
+                                                alt="Vntage Labs Asset"
+                                              />
                                             </small>
                                             <small className="iconbox_title">
                                               Privacy Policy
@@ -256,7 +277,10 @@ const Header = (props) => {
                                     <li>
                                       <div className="review_short_info_2">
                                         <div className="review_admin_logo">
-                                          <img src={clogo1} alt="" />
+                                          <img
+                                            src={clogo1}
+                                            alt="Vntage Labs Asset"
+                                          />
                                         </div>
                                         <div className="review_info_content">
                                           <ul className="rating_block unordered_list">
@@ -286,7 +310,10 @@ const Header = (props) => {
                                     <li>
                                       <div className="review_short_info_2">
                                         <div className="review_admin_logo">
-                                          <img src={clogo2} alt="" />
+                                          <img
+                                            src={clogo2}
+                                            alt="Vntage Labs Asset"
+                                          />
                                         </div>
                                         <div className="review_info_content">
                                           <ul className="rating_block unordered_list">
@@ -320,7 +347,7 @@ const Header = (props) => {
                                     <div className="site_author">
                                       <div className="author_box">
                                         <div className="author_image bg-light">
-                                          <img src={avatar} alt="" />
+                                          <img src={avatar} alt="Vntage Labs Asset" />
                                         </div>
                                         <div className="author_box_content">
                                           <h3 className="author_name text-white">
@@ -338,7 +365,7 @@ const Header = (props) => {
                                         at innomax, I made that possible for the
                                         clients”. </p>
                                       <div className="author_box_quote">
-                                        <img src={quote} alt="" />
+                                        <img src={quote} alt="Vntage Labs Asset" />
                                       </div>
                                     </div>
                                   </div>
@@ -497,7 +524,7 @@ const Header = (props) => {
                       <Link onClick={ClickHandler} to="/" rel="home">
                         <img
                           src="https://res.cloudinary.com/dilb4d364/image/upload/q_auto/f_auto/v1738732324/5_guo4lg.svg"
-                          alt=""
+                          alt="Vntage Labs Asset"
                           style={{ maxWidth: "200px" }}
                         />
                       </Link>
@@ -538,7 +565,7 @@ const Header = (props) => {
                 className="thm-btn thm-btn--aso thm-btn--header-black"
               >
                 Let’s talk
-                <img src={icon13} alt="" />
+                <img src={icon13} alt="Vntage Labs Asset" />
               </Link>
             </div>
             <SelectCountry />

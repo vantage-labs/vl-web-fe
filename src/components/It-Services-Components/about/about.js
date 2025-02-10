@@ -53,18 +53,18 @@ const About = () => {
             >
               <div>
                 <div className="xb-item--img">
-                  <img src={item.img} alt="" />
+                  <img src={item.img} alt="Vntage Labs Asset" />
                 </div>
                 <h3 className="xb-item--heading">
                   <span>
-                    <img src={item.icon} alt="" />
+                    <img src={item.icon} alt="Vntage Labs Asset" />
                   </span>
                   {item.heading}
                 </h3>
                 <div className="xb-item--holder">
                   <h3 className="xb-item--title">
                     <span>
-                      <img src={item.icon} alt="" />
+                      <img src={item.icon} alt="Vntage Labs Asset" />
                     </span>
                     {item.heading}
                   </h3>

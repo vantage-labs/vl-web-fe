@@ -31,7 +31,7 @@ const PrivacyPage = (props) => {
                 <div className="col-lg-8 mt-30">
                   <div className="page-title-box">
                     <span className="sub-title">
-                      <img src={icon} alt="" />
+                      <img src={icon} alt="Vntage Labs Asset" />
                       Privacy Policy
                     </span>
                     <h2 className="title">
@@ -48,42 +48,42 @@ const PrivacyPage = (props) => {
                     <div className="cp-img-inner ul_li">
                       <div className="cp-item marquee-first">
                         <div className="xb-img">
-                          <img src={gImg1} alt="" />
+                          <img src={gImg1} alt="Vntage Labs Asset" />
                         </div>
                         <div className="xb-img">
-                          <img src={gImg2} alt="" />
+                          <img src={gImg2} alt="Vntage Labs Asset" />
                         </div>
                         <div className="xb-img">
-                          <img src={gImg3} alt="" />
+                          <img src={gImg3} alt="Vntage Labs Asset" />
                         </div>
                         <div className="xb-img">
-                          <img src={gImg1} alt="" />
+                          <img src={gImg1} alt="Vntage Labs Asset" />
                         </div>
                         <div className="xb-img">
-                          <img src={gImg2} alt="" />
+                          <img src={gImg2} alt="Vntage Labs Asset" />
                         </div>
                         <div className="xb-img">
-                          <img src={gImg3} alt="" />
+                          <img src={gImg3} alt="Vntage Labs Asset" />
                         </div>
                       </div>
                       <div className="cp-item marquee-2">
                         <div className="xb-img">
-                          <img src={gImg4} alt="" />
+                          <img src={gImg4} alt="Vntage Labs Asset" />
                         </div>
                         <div className="xb-img">
-                          <img src={gImg5} alt="" />
+                          <img src={gImg5} alt="Vntage Labs Asset" />
                         </div>
                         <div className="xb-img">
-                          <img src={gImg6} alt="" />
+                          <img src={gImg6} alt="Vntage Labs Asset" />
                         </div>
                         <div className="xb-img">
-                          <img src={gImg4} alt="" />
+                          <img src={gImg4} alt="Vntage Labs Asset" />
                         </div>
                         <div className="xb-img">
-                          <img src={gImg5} alt="" />
+                          <img src={gImg5} alt="Vntage Labs Asset" />
                         </div>
                         <div className="xb-img">
-                          <img src={gImg6} alt="" />
+                          <img src={gImg6} alt="Vntage Labs Asset" />
                         </div>
                       </div>
                     </div>

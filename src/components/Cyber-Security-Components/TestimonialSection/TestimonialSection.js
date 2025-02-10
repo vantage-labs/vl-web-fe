@@ -249,7 +249,7 @@ const TestimonialSection = (props) => {
                   className="sub-title wow fadeInDown"
                   data-wow-duration="600ms"
                 >
-                  <img src={icon} alt="" />
+                  <img src={icon} alt="Vntage Labs Asset" />
                   <span>Customer stories</span>
                 </span>
               </div>
@@ -277,14 +277,14 @@ const TestimonialSection = (props) => {
                 <div className="cs-tes-item" key={index}>
                   <div className="xb-left-item">
                     <div className="xb-item--img">
-                      <img src={story.left.img} alt="" />
+                      <img src={story.left.img} alt="Vntage Labs Asset" />
                     </div>
                     <div className="xb-item--header">
                       <span className="xb-item--sub-title">
                         {story.left.subTitle}
                       </span>
                       <div className="xb-item--logo">
-                        <img src={story.left.logo} alt="" />
+                        <img src={story.left.logo} alt="Vntage Labs Asset" />
                       </div>
                       <h2 className="xb-item--title">{story.left.title}</h2>
                     </div>
@@ -330,37 +330,37 @@ const TestimonialSection = (props) => {
               >
                 <div className="brand-items" onClick={() => handleNavClick(0)}>
                   <div className="xb-img">
-                    <img src={brand1} alt="" />
+                    <img src={brand1} alt="Vntage Labs Asset" />
                   </div>
                   <div className="xb-line"></div>
                 </div>
                 <div className="brand-items" onClick={() => handleNavClick(1)}>
                   <div className="xb-img">
-                    <img src={brand2} alt="" />
+                    <img src={brand2} alt="Vntage Labs Asset" />
                   </div>
                   <div className="xb-line"></div>
                 </div>
                 <div className="brand-items" onClick={() => handleNavClick(2)}>
                   <div className="xb-img">
-                    <img src={brand5} alt="" />
+                    <img src={brand5} alt="Vntage Labs Asset" />
                   </div>
                   <div className="xb-line"></div>
                 </div>
                 <div className="brand-items" onClick={() => handleNavClick(3)}>
                   <div className="xb-img">
-                    <img src={brand3} alt="" />
+                    <img src={brand3} alt="Vntage Labs Asset" />
                   </div>
                   <div className="xb-line"></div>
                 </div>
                 <div className="brand-items" onClick={() => handleNavClick(4)}>
                   <div className="xb-img">
-                    <img src={brand4} alt="" />
+                    <img src={brand4} alt="Vntage Labs Asset" />
                   </div>
                   <div className="xb-line"></div>
                 </div>
                 <div className="brand-items" onClick={() => handleNavClick(5)}>
                   <div className="xb-img">
-                    <img src={brand1} alt="" />
+                    <img src={brand1} alt="Vntage Labs Asset" />
                   </div>
                   <div className="xb-line"></div>
                 </div>
@@ -371,13 +371,13 @@ const TestimonialSection = (props) => {
       </div>
       <div className="cs-tes-shape">
         <div className="shape shape--one">
-          <img src={shape1} alt="" />
+          <img src={shape1} alt="Vntage Labs Asset" />
         </div>
         <div className="shape shape--two">
-          <img className="world" src={shape2} alt="" />
+          <img className="world" src={shape2} alt="Vntage Labs Asset" />
         </div>
         <div className="shape shape--three">
-          <img src={shape3} alt="" />
+          <img src={shape3} alt="Vntage Labs Asset" />
         </div>
       </div>
     </section>

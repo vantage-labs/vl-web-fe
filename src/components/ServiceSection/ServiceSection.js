@@ -29,7 +29,7 @@ const ServiceSection = (props) => {
                 >
                   <div>
                     <span className="sub-title">
-                      <img src={hIcon} alt="" />
+                      <img src={hIcon} alt="Vntage Labs Asset" />
                       Feature-services
                     </span>
                   </div>
@@ -96,14 +96,14 @@ const ServiceSection = (props) => {
                       </div>
                       <div className="xb-item--icon ul_li_between">
                         <div className="xb-item--img">
-                          <img src={service.sImg} alt="" />
+                          <img src={service.sImg} alt="Vntage Labs Asset" />
                         </div>
                         <Link
                           onClick={ClickHandler}
                           to={`/services/${service.slug}`}
                           className="xb-item--arrow"
                         >
-                          <img src={sIcon} alt="" />
+                          <img src={sIcon} alt="Vntage Labs Asset" />
                         </Link>
                       </div>
                       <Link
@@ -133,14 +133,14 @@ const ServiceSection = (props) => {
                       </div>
                       <div className="xb-item--icon ul_li_between">
                         <div className="xb-item--img">
-                          <img src={service.sImg} alt="" />
+                          <img src={service.sImg} alt="Vntage Labs Asset" />
                         </div>
                         <Link
                           onClick={ClickHandler}
                           to={`/services/${service.slug}`}
                           className="xb-item--arrow"
                         >
-                          <img src={sIcon} alt="" />
+                          <img src={sIcon} alt="Vntage Labs Asset" />
                         </Link>
                       </div>
                       <Link

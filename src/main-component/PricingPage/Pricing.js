@@ -43,7 +43,7 @@ const PricingSection = () => {
                 className="sub-title wow fadeInDown"
                 data-wow-duration="600ms"
               >
-                <img src={icon} alt="" />
+                <img src={icon} alt="Vntage Labs Asset" />
                 Our best pricing
               </div>
             </div>
@@ -103,7 +103,7 @@ const PricingSection = () => {
                     <div className="xb-item--inner o-hidden pos-rel">
                       <div className="xb-item--holder ul_li">
                         <div className="xb-item--icon">
-                          <img src={picon} alt="" />
+                          <img src={picon} alt="Vntage Labs Asset" />
                         </div>
                         <div className="xb-item--right">
                           <h3 className="xb-item--title">Basic</h3>
@@ -120,17 +120,20 @@ const PricingSection = () => {
                       <h4 className="xb-item--feature">Features</h4>
                       <ul className="xb-item--list list-unstyled">
                         <li>
-                          <img src={check} alt="" /> UI/UX Design
+                          <img src={check} alt="Vntage Labs Asset" /> UI/UX
+                          Design
                         </li>
                         <li>
-                          <img src={check} alt="" /> Backend System Development
+                          <img src={check} alt="Vntage Labs Asset" /> Backend
+                          System Development
                         </li>
                         <li>
-                          <img src={check} alt="" /> On-Page SEO Optimization
+                          <img src={check} alt="Vntage Labs Asset" /> On-Page
+                          SEO Optimization
                         </li>
                         <li>
-                          <img src={check} alt="" /> One Month Performance
-                          Monitoring
+                          <img src={check} alt="Vntage Labs Asset" /> One Month
+                          Performance Monitoring
                         </li>
                       </ul>
                       <div className="pg-det-btn">
@@ -153,7 +156,7 @@ const PricingSection = () => {
                     <div className="xb-item--inner o-hidden pos-rel">
                       <div className="xb-item--holder ul_li">
                         <div className="xb-item--icon">
-                          <img src={picon2} alt="" />
+                          <img src={picon2} alt="Vntage Labs Asset" />
                         </div>
                         <div className="xb-item--right">
                           <h3 className="xb-item--title">Standard</h3>
@@ -170,22 +173,24 @@ const PricingSection = () => {
                       <h4 className="xb-item--feature">Features</h4>
                       <ul className="xb-item--list list-unstyled">
                         <li>
-                          <img src={check} alt="" /> All features of Basic
-                          Package
+                          <img src={check} alt="Vntage Labs Asset" /> All
+                          features of Basic Package
                         </li>
                         <li>
-                          <img src={check} alt="" /> Technical SEO Optimization
+                          <img src={check} alt="Vntage Labs Asset" /> Technical
+                          SEO Optimization
                         </li>
                         <li>
-                          <img src={check} alt="" /> Content Creation &
-                          Optimization
+                          <img src={check} alt="Vntage Labs Asset" /> Content
+                          Creation & Optimization
                         </li>
                         <li>
-                          <img src={check} alt="" /> Monthly Reports for 6
-                          Months
+                          <img src={check} alt="Vntage Labs Asset" /> Monthly
+                          Reports for 6 Months
                         </li>
                         <li>
-                          <img src={check} alt="" /> High-Quality Link Building
+                          <img src={check} alt="Vntage Labs Asset" />{" "}
+                          High-Quality Link Building
                         </li>
                       </ul>
                       <div className="pg-det-btn">
@@ -207,7 +212,7 @@ const PricingSection = () => {
                     <div className="xb-item--inner o-hidden pos-rel">
                       <div className="xb-item--holder ul_li">
                         <div className="xb-item--icon">
-                          <img src={picon3} alt="" />
+                          <img src={picon3} alt="Vntage Labs Asset" />
                         </div>
                         <div className="xb-item--right">
                           <h3 className="xb-item--title">Premium</h3>
@@ -224,19 +229,20 @@ const PricingSection = () => {
                       <h4 className="xb-item--feature">Features</h4>
                       <ul className="xb-item--list list-unstyled">
                         <li>
-                          <img src={check} alt="" /> All features of Standard
-                          Package
+                          <img src={check} alt="Vntage Labs Asset" /> All
+                          features of Standard Package
                         </li>
                         <li>
-                          <img src={check} alt="" /> Full Website & Technical
-                          SEO Audit
+                          <img src={check} alt="Vntage Labs Asset" /> Full
+                          Website & Technical SEO Audit
                         </li>
                         <li>
-                          <img src={check} alt="" /> Competitor Analysis &
-                          Monitoring
+                          <img src={check} alt="Vntage Labs Asset" /> Competitor
+                          Analysis & Monitoring
                         </li>
                         <li>
-                          <img src={check} alt="" /> Advanced Backlink Campaigns
+                          <img src={check} alt="Vntage Labs Asset" /> Advanced
+                          Backlink Campaigns
                         </li>
                       </ul>
                       <div className="pg-det-btn">
@@ -263,7 +269,7 @@ const PricingSection = () => {
                     <div className="xb-item--inner o-hidden pos-rel">
                       <div className="xb-item--holder ul_li">
                         <div className="xb-item--icon">
-                          <img src={picon} alt="" />
+                          <img src={picon} alt="Vntage Labs Asset" />
                         </div>
                         <div className="xb-item--right">
                           <h3 className="xb-item--title">Basic</h3>
@@ -280,20 +286,28 @@ const PricingSection = () => {
                       <h4 className="xb-item--feature">Features</h4>
                       <ul className="xb-item--list list-unstyled">
                         <li>
-                          <img src={check} alt="" /> UI/UX Design
+                          <img src={check} alt="Vntage Labs Asset" /> UI/UX
+                          Design
                         </li>
                         <li>
-                          <img src={check} alt="" /> Backend System Development
+                          <img src={check} alt="Vntage Labs Asset" /> Backend
+                          System Development
                         </li>
                         <li>
-                          <img src={check} alt="" /> On-Page SEO Optimization
+                          <img src={check} alt="Vntage Labs Asset" /> On-Page
+                          SEO Optimization
                         </li>
                         <li>
-                          <img src={check} alt="" /> One Month Performance Monitoring
+                          <img src={check} alt="Vntage Labs Asset" /> One Month
+                          Performance Monitoring
                         </li>
                       </ul>
                       <div className="pg-det-btn">
-                        <Link onClick={ClickHandler} to="/contact" className="cp-btn">
+                        <Link
+                          onClick={ClickHandler}
+                          to="/contact"
+                          className="cp-btn"
+                        >
                           Choose your plan
                         </Link>
                       </div>
@@ -308,7 +322,7 @@ const PricingSection = () => {
                     <div className="xb-item--inner o-hidden pos-rel">
                       <div className="xb-item--holder ul_li">
                         <div className="xb-item--icon">
-                          <img src={picon2} alt="" />
+                          <img src={picon2} alt="Vntage Labs Asset" />
                         </div>
                         <div className="xb-item--right">
                           <h3 className="xb-item--title">Standard</h3>
@@ -325,23 +339,32 @@ const PricingSection = () => {
                       <h4 className="xb-item--feature">Features</h4>
                       <ul className="xb-item--list list-unstyled">
                         <li>
-                          <img src={check} alt="" /> All features of Basic Package
+                          <img src={check} alt="Vntage Labs Asset" /> All
+                          features of Basic Package
                         </li>
                         <li>
-                          <img src={check} alt="" /> Technical SEO Optimization
+                          <img src={check} alt="Vntage Labs Asset" /> Technical
+                          SEO Optimization
                         </li>
                         <li>
-                          <img src={check} alt="" /> Content Creation & Optimization
+                          <img src={check} alt="Vntage Labs Asset" /> Content
+                          Creation & Optimization
                         </li>
                         <li>
-                          <img src={check} alt="" /> Monthly Reports for 6 Months
+                          <img src={check} alt="Vntage Labs Asset" /> Monthly
+                          Reports for 6 Months
                         </li>
                         <li>
-                          <img src={check} alt="" /> High-Quality Link Building
+                          <img src={check} alt="Vntage Labs Asset" />{" "}
+                          High-Quality Link Building
                         </li>
                       </ul>
                       <div className="pg-det-btn">
-                        <Link onClick={ClickHandler} to="/contact" className="cp-btn">
+                        <Link
+                          onClick={ClickHandler}
+                          to="/contact"
+                          className="cp-btn"
+                        >
                           Choose your plan
                         </Link>
                       </div>
@@ -355,7 +378,7 @@ const PricingSection = () => {
                     <div className="xb-item--inner o-hidden pos-rel">
                       <div className="xb-item--holder ul_li">
                         <div className="xb-item--icon">
-                          <img src={picon3} alt="" />
+                          <img src={picon3} alt="Vntage Labs Asset" />
                         </div>
                         <div className="xb-item--right">
                           <h3 className="xb-item--title">Premium</h3>
@@ -372,20 +395,28 @@ const PricingSection = () => {
                       <h4 className="xb-item--feature">Features</h4>
                       <ul className="xb-item--list list-unstyled">
                         <li>
-                          <img src={check} alt="" /> All features of Standard Package
+                          <img src={check} alt="Vntage Labs Asset" /> All
+                          features of Standard Package
                         </li>
                         <li>
-                          <img src={check} alt="" /> Full Website & Technical SEO Audit
+                          <img src={check} alt="Vntage Labs Asset" /> Full
+                          Website & Technical SEO Audit
                         </li>
                         <li>
-                          <img src={check} alt="" /> Competitor Analysis & Monitoring
+                          <img src={check} alt="Vntage Labs Asset" /> Competitor
+                          Analysis & Monitoring
                         </li>
                         <li>
-                          <img src={check} alt="" /> Advanced Backlink Campaigns
+                          <img src={check} alt="Vntage Labs Asset" /> Advanced
+                          Backlink Campaigns
                         </li>
                       </ul>
                       <div className="pg-det-btn">
-                        <Link onClick={ClickHandler} to="/contact" className="cp-btn">
+                        <Link
+                          onClick={ClickHandler}
+                          to="/contact"
+                          className="cp-btn"
+                        >
                           Choose your plan
                         </Link>
                       </div>
@@ -394,7 +425,6 @@ const PricingSection = () => {
                 </Col>
               </Row>
             </TabPane>
-
           </TabContent>
         </div>
       </div>

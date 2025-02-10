@@ -28,7 +28,7 @@ const TeamPage = (props) => {
                 <div className="col-lg-7 mt-30">
                   <div className="page-title-box">
                     <span className="sub-title">
-                      <img src={icon} alt="" />
+                      <img src={icon} alt="Vntage Labs Asset" />
                       Our team
                     </span>
                     <h2 className="title">
@@ -59,7 +59,7 @@ const TeamPage = (props) => {
                   <div className="team-item">
                     <div className="xb-item--content pos-rel">
                       <div className="xb-item--img">
-                        <img src={bg} alt="" />
+                        <img src={bg} alt="Vntage Labs Asset" />
                       </div>
                       <div className="xb-item--item">
                         <span className="xb-item--skill">{team.exprience}</span>
@@ -73,7 +73,7 @@ const TeamPage = (props) => {
                         <div className="xb-item--avatar">
                           <img
                             src={team.tImg}
-                            alt=""
+                            alt="Vntage Labs Asset"
                             style={{ borderRadius: "100%" }}
                           />
                         </div>

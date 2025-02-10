@@ -71,7 +71,10 @@ const RoadmapSlider = () => {
               className="sub-title sub-title--strock wow fadeInDown"
               data-wow-duration="600ms"
             >
-              <img src="assets/img/icon/process-icon.svg" alt="" />
+              <img
+                src="assets/img/icon/process-icon.svg"
+                alt="Vntage Labs Asset"
+              />
               Our Journey
             </div>
             <h2
@@ -139,9 +142,9 @@ const RoadmapSlider = () => {
             <SwiperSlide key={index}>
               <div className="roadmap-item">
                 <div className="xb-item--top">
-                  <img src={shape1} alt="" />
+                  <img src={shape1} alt="Vntage Labs Asset" />
                   <span className="xb-item--ques">{item.quarter}</span>
-                  <img src={shape2} alt="" />
+                  <img src={shape2} alt="Vntage Labs Asset" />
                 </div>
                 <div className="xb-item--holder">
                   <span className="xb-item--year">{item.year}</span>
@@ -158,13 +161,13 @@ const RoadmapSlider = () => {
       </div>
       <div className="roadmap-shape">
         <div className="shape shape--one">
-          <img src={shape3} alt="" />
+          <img src={shape3} alt="Vntage Labs Asset" />
         </div>
         <div className="shape shape--two">
-          <img src={shape4} alt="" />
+          <img src={shape4} alt="Vntage Labs Asset" />
         </div>
         <div className="shape shape--three">
-          <img src={shape5} alt="" />
+          <img src={shape5} alt="Vntage Labs Asset" />
         </div>
       </div>
     </section>

@@ -137,7 +137,7 @@ const WorkProcess = (props) => {
                 <div className="process-item" key={pitem}>
                   <span className="xb-item--number">{process.id}</span>
                   <div className="xb-item--img">
-                    <img src={process.icon} alt="" />
+                    <img src={process.icon} alt="Vntage Labs Asset" />
                   </div>
                   <div className="xb-item--holder">
                     <h3 className="xb-item--title">{process.title}</h3>
@@ -151,10 +151,10 @@ const WorkProcess = (props) => {
       </div>
       <div className="peocess-shape">
         <div className="shape shape--one">
-          <img src={pImg} alt="" />
+          <img src={pImg} alt="Vntage Labs Asset" />
         </div>
         <div className="shape shape--two">
-          <img src={pImg2} alt="" />
+          <img src={pImg2} alt="Vntage Labs Asset" />
         </div>
       </div>
     </section>

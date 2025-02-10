@@ -22,7 +22,7 @@ const FeaturesSection = (props) => {
                     className="sub-title wow fadeInDown"
                     data-wow-duration="600ms"
                   >
-                    <img src={star} alt="" />
+                    <img src={star} alt="Vntage Labs Asset" />
                     Why we’re dirrerent
                   </div>
                 </div>
@@ -51,7 +51,7 @@ const FeaturesSection = (props) => {
                   <th>
                     <img
                       src="https://res.cloudinary.com/dilb4d364/image/upload/q_auto/f_auto/v1738731567/2_s9oxko.svg"
-                      alt=""
+                      alt="Vntage Labs Asset"
                       style={{ maxWidth: "250px" }}
                     />
                   </th>

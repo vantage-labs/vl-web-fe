@@ -68,17 +68,17 @@ const Footer = (props) => {
             </div>
             <div className="cb-shape">
               <div className="shape shape--one">
-                <img src={shape1} alt="" />
+                <img src={shape1} alt="Vntage Labs Asset" />
               </div>
               <div className="shape shape--two">
-                <img src={shape2} alt="" />
+                <img src={shape2} alt="Vntage Labs Asset" />
               </div>
             </div>
           </div>
           <div className="footer-inner mt-120 ul_li_between mt-none-30">
             <div className="footer-widget mt-30">
               <div className="xb-logo">
-                <img src={logo} alt="" />
+                <img src={logo} alt="Vntage Labs Asset" />
               </div>
               <p className="xb-content">
                 We create award-winning products for startups and help

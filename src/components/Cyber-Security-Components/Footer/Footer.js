@@ -26,34 +26,37 @@ const Footer = (props) => {
         <div className="xb-footer">
           <div className="sec-title--two sec-title--three text-center mb-40">
             <span className="sub-title">
-              <img src="assets/img/icon/airdrop01.svg" alt="" />
+              <img
+                src="assets/img/icon/airdrop01.svg"
+                alt="Vntage Labs Asset"
+              />
               <span>Join the Vntage Labs community</span>
             </span>
           </div>
           <div className="social-link ul_li_between">
             <div className="social-item">
               <Link onClick={ClickHandler} to="/home-4" className="xb-icon">
-                <img src={icon1} alt="" />
+                <img src={icon1} alt="Vntage Labs Asset" />
               </Link>
             </div>
             <div className="social-item">
               <Link onClick={ClickHandler} to="/home-4" className="xb-icon">
-                <img src={icon2} alt="" />
+                <img src={icon2} alt="Vntage Labs Asset" />
               </Link>
             </div>
             <div className="social-item">
               <Link onClick={ClickHandler} to="/home-4" className="xb-icon">
-                <img src={icon3} alt="" />
+                <img src={icon3} alt="Vntage Labs Asset" />
               </Link>
             </div>
             <div className="social-item">
               <Link onClick={ClickHandler} to="/home-4" className="xb-icon">
-                <img src={icon4} alt="" />
+                <img src={icon4} alt="Vntage Labs Asset" />
               </Link>
             </div>
             <div className="social-item">
               <Link onClick={ClickHandler} to="/home-4" className="xb-icon">
-                <img src={icon5} alt="" />
+                <img src={icon5} alt="Vntage Labs Asset" />
               </Link>
             </div>
           </div>

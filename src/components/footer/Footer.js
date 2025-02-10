@@ -21,7 +21,7 @@ const Footer = (props) => {
             <div className="info-item ul_li">
               <div className="xb-item--icon">
                 <span>
-                  <img src={icon1} alt="" />
+                  <img src={icon1} alt="Vntage Labs Asset" />
                 </span>
               </div>
               <div className="xb-item--holder">
@@ -32,7 +32,7 @@ const Footer = (props) => {
             <div className="info-item ul_li">
               <div className="xb-item--icon clr-blue">
                 <span>
-                  <img src={icon2} alt="" />
+                  <img src={icon2} alt="Vntage Labs Asset" />
                 </span>
               </div>
               <div className="xb-item--holder">
@@ -43,7 +43,7 @@ const Footer = (props) => {
             <div className="info-item ul_li">
               <div className="xb-item--icon clr-sky">
                 <span>
-                  <img src={icon3} alt="" />
+                  <img src={icon3} alt="Vntage Labs Asset" />
                 </span>
               </div>
               <div className="xb-item--holder">

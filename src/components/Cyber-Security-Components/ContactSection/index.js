@@ -27,7 +27,7 @@ const ContactSection = (props) => {
                 <div className="xb-item--inner">
                   <div className="sec-title--two sec-title--three mb-25">
                     <span className="sub-title">
-                      <img src={icon1} alt="" />
+                      <img src={icon1} alt="Vntage Labs Asset" />
                       <span>You are here</span>
                     </span>
                     <h2 className="title">Let's start</h2>
@@ -38,25 +38,25 @@ const ContactSection = (props) => {
                   <ul className="xb-item--cont_info list-unstyled">
                     <li>
                       <span>
-                        <img src={icon2} alt="" />
+                        <img src={icon2} alt="Vntage Labs Asset" />
                       </span>
                       +(1) 1230 452 8597
                     </li>
                     <li>
                       <span className="clr-sky">
-                        <img src={icon3} alt="" />
+                        <img src={icon3} alt="Vntage Labs Asset" />
                       </span>
                       Vntage Labs@gmail.com
                     </li>
                     <li>
                       <span className="clr-orange">
-                        <img src={icon4} alt="" />
+                        <img src={icon4} alt="Vntage Labs Asset" />
                       </span>
                       Sunshine example road
                     </li>
                   </ul>
                   <div className="xb-item--img">
-                    <img src={cImg} alt="" />
+                    <img src={cImg} alt="Vntage Labs Asset" />
                   </div>
                 </div>
               </div>
@@ -65,7 +65,7 @@ const ContactSection = (props) => {
               <div className="cs-contact-wrap cs-contact-form">
                 <div className="sec-title--two sec-title--three">
                   <span className="sub-title">
-                    <img src={icon5} alt="" />
+                    <img src={icon5} alt="Vntage Labs Asset" />
                     <span>Let’s connect!</span>
                   </span>
                   <h2 className="title">
@@ -80,7 +80,7 @@ const ContactSection = (props) => {
         </div>
       </div>
       <div className="xb-shape">
-        <img src={cImg2} alt="" />
+        <img src={cImg2} alt="Vntage Labs Asset" />
       </div>
     </section>
   );

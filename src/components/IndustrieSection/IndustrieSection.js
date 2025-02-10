@@ -77,7 +77,7 @@ const IndustrieSection = (props) => {
                   className="sub-title wow fadeInDown"
                   data-wow-duration="600ms"
                 >
-                  <img src={hicon} alt="" />
+                  <img src={hicon} alt="Vntage Labs Asset" />
                   Industries we work
                 </div>
               </div>
@@ -104,7 +104,7 @@ const IndustrieSection = (props) => {
               <div className="col" key={i}>
                 <div className="indus-item">
                   <div className="xb-img">
-                    <img src={insdustry.icon} alt="" />
+                    <img src={insdustry.icon} alt="Vntage Labs Asset" />
                   </div>
                   <h3 className="xb-title">{insdustry.title}</h3>
                 </div>

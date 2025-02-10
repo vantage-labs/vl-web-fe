@@ -43,7 +43,7 @@ const TeamSection = () => {
                 className="sub-title wow fadeInDown"
                 data-wow-duration="600ms"
               >
-                <img src={hicon} alt="" />
+                <img src={hicon} alt="Vntage Labs Asset" />
                 Our specialists
               </div>
             </div>
@@ -96,7 +96,7 @@ const TeamSection = () => {
                     <div className="team-item">
                       <div className="xb-item--content pos-rel">
                         <div className="xb-item--img">
-                          <img src={bg} alt="" />
+                          <img src={bg} alt="Vntage Labs Asset" />
                         </div>
                         <div className="xb-item--item">
                           <span className="xb-item--skill">

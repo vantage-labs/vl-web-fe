@@ -66,7 +66,7 @@ const WorkProcess = (props) => {
                 className="sub-title sub-title--strock wow fadeInDown"
                 data-wow-duration="600ms"
               >
-                <img src={hicon} alt="" />
+                <img src={hicon} alt="Vntage Labs Asset" />
                 Our working process
               </div>
             </div>
@@ -109,7 +109,7 @@ const WorkProcess = (props) => {
                 </div>
               </Fade>
               <div className="process_shape">
-                <img src={pImg2} alt="" />
+                <img src={pImg2} alt="Vntage Labs Asset" />
               </div>
             </div>
           </div>
@@ -121,7 +121,7 @@ const WorkProcess = (props) => {
                   key={pitem}
                 >
                   <div className="xb-item--icon">
-                    <img src={process.icon} alt="" />
+                    <img src={process.icon} alt="Vntage Labs Asset" />
                   </div>
                   <h4 className="xb-item--title">{process.title}</h4>
                   <p className="xb-item--contact">{process.subTitle}</p>

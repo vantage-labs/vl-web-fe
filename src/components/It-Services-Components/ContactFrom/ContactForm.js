@@ -62,7 +62,7 @@ const ContactForm = (props) => {
             />
             {validator.message("name", forms.name, "required|alpha_space")}
             <div className="img">
-              <img src={icon1} alt="" />
+              <img src={icon1} alt="Vntage Labs Asset" />
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@ const ContactForm = (props) => {
             />
             {validator.message("email", forms.email, "required|email")}
             <div className="img">
-              <img src={icon2} alt="" />
+              <img src={icon2} alt="Vntage Labs Asset" />
             </div>
           </div>
         </div>
@@ -96,7 +96,7 @@ const ContactForm = (props) => {
             />
             {validator.message("phone", forms.phone, "required|phone")}
             <div className="img">
-              <img src={icon3} alt="" />
+              <img src={icon3} alt="Vntage Labs Asset" />
             </div>
           </div>
         </div>
@@ -113,7 +113,7 @@ const ContactForm = (props) => {
             />
             {validator.message("company", forms.company, "required|phone")}
             <div className="img">
-              <img src={icon4} alt="" />
+              <img src={icon4} alt="Vntage Labs Asset" />
             </div>
           </div>
         </div>
@@ -130,14 +130,14 @@ const ContactForm = (props) => {
             ></textarea>
             {validator.message("message", forms.message, "required")}
             <div className="img">
-              <img src={icon2} alt="" />
+              <img src={icon2} alt="Vntage Labs Asset" />
             </div>
           </div>
         </div>
       </div>
       <div className="contact-btn">
         <button type="submit" className="thm-btn btn-effect_2">
-          Let’s talk <img src={icon5} alt="" />
+          Let’s talk <img src={icon5} alt="Vntage Labs Asset" />
         </button>
       </div>
     </form>

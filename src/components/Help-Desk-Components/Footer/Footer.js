@@ -60,13 +60,13 @@ const Footer = (props) => {
                 <ul className="xb-item--holder list-unstyled">
                   <li className="xb-item--number">
                     <span>
-                      <img src={icon1} alt="" />
+                      <img src={icon1} alt="Vntage Labs Asset" />
                     </span>
                     +618 8967 5983
                   </li>
                   <li className="xb-item--email">
                     <span>
-                      <img src={icon2} alt="" />
+                      <img src={icon2} alt="Vntage Labs Asset" />
                     </span>
                     Vntage Labs@gmail.com
                   </li>
@@ -112,12 +112,12 @@ const Footer = (props) => {
                 <div className="xb-item--apps ul_li">
                   <div className="xb-item--app">
                     <Link onClick={ClickHandler} to="/home-6">
-                      <img src={icon3} alt="" />
+                      <img src={icon3} alt="Vntage Labs Asset" />
                     </Link>
                   </div>
                   <div className="xb-item--app">
                     <Link onClick={ClickHandler} to="/home-6">
-                      <img src={icon4} alt="" />
+                      <img src={icon4} alt="Vntage Labs Asset" />
                     </Link>
                   </div>
                 </div>

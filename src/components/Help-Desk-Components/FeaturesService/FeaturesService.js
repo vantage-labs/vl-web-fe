@@ -33,7 +33,7 @@ const FeaturesService = (props) => {
                   className="sub-title wow fadeInDown"
                   data-wow-duration="600ms"
                 >
-                  <img src={icon} alt="" />
+                  <img src={icon} alt="Vntage Labs Asset" />
                   Feature-services
                 </div>
               </div>
@@ -64,15 +64,15 @@ const FeaturesService = (props) => {
               </p>
               <ul className="xb-item--meta list-unstyled">
                 <li>
-                  <img src={icon1} alt="" />
+                  <img src={icon1} alt="Vntage Labs Asset" />
                   <span>Voice</span>
                 </li>
                 <li>
-                  <img src={icon2} alt="" />
+                  <img src={icon2} alt="Vntage Labs Asset" />
                   <span>Email</span>
                 </li>
                 <li>
-                  <img src={icon3} alt="" />
+                  <img src={icon3} alt="Vntage Labs Asset" />
                   <span>Chat</span>
                 </li>
               </ul>
@@ -80,7 +80,7 @@ const FeaturesService = (props) => {
           </div>
           <div className="hd-feature--middle">
             <div className="hd-feature-item">
-              <img src={icon4} alt="" />
+              <img src={icon4} alt="Vntage Labs Asset" />
               <h3 className="xb-item--title">Analyze</h3>
               <p className="xb-item--content">
                 Analyze automation and <br /> agent metrics.
@@ -89,29 +89,29 @@ const FeaturesService = (props) => {
             <div className="hd-button-box pos-rel">
               <a href="index.html" className="hd-feature-button">
                 <span>
-                  <img src={logo} alt="" />
+                  <img src={logo} alt="Vntage Labs Asset" />
                 </span>
               </a>
               <div className="xb-arrow">
                 <div className="arrow arrow--one">
-                  <img src={icon5} alt="" />
+                  <img src={icon5} alt="Vntage Labs Asset" />
                 </div>
                 <div className="arrow arrow--two">
-                  <img src={icon5} alt="" />
+                  <img src={icon5} alt="Vntage Labs Asset" />
                 </div>
                 <div className="arrow arrow--three">
-                  <img src={icon5} alt="" />
+                  <img src={icon5} alt="Vntage Labs Asset" />
                 </div>
                 <div className="arrow arrow--four">
-                  <img src={icon5} alt="" />
+                  <img src={icon5} alt="Vntage Labs Asset" />
                 </div>
                 <div className="arrow arrow--five">
-                  <img src={icon6} alt="" />
+                  <img src={icon6} alt="Vntage Labs Asset" />
                 </div>
               </div>
             </div>
             <div className="hd-feature-item">
-              <img src={icon7} alt="" />
+              <img src={icon7} alt="Vntage Labs Asset" />
               <h3 className="xb-item--title">Manage</h3>
               <p className="xb-item--content">
                 Manage dynamic AI agents <br /> and knowledgebase.
@@ -126,11 +126,11 @@ const FeaturesService = (props) => {
               </p>
               <ul className="xb-item--meta list-unstyled ul_li_between">
                 <li>
-                  <img src={icon8} alt="" />
+                  <img src={icon8} alt="Vntage Labs Asset" />
                   <span>Service cloud</span>
                 </li>
                 <li>
-                  <img src={icon9} alt="" />
+                  <img src={icon9} alt="Vntage Labs Asset" />
                   <span>Contact centre</span>
                 </li>
               </ul>
