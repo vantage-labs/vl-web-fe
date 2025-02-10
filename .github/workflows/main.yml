@@ -20,6 +20,7 @@ jobs:
       # Step 2: Install dependencies with --legacy-peer-deps
       - name: Install Dependencies
         run: |
+          cp .env.local .env
           npm install --legacy-peer-deps
 
       - name: Build React.js
