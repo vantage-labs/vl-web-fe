@@ -13,7 +13,7 @@ const Teams = [
     experience: "9 Years experience",
     rating: "4.8",
     instagram: "bcjlt",
-    linkedin: "bintang-tobing",
+    linkedin: "bintangtobing",
   },
   {
     Id: "2",
@@ -23,8 +23,8 @@ const Teams = [
     title: "UI UX Specialist",
     experience: "6 Years experience",
     rating: "4.9",
-    instagram: "ahmadrezaipandi",
-    linkedin: "ahmad-reza-ipandi",
+    instagram: "fandisng",
+    linkedin: "ipandi-sinaga",
   },
   {
     Id: "3",
@@ -34,8 +34,8 @@ const Teams = [
     title: "Full Stack Developer",
     experience: "5 Years experience",
     rating: "4.9",
-    instagram: "bahari",
-    linkedin: "bahari",
+    instagram: "bahar.iii1",
+    linkedin: "bahari49",
   },
   {
     Id: "4",
@@ -45,8 +45,8 @@ const Teams = [
     title: "Content Specialist",
     experience: "6 Years experience",
     rating: "4.9",
-    instagram: "evelynhireme",
-    linkedin: "evelyn-hireme",
+    instagram: "evie.evillyn",
+    linkedin: "evelynrichard",
   },
 ];
 
