@@ -37,7 +37,7 @@ const TeamPage = (props) => {
                       src="https://lottie.host/db405d1e-253f-456a-9609-5d7de23c8bf0/W7lY2Qqkt6.lottie"
                       background="transparent"
                       speed="1"
-                      style={{ width: "500px" }}
+                      style={{ maxWidth: "500px" }}
                       loop
                       autoplay
                     ></dotlottie-player>

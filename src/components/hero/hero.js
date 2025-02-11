@@ -86,7 +86,7 @@ const Hero = () => {
                     src="https://lottie.host/3b889712-cf57-473d-9250-0ade31c04566/xgdK2Ik3Ns.lottie"
                     background="transparent"
                     speed="1"
-                    style={{ width: "750px" }}
+                    style={{ maxWidth: "750px" }}
                     loop
                     autoplay
                   ></dotlottie-player>

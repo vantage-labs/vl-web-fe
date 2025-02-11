@@ -38,7 +38,7 @@ const CaseStudySingle = (props) => {
                       src="https://lottie.host/959d6574-049d-4ede-af43-e26c5aa0a2d3/gps8ZzOzH7.lottie"
                       background="transparent"
                       speed="1"
-                      style={{ width: "300px" }}
+                      style={{ maxWidth: "300px" }}
                       loop
                       autoplay
                     ></dotlottie-player>

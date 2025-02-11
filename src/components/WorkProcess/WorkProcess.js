@@ -101,7 +101,7 @@ const WorkProcess = (props) => {
                       src="https://lottie.host/7fdc1bec-633e-4991-b1ee-c85e43aff9f7/j8a70gwQFG.lottie"
                       background="transparent"
                       speed="1"
-                      style={{ width: "850px" }}
+                      style={{ maxWidth: "850px" }}
                       loop
                       autoplay
                     ></dotlottie-player>

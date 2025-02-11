@@ -59,7 +59,7 @@ const CtaSection = (props) => {
                     src="https://lottie.host/869c16c8-2879-4e9f-885e-52b99d3cfb5a/WhzL65U4jJ.lottie"
                     background="transparent"
                     speed="1"
-                    style={{ width: "400px" }}
+                    style={{ maxWidth: "400px" }}
                     loop
                     autoplay
                   ></dotlottie-player>

@@ -47,7 +47,7 @@ const PricingPage = (props) => {
                       src="https://lottie.host/0dfbb818-ea4c-4499-8fea-d35f5cad516c/GzsggZRfQl.lottie"
                       background="transparent"
                       speed="1"
-                      style={{ width: "500px" }}
+                      style={{ maxWidth: "500px" }}
                       loop
                       autoplay
                     ></dotlottie-player>
