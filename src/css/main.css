@@ -9,9 +9,9 @@
   --font-heading-five: "Red Hat Display", serif;
   --color-primary: #000000;
   --color-primary-rgb: 212, 74, 0;
-  --color-primary-two: #4922b0;
+  --color-primary-two: #423d95;
   --color-primary-two-rgb: 15, 83, 220;
-  --color-primary-three: #9a4497;
+  --color-primary-three: #65a0c0;
   --color-primary-three-rgb: 154, 68, 151;
   --color-primary-four: #ff6a00;
   --color-primary-four-rgb: 255, 106, 0;
@@ -23,7 +23,7 @@
   --color-heading-four: #212877;
   --color-default: #49515b;
   --color-default-two: #494d57;
-  --color-yellow: linear-gradient(90deg, #4922b0 0%, #9a4497 100%);
+  --color-yellow: linear-gradient(90deg, #423d95 0%, #65a0c0 100%);
   --color-white: #fff;
   --color-black: #000;
   --color-body: #eaeef0;
@@ -8370,17 +8370,17 @@ body[data-aos-easing=ease] [data-aos] {
   -o-transition: 0.3s;
   transition: 0.3s;
   background: linear-gradient(
-    122deg,
-    rgba(73, 34, 176, 0) 0%, /* Ungu dengan transparansi */
-    rgba(154, 68, 151, 0.8) 34.54%, /* Pink dengan transparansi */
-    #9a4497 62.5%, /* Pink solid */
-    rgba(73, 34, 176, 0.56) 100% /* Ungu dengan transparansi */
-),
-radial-gradient(
-    74.51% 50% at 50% 100%,
-    #ffffff 24.09%, /* Putih di bagian tengah */
-    #ffffff 100% /* Putih sepenuhnya */
-);
+        122deg,
+        rgba(66, 61, 149, 0) 0%,  /* Warna #423d95 dengan transparansi */
+        rgba(74, 83, 162, 0.8) 34.54%,  /* Warna #4a53a2 dengan transparansi */
+        #536cad 62.5%,  /* Warna #536cad solid */
+        rgba(92, 137, 183, 0.56) 100%  /* Warna #5c89b7 dengan transparansi */
+    ),
+    radial-gradient(
+        74.51% 50% at 50% 100%,
+        #ffffff 24.09%, /* Putih di bagian tengah */
+        #ffffff 100% /* Putih sepenuhnya */
+    );
   background: url(../images/bg/service_bg.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -8464,17 +8464,17 @@ radial-gradient(
   z-index: -1;
   transform: scale(0.2);
   background: linear-gradient(
-    122deg,
-    rgba(73, 34, 176, 0) 0%, /* Ungu dengan transparansi */
-    rgba(154, 68, 151, 0.8) 34.54%, /* Pink dengan transparansi */
-    #9a4497 62.5%, /* Pink solid */
-    rgba(73, 34, 176, 0.56) 100% /* Ungu dengan transparansi */
-),
-radial-gradient(
-    74.51% 50% at 50% 100%,
-    #ffffff 24.09%, /* Putih di bagian tengah */
-    #ffffff 100% /* Putih sepenuhnya */
-);
+        122deg,
+        rgba(66, 61, 149, 0) 0%,  /* Warna #423d95 dengan transparansi */
+        rgba(74, 83, 162, 0.8) 34.54%,  /* Warna #4a53a2 dengan transparansi */
+        #536cad 62.5%,  /* Warna #536cad solid */
+        rgba(92, 137, 183, 0.56) 100%  /* Warna #5c89b7 dengan transparansi */
+    ),
+    radial-gradient(
+        74.51% 50% at 50% 100%,
+        #ffffff 24.09%, /* Putih di bagian tengah */
+        #ffffff 100% /* Putih sepenuhnya */
+    );
   border-radius: 100%;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -10354,17 +10354,17 @@ radial-gradient(
   -o-transition: 0.3s;
   transition: 0.3s;
   background: linear-gradient(
-    122deg,
-    rgba(73, 34, 176, 0) 0%, /* Ungu dengan transparansi */
-    rgba(154, 68, 151, 0.8) 34.54%, /* Pink dengan transparansi */
-    #9a4497 62.5%, /* Pink solid */
-    rgba(73, 34, 176, 0.56) 100% /* Ungu dengan transparansi */
-),
-radial-gradient(
-    74.51% 50% at 50% 100%,
-    #ffffff 24.09%, /* Putih di bagian tengah */
-    #ffffff 100% /* Putih sepenuhnya */
-);
+        122deg,
+        rgba(66, 61, 149, 0) 0%,  /* Warna #423d95 dengan transparansi */
+        rgba(74, 83, 162, 0.8) 34.54%,  /* Warna #4a53a2 dengan transparansi */
+        #536cad 62.5%,  /* Warna #536cad solid */
+        rgba(92, 137, 183, 0.56) 100%  /* Warna #5c89b7 dengan transparansi */
+    ),
+    radial-gradient(
+        74.51% 50% at 50% 100%,
+        #ffffff 24.09%, /* Putih di bagian tengah */
+        #ffffff 100% /* Putih sepenuhnya */
+    );
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -13106,17 +13106,17 @@ radial-gradient(
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
   background: linear-gradient(
-    122deg,
-    rgba(73, 34, 176, 0) 0%, /* Ungu dengan transparansi */
-    rgba(154, 68, 151, 0.8) 34.54%, /* Pink dengan transparansi */
-    #9a4497 62.5%, /* Pink solid */
-    rgba(73, 34, 176, 0.56) 100% /* Ungu dengan transparansi */
-),
-radial-gradient(
-    74.51% 50% at 50% 100%,
-    #ffffff 24.09%, /* Putih di bagian tengah */
-    #ffffff 100% /* Putih sepenuhnya */
-);
+        122deg,
+        rgba(66, 61, 149, 0) 0%,  /* Warna #423d95 dengan transparansi */
+        rgba(74, 83, 162, 0.8) 34.54%,  /* Warna #4a53a2 dengan transparansi */
+        #536cad 62.5%,  /* Warna #536cad solid */
+        rgba(92, 137, 183, 0.56) 100%  /* Warna #5c89b7 dengan transparansi */
+    ),
+    radial-gradient(
+        74.51% 50% at 50% 100%,
+        #ffffff 24.09%, /* Putih di bagian tengah */
+        #ffffff 100% /* Putih sepenuhnya */
+    );
   background: url(../images/bg/faq_bg.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -17140,17 +17140,17 @@ radial-gradient(
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
   background: linear-gradient(
-    122deg,
-    rgba(73, 34, 176, 0) 0%, /* Ungu dengan transparansi */
-    rgba(154, 68, 151, 0.8) 34.54%, /* Pink dengan transparansi */
-    #9a4497 62.5%, /* Pink solid */
-    rgba(73, 34, 176, 0.56) 100% /* Ungu dengan transparansi */
-),
-radial-gradient(
-    74.51% 50% at 50% 100%,
-    #ffffff 24.09%, /* Putih di bagian tengah */
-    #ffffff 100% /* Putih sepenuhnya */
-);
+        122deg,
+        rgba(66, 61, 149, 0) 0%,  /* Warna #423d95 dengan transparansi */
+        rgba(74, 83, 162, 0.8) 34.54%,  /* Warna #4a53a2 dengan transparansi */
+        #536cad 62.5%,  /* Warna #536cad solid */
+        rgba(92, 137, 183, 0.56) 100%  /* Warna #5c89b7 dengan transparansi */
+    ),
+    radial-gradient(
+        74.51% 50% at 50% 100%,
+        #ffffff 24.09%, /* Putih di bagian tengah */
+        #ffffff 100% /* Putih sepenuhnya */
+    );
   background: url(../images/bg/about_bg.png) center center/cover no-repeat;
 }
 

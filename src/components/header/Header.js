@@ -81,7 +81,7 @@ const Header = (props) => {
             <div className="header-logo">
               <Link onClick={ClickHandler} to="/">
                 <img
-                  src="https://res.cloudinary.com/dilb4d364/image/upload/q_auto/f_auto/v1738732324/5_guo4lg.svg"
+                  src="https://res.cloudinary.com/dilb4d364/image/upload/v1739253205/2_owkzdz.png"
                   alt="Vntage Labs Asset"
                   style={{ maxWidth: "200px" }}
                 />
@@ -523,7 +523,7 @@ const Header = (props) => {
                     <div className="xb-logo-mobile xb-hide-xl">
                       <Link onClick={ClickHandler} to="/" rel="home">
                         <img
-                          src="https://res.cloudinary.com/dilb4d364/image/upload/q_auto/f_auto/v1738732324/5_guo4lg.svg"
+                          src="https://res.cloudinary.com/dilb4d364/image/upload/v1739253205/2_owkzdz.png"
                           alt="Vntage Labs Asset"
                           style={{ maxWidth: "200px" }}
                         />
