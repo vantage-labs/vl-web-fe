@@ -9,9 +9,8 @@ import CtaSection from "../../components/CtaSection/CtaSection";
 import Bg from "../../images/bg/page_bg01.jpg";
 import icon from "../../images/icon/ser-01.svg";
 import srImg from "../../images/shape/brd_shape.png";
-import srImg2 from "../../images/hero/sd-img.png";
-import vImg from "../../images/video/img03.jpg";
-import vImg2 from "../../images/video/polygon02.png";
+// import vImg from "../../images/video/img03.jpg";
+// import vImg2 from "../../images/video/polygon02.png";
 import sImg1 from "../../images/icon/sd-icon01.svg";
 import shape from "../../images/shape/sd-shape.png";
 import sicon from "../../images/icon/check-icon.svg";
@@ -46,7 +45,14 @@ const ServiceSinglePage = (props) => {
                   </div>
                   <div className="col-lg-3 mt-30">
                     <div className="sd-right-img pos-rel">
-                      <img src={srImg2} alt="Vntage Labs Asset" />
+                      <dotlottie-player
+                        src={ServiceDetails.headImg}
+                        background="transparent"
+                        speed="1"
+                        style={{ maxWidth: "850px" }}
+                        loop
+                        autoplay
+                      ></dotlottie-player>
                       <div className="sd-arrow-shape">
                         <img
                           className="xbzoominzoomup"
@@ -60,7 +66,7 @@ const ServiceSinglePage = (props) => {
               </div>
             </div>
           </section>
-          <div className="video pt-70 pb-65">
+          {/* <div className="video pt-70 pb-65">
             <div className="container">
               <div className="xb-video sd-video pos-rel">
                 <img src={vImg} alt="Vntage Labs Asset" />
@@ -72,8 +78,8 @@ const ServiceSinglePage = (props) => {
                 </button>
               </div>
             </div>
-          </div>
-          <div className="sd-ser-content_wrap pb-110">
+          </div> */}
+          <div className="sd-ser-content_wrap pb-50">
             <div className="container">
               <div className="sd-ser-content">
                 <h2 className="sd-title">{ServiceDetails.headingTwo}</h2>
@@ -105,7 +111,7 @@ const ServiceSinglePage = (props) => {
               </div>
             </div>
           </div>
-          <div className="sd-service_wrap pt-115 pb-130">
+          <div className="sd-service_wrap pt-115 pb-60">
             <div className="container">
               <div className="sd-ser-outcome">
                 <div className="sd-heading">

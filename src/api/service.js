@@ -8,6 +8,8 @@ const Services = [
   {
     Id: "1",
     sImg: icon1,
+    headImg:
+      "https://lottie.host/b63b60b3-b9bb-49a7-8ff5-0c8e532e9bd7/Ex1STLIUoe.lottie",
     title: "Custom Web Architecture",
     slug: "custom-web-architecture",
     thumb1: "Performance",
@@ -55,6 +57,8 @@ const Services = [
   {
     Id: "2",
     sImg: icon2,
+    headImg:
+      "https://lottie.host/20067a7a-7213-4997-a127-8dfc155e313a/P9MsCdTOUV.lottie",
     title: "UI/UX Design",
     slug: "ui-ux-design",
     thumb1: "User Experience",
@@ -103,6 +107,8 @@ const Services = [
   {
     Id: "3",
     sImg: icon3,
+    headImg:
+      "https://lottie.host/491f07db-f6a5-49cb-bd67-647261309c94/Yj1Qq1G3JY.lottie",
     title: "Performance Optimization",
     slug: "performance-optimization",
     thumb1: "Speed Enhancement",
@@ -149,6 +155,8 @@ const Services = [
   {
     Id: "4",
     sImg: icon4,
+    headImg:
+      "https://lottie.host/9a290a70-85df-44e8-bd56-251df51ce622/gbTuOeAmpQ.lottie",
     title: "Global Expansion Services",
     slug: "global-expansion",
     thumb1: "International Reach",
@@ -198,6 +206,8 @@ const Services = [
   {
     Id: "5",
     sImg: icon5,
+    headImg:
+      "https://lottie.host/7e4bd1ee-60c1-4e60-b02e-6a55ffc1f888/MbcmNu1tSh.lottie",
     title: "Web Development",
     slug: "web-development",
     thumb1: "Front-End",
