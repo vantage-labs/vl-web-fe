@@ -1,7 +1,7 @@
 import timg1 from "../images/team/sa-team02.png";
 import timg2 from "../images/team/sa-team03.png";
 import timg3 from "../images/team/sa-team01.png";
-import timg4 from "../images/team/sa-team04.png";
+// import timg4 from "../images/team/sa-team04.png";
 
 const Teams = [
   {
