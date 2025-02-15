@@ -37,17 +37,17 @@ const Teams = [
     instagram: "bahar.iii1",
     linkedin: "bahari49",
   },
-  {
-    Id: "4",
-    tImg: timg4,
-    name: "Evelyn Hireme",
-    slug: "Evelyn-Hireme",
-    title: "Content Specialist",
-    experience: "6 Years experience",
-    rating: "4.9",
-    instagram: "evie.evillyn",
-    linkedin: "evelynrichard",
-  },
+  // {
+  //   Id: "4",
+  //   tImg: timg4,
+  //   name: "Evelyn Hireme",
+  //   slug: "Evelyn-Hireme",
+  //   title: "Content Specialist",
+  //   experience: "6 Years experience",
+  //   rating: "4.9",
+  //   instagram: "evie.evillyn",
+  //   linkedin: "evelynrichard",
+  // },
 ];
 
 export default Teams;
